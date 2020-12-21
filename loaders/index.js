@@ -11,17 +11,24 @@ loadApp = async (app) => {
 
   //add all the models to Container that are needed in service layer
   let userModel = {
-     name: "userModel",
-     model: require("../models/user"),
+    name: "userModel",
+    model: require("../models/user"),
   };
   let socialPlatformsModel = {
     name: "social_platforms",
     model: require("../models/socialplatforms")
   }
+
+  let TeamSpaceModel = {
+    name: "TeamSpaceModel",
+    model: require("../models/TeamSpace"),
+  };
+
   await dependencyInjectorLoader({
     models: [
       userModel,
-      socialPlatformsModel
+      socialPlatformsModel,
+      TeamSpaceModel
     ],
   });
 
