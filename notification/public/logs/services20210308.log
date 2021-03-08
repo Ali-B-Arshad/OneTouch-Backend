@@ -1,0 +1,315 @@
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:06:58.079Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:06:58.084Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:06:58.084Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:06:58.084Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:06:58.177Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:06:58.179Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:07:05.022Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:07:10.447Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:07:10.534Z'
+}
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:47.289Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:47.294Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:47.294Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:47.295Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:47.355Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:47.356Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:48.892Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:54.343Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:09:54.373Z'
+}
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:05.499Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:05.504Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:05.504Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:05.505Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:05.566Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:05.567Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:06.883Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:13.496Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:13.584Z'
+}
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:25.982Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:25.987Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:25.987Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:25.987Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:26.047Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:26.049Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:27.084Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:33.612Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:33.638Z'
+}
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:38.742Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:38.747Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:38.747Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:38.747Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:38.810Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:38.811Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:39.858Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:46.249Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:10:46.285Z'
+}
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:00.495Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:00.500Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:00.500Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:00.500Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:00.559Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:00.561Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:01.741Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:06.875Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:06.893Z'
+}
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:22.040Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:22.046Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:22.046Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:22.046Z'
+}
+{
+  message: 'Cron setup intialized for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:22.108Z'
+}
+{
+  message: 'Cron setup completed for mail services...',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:22.109Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:24.109Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:29.344Z'
+}
+{
+  message: 'service listening on http://localhost:6000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-03-08T06:13:29.363Z'
+}
