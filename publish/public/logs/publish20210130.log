@@ -1,0 +1,45 @@
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:23.598Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:23.744Z'
+}
+{
+  message: 'service listening on http://localhost:3001 with development Environment!',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:23.787Z'
+}
+{
+  message: 'GET /explorer/ 200 1410 - 5.033 ms\n',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:33.633Z'
+}
+{
+  message: 'GET /explorer/swagger-ui.css 200 201562 - 4.269 ms\n',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:33.680Z'
+}
+{
+  message: 'GET /explorer/swagger-ui-standalone-preset.js 200 307566 - 3.823 ms\n',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:33.682Z'
+}
+{
+  message: 'GET /explorer/swagger-ui-bundle.js 200 940407 - 4.247 ms\n',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:33.686Z'
+}
+{
+  message: 'GET /explorer/favicon-32x32.png 200 1141 - 1.387 ms\n',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:33.914Z'
+}
+{
+  message: 'GET /publisherservices.json 200 28771 - 3.699 ms\n',
+  level: 'info',
+  timestamp: '2021-01-29T20:10:39.427Z'
+}

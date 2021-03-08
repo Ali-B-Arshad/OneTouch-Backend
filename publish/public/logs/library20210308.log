@@ -1,0 +1,522 @@
+{
+  error: Error: Cannot find module 'cors'
+  Require stack:
+  - D:\FYP\OneTouch-FYP\publish\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\publish\app.js:12:14)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47 {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'D:\\FYP\\OneTouch-FYP\\publish\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\publish\\app.js:12:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\publish\\app.js:12:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Mar 08 2021 08:58:15 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 24024,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\publish',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\publish\\app.js'
+    ],
+    memoryUsage: {
+      rss: 109363200,
+      heapTotal: 76771328,
+      heapUsed: 52638872,
+      external: 20784262,
+      arrayBuffers: 19725687
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 68190 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 925,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\FYP\\OneTouch-FYP\\publish\\app.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-08T03:58:15.083Z'
+}
+{
+  error: Error: Cannot find module 'cors'
+  Require stack:
+  - D:\FYP\OneTouch-FYP\publish\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\publish\app.js:12:14)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47 {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'D:\\FYP\\OneTouch-FYP\\publish\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\publish\\app.js:12:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\publish\\app.js:12:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Mar 08 2021 08:58:20 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 4132,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\publish',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\publish\\app.js'
+    ],
+    memoryUsage: {
+      rss: 109469696,
+      heapTotal: 76509184,
+      heapUsed: 52438744,
+      external: 20753796,
+      arrayBuffers: 19695221
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 68195 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 925,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\FYP\\OneTouch-FYP\\publish\\app.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-08T03:58:20.128Z'
+}
+{
+  error: Error: Cannot find module 'cors'
+  Require stack:
+  - D:\FYP\OneTouch-FYP\publish\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\publish\app.js:12:14)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47 {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'D:\\FYP\\OneTouch-FYP\\publish\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\publish\\app.js:12:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\publish\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\publish\\app.js:12:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Mar 08 2021 08:58:33 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 7828,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\publish',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\publish\\app.js'
+    ],
+    memoryUsage: {
+      rss: 109940736,
+      heapTotal: 76247040,
+      heapUsed: 52271168,
+      external: 20753796,
+      arrayBuffers: 19695221
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 68209 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 925,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\FYP\\OneTouch-FYP\\publish\\app.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-08T03:58:33.539Z'
+}
+{
+  message: '\n Multi image post started....\n',
+  level: 'info',
+  timestamp: '2021-03-08T04:35:43.681Z'
+}
+{
+  message: '\n Multi image post started....\n',
+  level: 'info',
+  timestamp: '2021-03-08T05:59:11.073Z'
+}
+{
+  message: '\n Multi image post started....\n',
+  level: 'info',
+  timestamp: '2021-03-08T06:00:36.256Z'
+}
+{
+  message: '\n Multi image post started....\n',
+  level: 'info',
+  timestamp: '2021-03-08T08:08:22.009Z'
+}
+{
+  message: '\n Multi image post started....\n',
+  level: 'info',
+  timestamp: '2021-03-08T09:58:54.640Z'
+}
+{
+  message: '\n Multi image post started....\n',
+  level: 'info',
+  timestamp: '2021-03-08T09:58:54.666Z'
+}
