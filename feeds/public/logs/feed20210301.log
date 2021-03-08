@@ -1,0 +1,65 @@
+{
+  message: 'service listening on http://localhost:5050 with undefined Environment!',
+  level: 'info',
+  timestamp: '2021-02-28T20:34:04.079Z'
+}
+{
+  message: 'service listening on http://localhost:5050 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-28T20:34:29.965Z'
+}
+{
+  message: 'GET /explorer/ 200 1405 - 3.491 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T20:34:48.287Z'
+}
+{
+  message: 'GET /explorer/swagger-ui.css 200 201562 - 1.199 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T20:34:48.321Z'
+}
+{
+  message: 'GET /explorer/swagger-ui-standalone-preset.js 200 307566 - 1.365 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T20:34:48.325Z'
+}
+{
+  message: 'GET /explorer/swagger-ui-bundle.js 200 940407 - 2.114 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T20:34:48.327Z'
+}
+{
+  message: 'GET /feedservices.json 200 43543 - 3.584 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T20:35:02.435Z'
+}
+{
+  message: 'GET /feeds/getFacebookFeeds?accountId=1&teamId=1&pageId=1 200 6819 - 4972.971 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T20:37:15.628Z'
+}
+{
+  message: 'OPTIONS /feeds/getFacebookFeeds?accountId=1&teamId=1&pageId=1 200 77 - 3.347 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T23:10:44.218Z'
+}
+{
+  message: 'OPTIONS /feeds/getFacebookFeeds?accountId=1&teamId=1&pageId=1 200 77 - 0.464 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T23:11:59.928Z'
+}
+{
+  message: 'OPTIONS /feeds/getFacebookFeeds?accountId=1&teamId=1&pageId=1 200 77 - 0.394 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T23:13:24.326Z'
+}
+{
+  message: 'GET /feeds/getFacebookFeeds?accountId=1&teamId=1&pageId=1 200 77 - 1.840 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T23:13:37.824Z'
+}
+{
+  message: 'GET /favicon.ico 200 77 - 0.756 ms\n',
+  level: 'info',
+  timestamp: '2021-02-28T23:13:37.904Z'
+}
