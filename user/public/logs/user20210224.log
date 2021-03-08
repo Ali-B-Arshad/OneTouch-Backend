@@ -1,0 +1,888 @@
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:18:51.088Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:19:21.179Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:19:21.179Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:20:40.384Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:21:10.467Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:21:10.467Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:22:34.541Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:23:04.614Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:23:04.614Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:24:15.145Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:24:45.224Z'
+}
+{
+  message: "Mongo issues : Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-02-23T21:24:45.224Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:25:01.069Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:28:07.980Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:28:09.449Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:28:14.831Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T21:28:14.873Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:44:56.787Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:44:58.687Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:45:04.274Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with undefined Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T21:45:04.316Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:45:29.544Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:45:30.616Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:45:35.193Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T21:45:35.245Z'
+}
+{
+  message: 'PUT /user/register 200 83 - 22.800 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:47:03.972Z'
+}
+{
+  message: 'PUT /user/register 200 83 - 4.303 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:50:42.322Z'
+}
+{
+  message: 'PUT /user/register 200 83 - 3.908 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:53:23.426Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T21:54:16.435Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:54:18.202Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T21:54:25.938Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T21:54:25.976Z'
+}
+{
+  message: 'PUT /user/register 200 100 - 3596.274 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:32.599Z'
+}
+{
+  message: 'Activation mail status: {"accepted":["abdulqadir41098@gmail.com"],"rejected":[],"envelopeTime":639,"messageTime":616,"messageSize":2853,"response":"250 2.0.0 OK  1614117334 z13sm58483wrh.65 - gsmtp","envelope":{"from":"abdulqadir41098@gmail.com","to":["abdulqadir41098@gmail.com"]},"messageId":"<5b624771-856d-da7d-031d-6cadebf95a8e@gmail.com>"}',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:35.032Z'
+}
+{
+  message: 'PUT /user/register 200 66 - 136.651 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:43.886Z'
+}
+{
+  message: 'abdulqadir41098@gmail.com expired date : 2021-02-24 21:55:30 and now : Tue Feb 23 2021 21:55:52 GMT+0000 ',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:52.836Z'
+}
+{
+  message: 'abdulqadir41098@gmail.com Is Expired : false',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:52.838Z'
+}
+{
+  message: 'GET /user/verifyEmail?email=abdulqadir41098@gmail.com&activationToken=d850e2b0-7621-11eb-8b47-b7a343bbe818 200 71 - 677.713 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:53.362Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T21:55:53.999Z' }
+{
+  message: 'GET /favicon.ico 304 - - 2.146 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:55:54.000Z'
+}
+{ level: 'error', timestamp: '2021-02-23T21:57:24.694Z' }
+{
+  message: 'POST /user/login 200 55 - 1.838 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T21:57:24.695Z'
+}
+{
+  message: '{"user_id":1,"email":"abdulqadir41098@gmail.com","phone_no":"3420545135","first_name":"Abdul","last_name":"Qadir","profile_picture":"https://media-exp1.licdn.com/dms/image/C4D03AQGyybJ127kYNw/profile-displayphoto-shrink_200_200/0/1597063661919?e=1616025600&v=beta&t=z5MUjvb5MVxYG4qXxfdQ5uqlZSxeSVAodjR6B0ToSmg","is_account_locked":false,"is_admin_user":false,"Activations":{"id":1,"last_login":null,"user_plan":7,"payment_type":0,"account_expire_date":"2021-03-23 21:55:29","signup_type":0,"activation_status":1,"activate_2step_verification":false}}',
+  level: 'info',
+  timestamp: '2021-02-23T22:00:04.397Z'
+}
+{
+  message: 'Fetching access token',
+  level: 'info',
+  timestamp: '2021-02-23T22:00:04.398Z'
+}
+{
+  message: 'Fetched User : {"user":{"user_id":1,"email":"abdulqadir41098@gmail.com","phone_no":"3420545135","first_name":"Abdul","last_name":"Qadir","date_of_birth":"1998-10-04","phone_code":"+92","about_me":"A student","profile_picture":"https://media-exp1.licdn.com/dms/image/C4D03AQGyybJ127kYNw/profile-displayphoto-shrink_200_200/0/1597063661919?e=1616025600&v=beta&t=z5MUjvb5MVxYG4qXxfdQ5uqlZSxeSVAodjR6B0ToSmg","is_account_locked":false,"is_admin_user":false,"Activations":{"id":1,"last_login":"2021-02-23 22:00:04","user_plan":7,"payment_type":0,"account_expire_date":"2021-03-23 21:55:29","signup_type":0,"activation_status":1,"activate_2step_verification":false,"shortenStatus":0,"email_validate_token":"d850e2b0-7621-11eb-8b47-b7a343bbe818","forgot_password_validate_token":"d850e2b1-7621-11eb-8b47-b7a343bbe818","forgot_password_token_expire":"2021-02-24 21:55:30","otp_token":null,"otp_token_expire":null},"userPlanDetails":{"id":8,"plan_id":7,"plan_name":"Platinum","plan_price":"99.99","is_plan_active":true,"account_count":1000,"member_count":100,"available_network":"1-4-5-6-9-10-11-12","browser_extension":true,"scheduling_posting":true,"mobile_apps":true,"support_24_7":true,"crm":true,"calendar":true,"rss_feeds":true,"social_report":true,"discovery":true,"twitter_engagement":true,"link_shortening":true,"shareathon":true,"content_studio":true,"team_report":true,"board_me":true,"share_library":true,"custom_report":true,"maximum_schedule":500,"maximum_referal_count":3}},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFiZHVscWFkaXI0MTA5OEBnbWFpbC5jb20iLCJwaG9uZV9ubyI6IjM0MjA1NDUxMzUiLCJmaXJzdF9uYW1lIjoiQWJkdWwiLCJsYXN0X25hbWUiOiJRYWRpciIsImRhdGVfb2ZfYmlydGgiOiIxOTk4LTEwLTA0IiwicGhvbmVfY29kZSI6Iis5MiIsImFib3V0X21lIjoiQSBzdHVkZW50IiwicHJvZmlsZV9waWN0dXJlIjoiaHR0cHM6Ly9tZWRpYS1leHAxLmxpY2RuLmNvbS9kbXMvaW1hZ2UvQzREMDNBUUd5eWJKMTI3a1lOdy9wcm9maWxlLWRpc3BsYXlwaG90by1zaHJpbmtfMjAwXzIwMC8wLzE1OTcwNjM2NjE5MTk_ZT0xNjE2MDI1NjAwJnY9YmV0YSZ0PXo1TVVqdmI1TVZ4WUc0cVh4ZmRRNXVxbFpTeGVTVkFvZGpSNkIwVG9TbWciLCJpc19hY2NvdW50X2xvY2tlZCI6ZmFsc2UsImlzX2FkbWluX3VzZXIiOmZhbHNlLCJBY3RpdmF0aW9ucyI6eyJpZCI6MSwibGFzdF9sb2dpbiI6IjIwMjEtMDItMjMgMjI6MDA6MDQiLCJ1c2VyX3BsYW4iOjcsInBheW1lbnRfdHlwZSI6MCwiYWNjb3VudF9leHBpcmVfZGF0ZSI6IjIwMjEtMDMtMjMgMjE6NTU6MjkiLCJzaWdudXBfdHlwZSI6MCwiYWN0aXZhdGlvbl9zdGF0dXMiOjEsImFjdGl2YXRlXzJzdGVwX3ZlcmlmaWNhdGlvbiI6ZmFsc2UsInNob3J0ZW5TdGF0dXMiOjAsImVtYWlsX3ZhbGlkYXRlX3Rva2VuIjoiZDg1MGUyYjAtNzYyMS0xMWViLThiNDctYjdhMzQzYmJlODE4IiwiZm9yZ290X3Bhc3N3b3JkX3ZhbGlkYXRlX3Rva2VuIjoiZDg1MGUyYjEtNzYyMS0xMWViLThiNDctYjdhMzQzYmJlODE4IiwiZm9yZ290X3Bhc3N3b3JkX3Rva2VuX2V4cGlyZSI6IjIwMjEtMDItMjQgMjE6NTU6MzAiLCJvdHBfdG9rZW4iOm51bGwsIm90cF90b2tlbl9leHBpcmUiOm51bGx9LCJ1c2VyUGxhbkRldGFpbHMiOnsiaWQiOjgsInBsYW5faWQiOjcsInBsYW5fbmFtZSI6IlBsYXRpbnVtIiwicGxhbl9wcmljZSI6Ijk5Ljk5IiwiaXNfcGxhbl9hY3RpdmUiOnRydWUsImFjY291bnRfY291bnQiOjEwMDAsIm1lbWJlcl9jb3VudCI6MTAwLCJhdmFpbGFibGVfbmV0d29yayI6IjEtNC01LTYtOS0xMC0xMS0xMiIsImJyb3dzZXJfZXh0ZW5zaW9uIjp0cnVlLCJzY2hlZHVsaW5nX3Bvc3RpbmciOnRydWUsIm1vYmlsZV9hcHBzIjp0cnVlLCJzdXBwb3J0XzI0XzciOnRydWUsImNybSI6dHJ1ZSwiY2FsZW5kYXIiOnRydWUsInJzc19mZWVkcyI6dHJ1ZSwic29jaWFsX3JlcG9ydCI6dHJ1ZSwiZGlzY292ZXJ5Ijp0cnVlLCJ0d2l0dGVyX2VuZ2FnZW1lbnQiOnRydWUsImxpbmtfc2hvcnRlbmluZyI6dHJ1ZSwic2hhcmVhdGhvbiI6dHJ1ZSwiY29udGVudF9zdHVkaW8iOnRydWUsInRlYW1fcmVwb3J0Ijp0cnVlLCJib2FyZF9tZSI6dHJ1ZSwic2hhcmVfbGlicmFyeSI6dHJ1ZSwiY3VzdG9tX3JlcG9ydCI6dHJ1ZSwibWF4aW11bV9zY2hlZHVsZSI6NTAwLCJtYXhpbXVtX3JlZmVyYWxfY291bnQiOjN9fSwiaGVhZGVyIjp7InR5cCI6IkpXVCIsImFsZyI6ImFlcy0yNTYtY2JjIn0sImlhdCI6MTYxNDExNzYwNCwiZXhwIjoxNjE0MjA0MDA0fQ.QA7YN6PHQcDPk3XGUpvGCEDQZ6rdvWuUOWJiepNtmf0"}',
+  level: 'info',
+  timestamp: '2021-02-23T22:00:04.939Z'
+}
+{
+  message: 'success',
+  level: 'info',
+  timestamp: '2021-02-23T22:00:04.939Z'
+}
+{
+  message: 'POST /user/login 200 3651 - 1063.720 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T22:00:04.940Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T22:01:06.909Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=Facebook 200 4713 - 624.008 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T22:01:07.533Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T22:02:32.665Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:32.666Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:32.668Z'
+}
+{
+  message: 'Available Account Count : 1000 ',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:32.886Z'
+}
+{
+  message: 'networkId: 1',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:32.886Z'
+}
+{
+  message: 'userId: 1,userName: Abdul, profile: {"UserName":"3020995838011175","FirstName":"Abdul","LastName":"Qadir","SocialId":"3020995838011175","ProfilePicture":"https://graph.facebook.com/3020995838011175/picture?type=large","ProfileUrl":"https://facebook.com/3020995838011175","AccessToken":"EAAkRQ8kdenUBAFbPYoF1CcSNrRLdkW6YdEKvZCmNZBmj5Bib3icZBeCCQpl9sV6oMacuXZAFDy8hILMcsbai8D4ZAubREQMij8MOGLhUxrqCWsrCe81qorhbav4Ozwy3xXfNoWUxFamw9x45bUqkArhs1h7fXhF2dsk0Ioeo4cQZDZD","RefreshToken":"EAAkRQ8kdenUBAFbPYoF1CcSNrRLdkW6YdEKvZCmNZBmj5Bib3icZBeCCQpl9sV6oMacuXZAFDy8hILMcsbai8D4ZAubREQMij8MOGLhUxrqCWsrCe81qorhbav4Ozwy3xXfNoWUxFamw9x45bUqkArhs1h7fXhF2dsk0Ioeo4cQZDZD","FriendCount":"0","Info":"","TeamId":"1","Network":1}',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:33.947Z'
+}
+{
+  message: 'profiles, [object Object]',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:33.947Z'
+}
+{
+  message: 'Account is addding!',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:34.672Z'
+}
+{
+  message: 'Started fetching feeds',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:35.092Z'
+}
+{
+  message: 'Scheduled',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:35.093Z'
+}
+{
+  message: 'Notification not sent, Error: connect ECONNREFUSED 127.0.0.1:3003',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:35.165Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=a2361a6050ea074c506512a8d8cf4bde%3A078d0f4aad4bd41708d3ee7dc78bc22b9b2f9ac5f534a8674e9542491a63b89509f16b3bd00eb92c2f01dd4e535419425aa0fac483dc7e5aadaf2f545f9300f3b63677908b65dc557928c7acfef00726fa89cf012b574cccabd61facaf5ed424779829b02f20819c0c7887ce215f83d0bb1ce915a3b152f2088f840831753edb9c211b1418735c5e9598ae0cd76fb02d8eb0259fa6d597003860ee8bb7ceb6617cfdeb6182244201fcddc5db7bda5b70bd3b8cfbecaf548fe2301b51307fff45187839babd1c2a6845548bdb53b4c2697c45d73570959590c57685611cce4685f34e2ad32f01f07df2babdb9ae65f8c4f3b4cdc6d0913415af3d98ff06fc2e999e6172d7b689027ac7d123997d948ea21743ff2e8a27fc9985a37eee74527b5ae59f2e5c5f9b04fc26e0417019a6c2b3b7f40735b845e57cfa026d3691c2e8ac9081a5e0a70a5868f899f1510bcbe0830dbb29f8908cf4b1c2a4bf4db3fbbf9aea4e403576395f8647632ffe35efa8b69f6668db2fe5e57350bf265dde023417a06d29eef849b360cbf8ae100f4696218607f50545998a7909c264cf04a44c52b50a60bdefcff71bdc0fdd252cfaf5cac1291bfac5c170070b87920b6115b063fb7edd8b66e486a4dc1be1fb2f6e11b515147ca6300e870192395ecb89d6e9794cefd24095bb4570f0befc24550deef99547dcf1784542471faf1dc07865db4eac1c2198c7ae36ab52ed841acd5e27665eb93cae76f13570bb9f4d12866aa7f5f7a6577280babac6990d5f93e12940368ff24a59816066e2fb797458f948ea190d4e35d19113fbd2c363492b7c73cbba9f3132562d0f8d7d16b51daf2f5917dbcec01b6da2abcc86e23a306524e4eda31a7079455724d9638bb1865b7884b751c21b7dd39936f3900d8e7bacf80f102c247263467047124424da37961391f7a2eb4fc3ab6196d9de5c3a6f98de94e14b990e6aaf27a9af64e2292b5b39eba3293bfd78de080bd389d750efff4fb8c7b5f76e81456e79953bfd01104939d132256c0edae43fb3884e6f62c165641506485c7489560c0048ff28807602216b2450f1f352f2011a1b898c4ef31fff8d959c97916dcfc73144f6ae60ea96ff72bdaba3e7ad56db78f8bd1d37cf310f7d3afa1da12b826b5ab6fe93b4ecb5c705e54692d8f4ff78ff3d690121e08b570dbc59ee741691a628bbff106db1ead06387408df48bdeccd7a3ffd47a0731e42cfb772962a7221729f25726b3978554752912fac212cb1a6c428faa904f98c4b56685a81dd18c0a5e5e27f14cf2c06f5daa1758440600ac34d5df632713aa0827c87e703e25605e62bbaca6713875d09bb2a8eba81947d35dcc6e093442268211a076f76d47bbe4e5f6887c3c829925beb296e2ea24c2829f17adbdfacf510a1ba3a70a794facfec6482d14e9e06a6f3d34b104513b57355b411c9058afdcd3a43cd5debbf53cfcdc2a65d8779b9e4f5b8eb14d0a421714105151079f98baeaeabd01bbce78eb823bab9d423162002f2f13961cf9e56439d722e268ed0d87a0dd11bb4ffadf5f334075c2872d6b0667598598482c39956b92f7f7e7b9d5da86cfbbfab9ddbf87a6529b7179fdbccf2664fa882b4a9ea011269c27da6e41070bac427ad3a147d3a116311d1aedb11125501835b13ef656a6d6a73aef6f2935b22ca7fc6b048b2226ad39c40d3b0b4d39b0aed6dcd99d8ed15373ca811075d08d01e63bbc01e3d683ffe8c8db846aca998593ae20c4b34d83ed76bc6f5ceb4915fdcd156306e0eee18cef8c25278e8eda492582c28ad19f2c0ac8d137b43beaadbb6c29f31a2e0478dc1bc8ed8d713c357f87c64e8cefd0d25a274e4fe837d55de4f59cc6cb19b1695693c40bb41d90aed322d8b0235bbcf71e0baf781b08f8d5313a5bb8b6196a7b78a12691a98666520fa717632796c665ef505f1cf2ec0a9bf41e30c0d64397429602484616526c731730fe8c6ea98be58a0e42b9c8f230330d9291d3fa23572860075f5e9a1ffd177a3e8d629f3515c7402c3887a3ef21a806f587b27deea754529ed6296cc1679cbcff6697294ae3e4f7d1339e4c07c991fbb46e561a51e7426218305dc6f36199dd530921e171c44349ee5428ad48633a94eaa2e1efbf030347a885d17c1457396c04247db92ed72a3ffcebcdcf2945e7fa3f9194c22d1d0d2df1c1ee94c0847bdf8f17da575921c14b1b310834559994362f717e11e7df12f53aab2d117202b9367f888c4c3fd913d84404a70e4539ce262b09fb40a1c3d33d14d01cb2718c66ca0d6525e473a53ef151502bb0cb5575b002174551c3719d79f57635d188044173e23805c488d663f5a389fadbdec32d2e46c6d6735b4b7f5edc768baf21f72e55e7ec1a34ff2c6cb2cb502b2cf7773afd7062edda3b30aafccec0c1f18bb72b58b2cf21d949bc1e80b43fb0de0b05b6f8923d295f360673a446c56ad4058c6f52105a0c55ae03644a95e0841292fd141b07892b480d748623b162ea23311715c68154b2526c1f264e0fef8cec97b0a926c39e5eaa5da5dc4870334721145641f05fa8e67df445daed0c484286fb904bfedeca591c271395222a5196e38ca42c5c357b2c4df078602c93b5891c8e58bcb7a2e6a33876323e2d17df25c1dafe0ff82aac9f23ea7e2d0ef09f4984889988e9d236b85755eef3449260bad76f97c34dff21db72700cdaf9aa4a99f780567577ba6e9574afdc1b22980b91b71d0b1101a8ac660b8c6117612df02c652de5256a46017ec34c8e18c715d49bad6e1dc0e31ed71969dd9ed106ba8df33ced11fe6bbf8ec4e03efce803a5024f7e627223c710a018572120a150d4926493c80e47f227ebd0d9e19ab91ac1fe25808a903b9a296cb936f9908bf99b09e7d169c8acb8ebbedc645f934bd118a77964028f44b7b882ba04e5987fa68e9957d39ecc33f04647f8708ac864a6b59aa5347b9923433ad23d65de40f351e1d34bab473409c96901022a53a63eaad9d90c194805d9b0b75392fc7a9cb7c2ed4242cfd03843d5ded3a66bf7cd9f1f194a34ad79798c9fdcf6e35029e8752118406b9f66f05a37d3fe%23_=_&code=AQALsZWYzW8e2pMpf5B59wUvxhRccHnscyn16k4U_HVLGmIut1ULCtjtwYR9zdhlB0MwGxSwmEUV6hvm8oMW1iCf6XeOsp97a0wVhW0kd8IjC_KyQb2d2q1AXLaa3X1Heu8bbkKy3RRisL_cRWj6Sl0KrFYZCFU4Ro5w_8CeK_cf9LUTFpj5jA74cB6pHRVT0rLuI1M1b3yYWo3B-Ptj60uyZg_zPbyUdCkFyCkFMW77UAxYcfCrUqj1D9zCdcwrRzyJL9M1sNdj-ylgUP2P4yDgTydLEryzdN8tzpLJ-kEPfdR2-Tlbgk35VW5RfWrHlMgq02_faGQ6O-XPGXQZd3Z1 200 898 - 3743.868 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:36.407Z'
+}
+{
+  message: 'Started network posts fetching for account id: 1',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:38.100Z'
+}
+{
+  message: 'Accounts : {"accountId":1}',
+  level: 'info',
+  timestamp: '2021-02-23T22:02:38.100Z'
+}
+{
+  message: 'Error on fetching post details (#100) Tried accessing nonexisting field (likes) on node type (Post)',
+  level: 'error',
+  timestamp: '2021-02-23T22:02:39.081Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T22:15:40.893Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:15:42.638Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:15:48.038Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T22:15:48.077Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T22:17:55.549Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:17:56.852Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:18:01.458Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T22:18:01.498Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T22:20:26.149Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:20:27.434Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:20:34.158Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T22:20:34.195Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T22:22:02.919Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:22:04.175Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T22:22:09.744Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T22:22:09.782Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T22:47:04.454Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=InstagramBusiness 200 4739 - 1039.399 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T22:47:05.492Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T22:48:30.016Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T22:48:30.018Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T22:48:30.019Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T22:48:30.226Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T22:48:30.226Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=5ddc02e9acbf912a2d4fbf851b9f80e2:f5d32bdc9da36fac7a80792000dec58c8c65b996023c5d57f0754af5da6d2199565e845e8fa4dd4fa4a9dbdb1ef2177f582d35b223c0afb754e5bcb3f019c3bbe2a9d7ebacd638156b7c08d7025b3ce6d6fe54373ec42d25570acf4fd79a8c6666a6cae794b9f338a6622cc7ed67acf5d56a1a38efa946db5ae3abc34df2cf8ae9c24ec0b5f81609f4057f1a5e8ec45d591c232071adadd4d0cd575e2d91667d43a99dd06592ee9005f774c24c4605005c3b348ce8696aef3fe0006021ad398f99581a993ec652488203cb89ca702500530804dfc51671a5bf39e09d51a0eb32a6fee04c8c19d9f13deb89ffd4f1f88e16da39458dff0b64c962d53bc45279d3ef5aed26c6573c3a73f1098dc40d35685dd738882099a05ec6fc6a21cc9a331e69933201dc026967617ba68203a0aa2c829ed7e24039b0702801b6ecfc656033a166c105a49c65926f4a4fb3618641031ec75f1d0a2e58fc36a84b635dc51a7abb1f5214dc375e5757ba5a8adc2de7bc3092bfda7401486ee8ac883844f64d8b61873d2581b1f45af38fdcd2fd7fe2275eada47089975d0f94d269df584a1b9d792e92f5054f7df81a64468c37141673541fbe08bb164645409400f6ac0ab1d4d31b76e9a6cdcc8e7de1bd0ec6aad9dca52a50c25d69997310901140f8ded024e6a4989f05e37bfc694bf3c03c3a53e859a32c16970358968de85c237a174abd0dfe61e35cc1915cdb08ff2f002841545934071ab51a4de1bdf3212fcf33a6c9c8b338ef87c48feb839c8ad3b0b6a3dc547b68cc965b09c364d5613eb0354ae2b888096c6ec01625421dbe1cd6f49e316c26c5e1b5d636ede2d0e1a3db2c7d9c91d147fce579cc51834e6cc616142efcc8782f3a00ba3a70a876c965dffb03e218d8924d93053c54b2fc7ecc11fb50f93a3a1f55700a453c639d1b7d3ea8d90fb1831781527a188c3a48df2fe6cd287670e3b3a7cf74db8d5d3fe2cfb86717b2219f9d8d47da00cbd0c1c6d606325e3a5921d6e18c70f094e2961865aa581ff9188e5d3c0eea741149c24a1bf3b40c5dded7417aafee819c9b86cda867665ad3595bc482f7abdcc9cd5477b741de2606b34c9215ee4391ea4e515d204bff284afc12c25139d7b8ccf21599dd58cc41bb4405a27d1864850fca56b32500e99ab371e5959b09d720e2b15070b1266f660ff60fc93170c492e7b09bf0e631fb5403661a6df5862a9d62d5cbac6ffb1caf5499e4405f2c7a87e357a0eb9828ca30fd18a5b4d26e9746ce7d608985098d96f745ec45d4bebad836e358e92d6ae58c9e7d322878f826d5d018658246a30fa9100423516b32ab49bd017c7b76d2313c2e31cc3d76dc98750ee3233f1a6b3f4dba09f2bad3c0f50bcaa4675850e001ac2311b9090e01b40bc194f8ba77faff0c845339247bebe9a6ebe8429ffd1c3167cfe484d2cd07552148b8689ddfc84a967126eec6834cc83541bddfb8b33342f4e1392bc585ba8c864285fc5e76ec100262147c15a9a5280e34a3b970b8df194e12e6575e70aea7506d333b2815b89de87d5296c49971cc7bd1043c3833c9feb7b4791eedb6f2ea32f5590f3bcea05aa9b3ff555fa307dd5211c312dd6f86fd64f8a76221baf64b185bfd710b8817ef861255d65e1d099398c46c6e5e91bc4d5d320faf462987b2388595ced1bb8b542c50604a02d8c5a322213b8fa5804d76f8ea37d6ac5488686be3a81d74218153d3ebb6c493967270d9e2eeb352bb133a8b00f737ae6b0980bcc5a61cd042e11fce1d3302ebcc049be8cdded289ddf261d7dba7c9abcfa1f118f7b64a2d8f5b50f09e6a4856e1eb992be2c97dacc549ca5064062b8ed0d07655a93b074d5f7a1305dc66178884d718fe327a98011bb971ba6de904cc9b79c1aef9aa88c8725a058f476c138c6f158414309e0c771a17c8c9eb3b9ec3fa7f50dd6038d7c08ef7ff72da6a13eb8d99aa57b85f5c6dec0b48d93be9b212f13d3329b4f706e81d8ff9e256315acf1f244724d0a063b01dc2cb678da050c8bbe1eef7c2cb0a0cc7ac9e0f93b7baaac4d1aa5cfe75d94aa0d21ce64f16ad5752579fdea291ed93fbee4c73edfdfe36dab8cc0be8afe1a5e7ac40f5ae5cd648c4bbf959fe777efc4fec6fe596af7ac8f90ae30eb1ade30a301e4a4fe1793ff4d624069952b58e2e94f5f5fa5d636abdd514ac2f392b032d3e61dfa0e07b2bffd192e6bd5dbe2a69b5e3a9617ab99fef3b47c8494f7b99502683319f9100331c1a7a375f0759124016bb31bb7af6762e0db10a10b270e1b1b7eb236246f11c96553bdc8c1bf9628463e115cfe915b5a00b08d2151f602399f9565a8763181a3ce04f2f42f1f0fd3ed5a81ab1ac2c2b03dd270107066a5ece1bf2933fdc47a59cfa5f48b01605993cea6cff440e4297e6b50f3e8b84f72d39cdeb781a016423efca6e53cf474147cace735714fcff1f41ae93a087e98f68b9f9aedf0f7036e3d8c5cee3496614347e42fee3afdd2a1ddc4916c6b3019ca5d8df6ddce8bf776f2277365734b32f28650fc1bec5d220f00648ad8a75ede0879b1ea55861e4ac1abcd6faff495b0ae6cfbd5f42a7e35fdfaf70654e65e49c490af71f7cf2e4c2c280876101e1b6c83175bbee23d17b33f27384965fb90d96f540375aea854dccdebbb70a453287403de28a31a60de04fc0cf378ec37a2ccd08ddb89b74b5dc8d5b6ca4ab0cf4ee42ade02692866a18862ee4ba188eda6d99a1d292dac1be447daab8d377c3778866145bbeae1e988ae861c4b8422feaca82c55fa2854ae88c8d4ec05566d9a2ff3ad41763c349ba9a2214c675c121b15cfc6528cdb9901e67bc636eb5195911c50618c83eb0002a5d06b6e7da66bf8cac44d3ff1596af49e981716a7e394172dbb65fd2a1efe6d4178272225de170d60ea3d925fe6679a1e9c5fe98e95edf1fde892a6c4dee44e1b1037d0c7c3ad45263aced8f66958d1ad7b01c40f0a52601365f16febea2a520d37e49ce114844ac3840e8af51f7ad966338d8b6f697a1232e06183c3b17192d3684fce9780ecf9e0eecd88db5c0f7ad3c3166e88ef6358b19c9a3809961ee50087689c6e1a63202d9b36c9661b31b1367&code=AQBLgG2hllileQIoX0ZSyb9_FfWqLjYS5m4NCfnvgPakDLrHBPeNZB1uDoU9aEMKzUL3OyRdsydCX_0lFHngWAX8wuP1BNvrpiXHHYxWeGaPQ3Nd1hrgyRIv-KTO13A-_zyA3wlZ5X0i8C-LewUB_V07C_1xyIoljv5GD1iHjGUq7w0NFEXu-_DHOHkXPSWz2y7R0QloefNW6AOMF789uVUd6e5q2tu-YZnWx2LLMzgjfoUm_CdXigNoykX5eBeznFeqfOUWwI-FFqrUl7lsuzptlBXKrT3MLa8VHmcCDFGqhx2kQYLS6qjkU6o2JOtdgviwxCFz4eh-OSaVn_mrS8y4 200 72 - 213.202 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T22:48:30.228Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T22:53:08.692Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T22:53:08.693Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T22:53:08.694Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T22:53:09.721Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T22:53:09.721Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=5ddc02e9acbf912a2d4fbf851b9f80e2:f5d32bdc9da36fac7a80792000dec58c8c65b996023c5d57f0754af5da6d2199565e845e8fa4dd4fa4a9dbdb1ef2177f582d35b223c0afb754e5bcb3f019c3bbe2a9d7ebacd638156b7c08d7025b3ce6d6fe54373ec42d25570acf4fd79a8c6666a6cae794b9f338a6622cc7ed67acf5d56a1a38efa946db5ae3abc34df2cf8ae9c24ec0b5f81609f4057f1a5e8ec45d591c232071adadd4d0cd575e2d91667d43a99dd06592ee9005f774c24c4605005c3b348ce8696aef3fe0006021ad398f99581a993ec652488203cb89ca702500530804dfc51671a5bf39e09d51a0eb32a6fee04c8c19d9f13deb89ffd4f1f88e16da39458dff0b64c962d53bc45279d3ef5aed26c6573c3a73f1098dc40d35685dd738882099a05ec6fc6a21cc9a331e69933201dc026967617ba68203a0aa2c829ed7e24039b0702801b6ecfc656033a166c105a49c65926f4a4fb3618641031ec75f1d0a2e58fc36a84b635dc51a7abb1f5214dc375e5757ba5a8adc2de7bc3092bfda7401486ee8ac883844f64d8b61873d2581b1f45af38fdcd2fd7fe2275eada47089975d0f94d269df584a1b9d792e92f5054f7df81a64468c37141673541fbe08bb164645409400f6ac0ab1d4d31b76e9a6cdcc8e7de1bd0ec6aad9dca52a50c25d69997310901140f8ded024e6a4989f05e37bfc694bf3c03c3a53e859a32c16970358968de85c237a174abd0dfe61e35cc1915cdb08ff2f002841545934071ab51a4de1bdf3212fcf33a6c9c8b338ef87c48feb839c8ad3b0b6a3dc547b68cc965b09c364d5613eb0354ae2b888096c6ec01625421dbe1cd6f49e316c26c5e1b5d636ede2d0e1a3db2c7d9c91d147fce579cc51834e6cc616142efcc8782f3a00ba3a70a876c965dffb03e218d8924d93053c54b2fc7ecc11fb50f93a3a1f55700a453c639d1b7d3ea8d90fb1831781527a188c3a48df2fe6cd287670e3b3a7cf74db8d5d3fe2cfb86717b2219f9d8d47da00cbd0c1c6d606325e3a5921d6e18c70f094e2961865aa581ff9188e5d3c0eea741149c24a1bf3b40c5dded7417aafee819c9b86cda867665ad3595bc482f7abdcc9cd5477b741de2606b34c9215ee4391ea4e515d204bff284afc12c25139d7b8ccf21599dd58cc41bb4405a27d1864850fca56b32500e99ab371e5959b09d720e2b15070b1266f660ff60fc93170c492e7b09bf0e631fb5403661a6df5862a9d62d5cbac6ffb1caf5499e4405f2c7a87e357a0eb9828ca30fd18a5b4d26e9746ce7d608985098d96f745ec45d4bebad836e358e92d6ae58c9e7d322878f826d5d018658246a30fa9100423516b32ab49bd017c7b76d2313c2e31cc3d76dc98750ee3233f1a6b3f4dba09f2bad3c0f50bcaa4675850e001ac2311b9090e01b40bc194f8ba77faff0c845339247bebe9a6ebe8429ffd1c3167cfe484d2cd07552148b8689ddfc84a967126eec6834cc83541bddfb8b33342f4e1392bc585ba8c864285fc5e76ec100262147c15a9a5280e34a3b970b8df194e12e6575e70aea7506d333b2815b89de87d5296c49971cc7bd1043c3833c9feb7b4791eedb6f2ea32f5590f3bcea05aa9b3ff555fa307dd5211c312dd6f86fd64f8a76221baf64b185bfd710b8817ef861255d65e1d099398c46c6e5e91bc4d5d320faf462987b2388595ced1bb8b542c50604a02d8c5a322213b8fa5804d76f8ea37d6ac5488686be3a81d74218153d3ebb6c493967270d9e2eeb352bb133a8b00f737ae6b0980bcc5a61cd042e11fce1d3302ebcc049be8cdded289ddf261d7dba7c9abcfa1f118f7b64a2d8f5b50f09e6a4856e1eb992be2c97dacc549ca5064062b8ed0d07655a93b074d5f7a1305dc66178884d718fe327a98011bb971ba6de904cc9b79c1aef9aa88c8725a058f476c138c6f158414309e0c771a17c8c9eb3b9ec3fa7f50dd6038d7c08ef7ff72da6a13eb8d99aa57b85f5c6dec0b48d93be9b212f13d3329b4f706e81d8ff9e256315acf1f244724d0a063b01dc2cb678da050c8bbe1eef7c2cb0a0cc7ac9e0f93b7baaac4d1aa5cfe75d94aa0d21ce64f16ad5752579fdea291ed93fbee4c73edfdfe36dab8cc0be8afe1a5e7ac40f5ae5cd648c4bbf959fe777efc4fec6fe596af7ac8f90ae30eb1ade30a301e4a4fe1793ff4d624069952b58e2e94f5f5fa5d636abdd514ac2f392b032d3e61dfa0e07b2bffd192e6bd5dbe2a69b5e3a9617ab99fef3b47c8494f7b99502683319f9100331c1a7a375f0759124016bb31bb7af6762e0db10a10b270e1b1b7eb236246f11c96553bdc8c1bf9628463e115cfe915b5a00b08d2151f602399f9565a8763181a3ce04f2f42f1f0fd3ed5a81ab1ac2c2b03dd270107066a5ece1bf2933fdc47a59cfa5f48b01605993cea6cff440e4297e6b50f3e8b84f72d39cdeb781a016423efca6e53cf474147cace735714fcff1f41ae93a087e98f68b9f9aedf0f7036e3d8c5cee3496614347e42fee3afdd2a1ddc4916c6b3019ca5d8df6ddce8bf776f2277365734b32f28650fc1bec5d220f00648ad8a75ede0879b1ea55861e4ac1abcd6faff495b0ae6cfbd5f42a7e35fdfaf70654e65e49c490af71f7cf2e4c2c280876101e1b6c83175bbee23d17b33f27384965fb90d96f540375aea854dccdebbb70a453287403de28a31a60de04fc0cf378ec37a2ccd08ddb89b74b5dc8d5b6ca4ab0cf4ee42ade02692866a18862ee4ba188eda6d99a1d292dac1be447daab8d377c3778866145bbeae1e988ae861c4b8422feaca82c55fa2854ae88c8d4ec05566d9a2ff3ad41763c349ba9a2214c675c121b15cfc6528cdb9901e67bc636eb5195911c50618c83eb0002a5d06b6e7da66bf8cac44d3ff1596af49e981716a7e394172dbb65fd2a1efe6d4178272225de170d60ea3d925fe6679a1e9c5fe98e95edf1fde892a6c4dee44e1b1037d0c7c3ad45263aced8f66958d1ad7b01c40f0a52601365f16febea2a520d37e49ce114844ac3840e8af51f7ad966338d8b6f697a1232e06183c3b17192d3684fce9780ecf9e0eecd88db5c0f7ad3c3166e88ef6358b19c9a3809961ee50087689c6e1a63202d9b36c9661b31b1367&code=AQBLgG2hllileQIoX0ZSyb9_FfWqLjYS5m4NCfnvgPakDLrHBPeNZB1uDoU9aEMKzUL3OyRdsydCX_0lFHngWAX8wuP1BNvrpiXHHYxWeGaPQ3Nd1hrgyRIv-KTO13A-_zyA3wlZ5X0i8C-LewUB_V07C_1xyIoljv5GD1iHjGUq7w0NFEXu-_DHOHkXPSWz2y7R0QloefNW6AOMF789uVUd6e5q2tu-YZnWx2LLMzgjfoUm_CdXigNoykX5eBeznFeqfOUWwI-FFqrUl7lsuzptlBXKrT3MLa8VHmcCDFGqhx2kQYLS6qjkU6o2JOtdgviwxCFz4eh-OSaVn_mrS8y4 200 72 - 1032.089 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T22:53:09.724Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T23:03:47.661Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:03:48.951Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:03:53.996Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T23:03:54.167Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:04:00.196Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:04:00.202Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:04:00.203Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:04:00.867Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:04:00.868Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=5ddc02e9acbf912a2d4fbf851b9f80e2:f5d32bdc9da36fac7a80792000dec58c8c65b996023c5d57f0754af5da6d2199565e845e8fa4dd4fa4a9dbdb1ef2177f582d35b223c0afb754e5bcb3f019c3bbe2a9d7ebacd638156b7c08d7025b3ce6d6fe54373ec42d25570acf4fd79a8c6666a6cae794b9f338a6622cc7ed67acf5d56a1a38efa946db5ae3abc34df2cf8ae9c24ec0b5f81609f4057f1a5e8ec45d591c232071adadd4d0cd575e2d91667d43a99dd06592ee9005f774c24c4605005c3b348ce8696aef3fe0006021ad398f99581a993ec652488203cb89ca702500530804dfc51671a5bf39e09d51a0eb32a6fee04c8c19d9f13deb89ffd4f1f88e16da39458dff0b64c962d53bc45279d3ef5aed26c6573c3a73f1098dc40d35685dd738882099a05ec6fc6a21cc9a331e69933201dc026967617ba68203a0aa2c829ed7e24039b0702801b6ecfc656033a166c105a49c65926f4a4fb3618641031ec75f1d0a2e58fc36a84b635dc51a7abb1f5214dc375e5757ba5a8adc2de7bc3092bfda7401486ee8ac883844f64d8b61873d2581b1f45af38fdcd2fd7fe2275eada47089975d0f94d269df584a1b9d792e92f5054f7df81a64468c37141673541fbe08bb164645409400f6ac0ab1d4d31b76e9a6cdcc8e7de1bd0ec6aad9dca52a50c25d69997310901140f8ded024e6a4989f05e37bfc694bf3c03c3a53e859a32c16970358968de85c237a174abd0dfe61e35cc1915cdb08ff2f002841545934071ab51a4de1bdf3212fcf33a6c9c8b338ef87c48feb839c8ad3b0b6a3dc547b68cc965b09c364d5613eb0354ae2b888096c6ec01625421dbe1cd6f49e316c26c5e1b5d636ede2d0e1a3db2c7d9c91d147fce579cc51834e6cc616142efcc8782f3a00ba3a70a876c965dffb03e218d8924d93053c54b2fc7ecc11fb50f93a3a1f55700a453c639d1b7d3ea8d90fb1831781527a188c3a48df2fe6cd287670e3b3a7cf74db8d5d3fe2cfb86717b2219f9d8d47da00cbd0c1c6d606325e3a5921d6e18c70f094e2961865aa581ff9188e5d3c0eea741149c24a1bf3b40c5dded7417aafee819c9b86cda867665ad3595bc482f7abdcc9cd5477b741de2606b34c9215ee4391ea4e515d204bff284afc12c25139d7b8ccf21599dd58cc41bb4405a27d1864850fca56b32500e99ab371e5959b09d720e2b15070b1266f660ff60fc93170c492e7b09bf0e631fb5403661a6df5862a9d62d5cbac6ffb1caf5499e4405f2c7a87e357a0eb9828ca30fd18a5b4d26e9746ce7d608985098d96f745ec45d4bebad836e358e92d6ae58c9e7d322878f826d5d018658246a30fa9100423516b32ab49bd017c7b76d2313c2e31cc3d76dc98750ee3233f1a6b3f4dba09f2bad3c0f50bcaa4675850e001ac2311b9090e01b40bc194f8ba77faff0c845339247bebe9a6ebe8429ffd1c3167cfe484d2cd07552148b8689ddfc84a967126eec6834cc83541bddfb8b33342f4e1392bc585ba8c864285fc5e76ec100262147c15a9a5280e34a3b970b8df194e12e6575e70aea7506d333b2815b89de87d5296c49971cc7bd1043c3833c9feb7b4791eedb6f2ea32f5590f3bcea05aa9b3ff555fa307dd5211c312dd6f86fd64f8a76221baf64b185bfd710b8817ef861255d65e1d099398c46c6e5e91bc4d5d320faf462987b2388595ced1bb8b542c50604a02d8c5a322213b8fa5804d76f8ea37d6ac5488686be3a81d74218153d3ebb6c493967270d9e2eeb352bb133a8b00f737ae6b0980bcc5a61cd042e11fce1d3302ebcc049be8cdded289ddf261d7dba7c9abcfa1f118f7b64a2d8f5b50f09e6a4856e1eb992be2c97dacc549ca5064062b8ed0d07655a93b074d5f7a1305dc66178884d718fe327a98011bb971ba6de904cc9b79c1aef9aa88c8725a058f476c138c6f158414309e0c771a17c8c9eb3b9ec3fa7f50dd6038d7c08ef7ff72da6a13eb8d99aa57b85f5c6dec0b48d93be9b212f13d3329b4f706e81d8ff9e256315acf1f244724d0a063b01dc2cb678da050c8bbe1eef7c2cb0a0cc7ac9e0f93b7baaac4d1aa5cfe75d94aa0d21ce64f16ad5752579fdea291ed93fbee4c73edfdfe36dab8cc0be8afe1a5e7ac40f5ae5cd648c4bbf959fe777efc4fec6fe596af7ac8f90ae30eb1ade30a301e4a4fe1793ff4d624069952b58e2e94f5f5fa5d636abdd514ac2f392b032d3e61dfa0e07b2bffd192e6bd5dbe2a69b5e3a9617ab99fef3b47c8494f7b99502683319f9100331c1a7a375f0759124016bb31bb7af6762e0db10a10b270e1b1b7eb236246f11c96553bdc8c1bf9628463e115cfe915b5a00b08d2151f602399f9565a8763181a3ce04f2f42f1f0fd3ed5a81ab1ac2c2b03dd270107066a5ece1bf2933fdc47a59cfa5f48b01605993cea6cff440e4297e6b50f3e8b84f72d39cdeb781a016423efca6e53cf474147cace735714fcff1f41ae93a087e98f68b9f9aedf0f7036e3d8c5cee3496614347e42fee3afdd2a1ddc4916c6b3019ca5d8df6ddce8bf776f2277365734b32f28650fc1bec5d220f00648ad8a75ede0879b1ea55861e4ac1abcd6faff495b0ae6cfbd5f42a7e35fdfaf70654e65e49c490af71f7cf2e4c2c280876101e1b6c83175bbee23d17b33f27384965fb90d96f540375aea854dccdebbb70a453287403de28a31a60de04fc0cf378ec37a2ccd08ddb89b74b5dc8d5b6ca4ab0cf4ee42ade02692866a18862ee4ba188eda6d99a1d292dac1be447daab8d377c3778866145bbeae1e988ae861c4b8422feaca82c55fa2854ae88c8d4ec05566d9a2ff3ad41763c349ba9a2214c675c121b15cfc6528cdb9901e67bc636eb5195911c50618c83eb0002a5d06b6e7da66bf8cac44d3ff1596af49e981716a7e394172dbb65fd2a1efe6d4178272225de170d60ea3d925fe6679a1e9c5fe98e95edf1fde892a6c4dee44e1b1037d0c7c3ad45263aced8f66958d1ad7b01c40f0a52601365f16febea2a520d37e49ce114844ac3840e8af51f7ad966338d8b6f697a1232e06183c3b17192d3684fce9780ecf9e0eecd88db5c0f7ad3c3166e88ef6358b19c9a3809961ee50087689c6e1a63202d9b36c9661b31b1367&code=AQBLgG2hllileQIoX0ZSyb9_FfWqLjYS5m4NCfnvgPakDLrHBPeNZB1uDoU9aEMKzUL3OyRdsydCX_0lFHngWAX8wuP1BNvrpiXHHYxWeGaPQ3Nd1hrgyRIv-KTO13A-_zyA3wlZ5X0i8C-LewUB_V07C_1xyIoljv5GD1iHjGUq7w0NFEXu-_DHOHkXPSWz2y7R0QloefNW6AOMF789uVUd6e5q2tu-YZnWx2LLMzgjfoUm_CdXigNoykX5eBeznFeqfOUWwI-FFqrUl7lsuzptlBXKrT3MLa8VHmcCDFGqhx2kQYLS6qjkU6o2JOtdgviwxCFz4eh-OSaVn_mrS8y4 200 30 - 1390.816 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:04:01.585Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:38.847Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:40.117Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:44.843Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:44.883Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:05:48.455Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:48.460Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:48.462Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:49.073Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:49.073Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=5ddc02e9acbf912a2d4fbf851b9f80e2:f5d32bdc9da36fac7a80792000dec58c8c65b996023c5d57f0754af5da6d2199565e845e8fa4dd4fa4a9dbdb1ef2177f582d35b223c0afb754e5bcb3f019c3bbe2a9d7ebacd638156b7c08d7025b3ce6d6fe54373ec42d25570acf4fd79a8c6666a6cae794b9f338a6622cc7ed67acf5d56a1a38efa946db5ae3abc34df2cf8ae9c24ec0b5f81609f4057f1a5e8ec45d591c232071adadd4d0cd575e2d91667d43a99dd06592ee9005f774c24c4605005c3b348ce8696aef3fe0006021ad398f99581a993ec652488203cb89ca702500530804dfc51671a5bf39e09d51a0eb32a6fee04c8c19d9f13deb89ffd4f1f88e16da39458dff0b64c962d53bc45279d3ef5aed26c6573c3a73f1098dc40d35685dd738882099a05ec6fc6a21cc9a331e69933201dc026967617ba68203a0aa2c829ed7e24039b0702801b6ecfc656033a166c105a49c65926f4a4fb3618641031ec75f1d0a2e58fc36a84b635dc51a7abb1f5214dc375e5757ba5a8adc2de7bc3092bfda7401486ee8ac883844f64d8b61873d2581b1f45af38fdcd2fd7fe2275eada47089975d0f94d269df584a1b9d792e92f5054f7df81a64468c37141673541fbe08bb164645409400f6ac0ab1d4d31b76e9a6cdcc8e7de1bd0ec6aad9dca52a50c25d69997310901140f8ded024e6a4989f05e37bfc694bf3c03c3a53e859a32c16970358968de85c237a174abd0dfe61e35cc1915cdb08ff2f002841545934071ab51a4de1bdf3212fcf33a6c9c8b338ef87c48feb839c8ad3b0b6a3dc547b68cc965b09c364d5613eb0354ae2b888096c6ec01625421dbe1cd6f49e316c26c5e1b5d636ede2d0e1a3db2c7d9c91d147fce579cc51834e6cc616142efcc8782f3a00ba3a70a876c965dffb03e218d8924d93053c54b2fc7ecc11fb50f93a3a1f55700a453c639d1b7d3ea8d90fb1831781527a188c3a48df2fe6cd287670e3b3a7cf74db8d5d3fe2cfb86717b2219f9d8d47da00cbd0c1c6d606325e3a5921d6e18c70f094e2961865aa581ff9188e5d3c0eea741149c24a1bf3b40c5dded7417aafee819c9b86cda867665ad3595bc482f7abdcc9cd5477b741de2606b34c9215ee4391ea4e515d204bff284afc12c25139d7b8ccf21599dd58cc41bb4405a27d1864850fca56b32500e99ab371e5959b09d720e2b15070b1266f660ff60fc93170c492e7b09bf0e631fb5403661a6df5862a9d62d5cbac6ffb1caf5499e4405f2c7a87e357a0eb9828ca30fd18a5b4d26e9746ce7d608985098d96f745ec45d4bebad836e358e92d6ae58c9e7d322878f826d5d018658246a30fa9100423516b32ab49bd017c7b76d2313c2e31cc3d76dc98750ee3233f1a6b3f4dba09f2bad3c0f50bcaa4675850e001ac2311b9090e01b40bc194f8ba77faff0c845339247bebe9a6ebe8429ffd1c3167cfe484d2cd07552148b8689ddfc84a967126eec6834cc83541bddfb8b33342f4e1392bc585ba8c864285fc5e76ec100262147c15a9a5280e34a3b970b8df194e12e6575e70aea7506d333b2815b89de87d5296c49971cc7bd1043c3833c9feb7b4791eedb6f2ea32f5590f3bcea05aa9b3ff555fa307dd5211c312dd6f86fd64f8a76221baf64b185bfd710b8817ef861255d65e1d099398c46c6e5e91bc4d5d320faf462987b2388595ced1bb8b542c50604a02d8c5a322213b8fa5804d76f8ea37d6ac5488686be3a81d74218153d3ebb6c493967270d9e2eeb352bb133a8b00f737ae6b0980bcc5a61cd042e11fce1d3302ebcc049be8cdded289ddf261d7dba7c9abcfa1f118f7b64a2d8f5b50f09e6a4856e1eb992be2c97dacc549ca5064062b8ed0d07655a93b074d5f7a1305dc66178884d718fe327a98011bb971ba6de904cc9b79c1aef9aa88c8725a058f476c138c6f158414309e0c771a17c8c9eb3b9ec3fa7f50dd6038d7c08ef7ff72da6a13eb8d99aa57b85f5c6dec0b48d93be9b212f13d3329b4f706e81d8ff9e256315acf1f244724d0a063b01dc2cb678da050c8bbe1eef7c2cb0a0cc7ac9e0f93b7baaac4d1aa5cfe75d94aa0d21ce64f16ad5752579fdea291ed93fbee4c73edfdfe36dab8cc0be8afe1a5e7ac40f5ae5cd648c4bbf959fe777efc4fec6fe596af7ac8f90ae30eb1ade30a301e4a4fe1793ff4d624069952b58e2e94f5f5fa5d636abdd514ac2f392b032d3e61dfa0e07b2bffd192e6bd5dbe2a69b5e3a9617ab99fef3b47c8494f7b99502683319f9100331c1a7a375f0759124016bb31bb7af6762e0db10a10b270e1b1b7eb236246f11c96553bdc8c1bf9628463e115cfe915b5a00b08d2151f602399f9565a8763181a3ce04f2f42f1f0fd3ed5a81ab1ac2c2b03dd270107066a5ece1bf2933fdc47a59cfa5f48b01605993cea6cff440e4297e6b50f3e8b84f72d39cdeb781a016423efca6e53cf474147cace735714fcff1f41ae93a087e98f68b9f9aedf0f7036e3d8c5cee3496614347e42fee3afdd2a1ddc4916c6b3019ca5d8df6ddce8bf776f2277365734b32f28650fc1bec5d220f00648ad8a75ede0879b1ea55861e4ac1abcd6faff495b0ae6cfbd5f42a7e35fdfaf70654e65e49c490af71f7cf2e4c2c280876101e1b6c83175bbee23d17b33f27384965fb90d96f540375aea854dccdebbb70a453287403de28a31a60de04fc0cf378ec37a2ccd08ddb89b74b5dc8d5b6ca4ab0cf4ee42ade02692866a18862ee4ba188eda6d99a1d292dac1be447daab8d377c3778866145bbeae1e988ae861c4b8422feaca82c55fa2854ae88c8d4ec05566d9a2ff3ad41763c349ba9a2214c675c121b15cfc6528cdb9901e67bc636eb5195911c50618c83eb0002a5d06b6e7da66bf8cac44d3ff1596af49e981716a7e394172dbb65fd2a1efe6d4178272225de170d60ea3d925fe6679a1e9c5fe98e95edf1fde892a6c4dee44e1b1037d0c7c3ad45263aced8f66958d1ad7b01c40f0a52601365f16febea2a520d37e49ce114844ac3840e8af51f7ad966338d8b6f697a1232e06183c3b17192d3684fce9780ecf9e0eecd88db5c0f7ad3c3166e88ef6358b19c9a3809961ee50087689c6e1a63202d9b36c9661b31b1367&code=AQBLgG2hllileQIoX0ZSyb9_FfWqLjYS5m4NCfnvgPakDLrHBPeNZB1uDoU9aEMKzUL3OyRdsydCX_0lFHngWAX8wuP1BNvrpiXHHYxWeGaPQ3Nd1hrgyRIv-KTO13A-_zyA3wlZ5X0i8C-LewUB_V07C_1xyIoljv5GD1iHjGUq7w0NFEXu-_DHOHkXPSWz2y7R0QloefNW6AOMF789uVUd6e5q2tu-YZnWx2LLMzgjfoUm_CdXigNoykX5eBeznFeqfOUWwI-FFqrUl7lsuzptlBXKrT3MLa8VHmcCDFGqhx2kQYLS6qjkU6o2JOtdgviwxCFz4eh-OSaVn_mrS8y4 200 30 - 1302.366 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:05:49.755Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:06:03.916Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=InstagramBusiness 200 4739 - 215.069 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:06:04.131Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:06:51.249Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:06:51.252Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:06:51.253Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:06:51.525Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:06:51.525Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=8871887ecaf9dd2529383c3637686e8d%3Afef6582324f4af97219b0ca06fe2d588863268db35fae9e9022f0f509a03027260507bd912d73f80efe0eebfad2c64ca585922b0d110098972b436d7762dd9f03f2dc8177976a79912f976c65e716dfd7a5914e43a6a7d6132ac1346b24b4a5a2f7fb10d497a862fc335091a738b990aa2a3b8d8e8fee4f08fa4241429922c8c342fc05739ef4a953d99fffd20f75ea2afc3c6ee3df6176ab147b70f7d1089d80d689b3bafd10e16fd26ca6d4ca4e6e4627ff96d821e1d694dc1c445cba975399e5c01a37d67fb32c342a191f34c375bf1c999d081f19b0167d2b5e015de01db84f95dd49c89003929321a75b8bad838a06fe5ff6ae639c4749c587179359bbc412ea4df33ae5444129f3a2eec649b5693060260c86c20d3a459c6b0cbf66daf10428032ee7c2ededebc3c0e89ac4469129f5a3465a853d6fd3e061c02c7780ebb74fc34493052b29d2e48fdde8fc8af58806c18e6ec0ce1958db86ff3ceaba0590ffa834902e39f1b6d267dd64f91a711352d069d3bd9eaea8d3b50e6a8a34fa0ac5ad370cbaf4666ba380de3147dbd7c5bc67b68beea80ccf5bf780286692c2d9912a38f20760e8f5fe2c277d1c31a2ff5cc1de8688f4906c6f65e1e671d9a4df42cbed918f9cc5ac5f6a549fb953ee883eabeef50cc27c30ed11d3d0c93a41ccc7ef150b3621823914d110d877a5ffc6ac8ddbeff6cb5eee721580ffd1400caaa37ad71da39adba984e521cdfdd364556e34ca75b2733783bf7a92733c1eb65bb4d929bad9355b55d81b101d6a198cef3272dba22cc8a4a7807ef7782d3b45e88bfc6034f4e2043ba9e9c3f7f252814f88b480924c55a1108b6268bfa4c4ec9139bf5ad9900a9d904cd22321057b9a432fe77ec5ef08f02542ebb34bd0b94d7b5884a31a6d8eee5622cd3d10c3747ecd3d8d12d37890a49256d84f9290b1d30cf114471af0d86ae3486322976d1722d7fa62fd6c13751332d66937274055f1aa32696e863897e320f34957193340c1948dc3b9f407d6cf639070f568ac9e8459bf8bbda163259da82a712008056f8d82c3919f04638a8d0371f0aaab229ad63091a25ad90d79e037d1beccc8af5c84cf72856d5bac41e446b81b49af82809d309906439b7e1aad733bc4f82362f5ea69849c8d53f403c2552411d76d0f0d09cef9bba0e0c4dcab2ec20b6926a7c617f4066f9328e2ab661353eaa554ac2fb5af4dc92b1745ef3306eeaf589020bb6f8ee861c1a8ecdfc109a3cbf2edc80f58eebadfe5e6f7591ddf4c6e9c9d074018b7e0e434319b2e71e08b88a7ea41afaab90f1dff83c71381cc5c8d66da0e63522f1b6047dd8c9e5b922ac63fa86a3b1af14363e71adf87a729344486ec5d4cf20fe686905049b3f4c179a1346342ffec5c3a265ed696fc2442edd3476c651e3560857d999647077cd03c88e58b0772acb6ca599268d039588a229139b231ceb01e6e86fe90c0d0694112f7e50e89fcf9dd22cb0a5ece553ac47ad333fe8b5afc56f9c728479a65e58810f6b2dbcb30b21402f1818363eedca534040adc764a51ff51b1922ce21504f76f9481e152e780d318049082bf6d6c7ca88b04bf10d4e68ba8243f6f28c3a407362561abead933c49acdbc4fd26fcec6650124f26ea725dce3c304df45d18f974e08b4729f36e182a7d548f20c36110a66c4e8d3c5547f86443daaedfe3e1a8637b376983b87f9ae107750162e81d0f84c065ec33f7ab1352953e952b7506c1931b9a2ca832910554942038dd44ef75958a2b9b1928b7631bc9f15e24592c5fcc59c42654eead691b5b07ecfaa4be848bd0c8710c6a32a2ccc36554603afbbc4aa5881366595a6efd087e9b3afd16d252b19fccf02215a3acd2a3aec3260eb7e805697b70c2478621b7c2e127c5f672727ff946b8735c50a5d915b79169be2345d8288a0da6c4eaf6a0579255ff32d0fcf546c86b51e37d76918dacdfb0138fb0e6c2c35e4e2f6a8c46b4155d7a52c8ed27cf8a9c79e309f68131c9e3d68c27f8e8c78a8c57e4d7615d9dfc6719ec194d6fdd20262e35d7de1418ef14fa8df1b8ed0f46db8c1a07eae4d3a23ecc166204a9aaea83722654b2331b974104385a272b10c0e26db41a023d71907556756d2881c4a48807b2b8289bea09d28e4773a51811297bd188bebf3dbec3d95ef736f738f49dbd48a9374fa3c3e56e78d0db6caf46fa5bd0ecce9ae6a48501ee90cfed0d66ed42b963c1f3bcceea58e5fc70f17b74086b29a5a1887bfaeff3177b34428f20449f777128627ea318d6849f31b712c322f7b407b868447a8238c2330e1ec9099274371ac2d8162ca335c6cf86e5beaa9642c35580601358fd90bbecfa1cb2457f4637b7e110268ff4757b223484f71aac1238dfd08add002d411e23615d85c85e87f95772066981e7cde3aed9e19caef479a3bf3e5bc0f554ecf19a741173381a1eaaf2b9182b6891e854c8f25a83242e5ec33e9b559ba7e561ad6374bbcf32447c5356afd314c6572d7c84acee292886aa372df2c4fffcc08bd1b8ae99f438e959f0a43969d3232f95efacdf93d4e491d285c4e7541a220df8efd00c561f98d2a0abd1cb2c43f5d9b441e726b1241b53944fffd03901a5289117cc9bccf4604a0ead46cc9d3e1bdf8c23ca47826aee32969cb79a0a46452bb46b5165a08691b9afb3cc0405f08ae68694f83e8cfa9f4ac6039122d6c22cac8d484d328caefe2caff92af2dc3e83ee4a57ff12cd50505edcd44b0b3cc2750c3d32efe1d8dcf6a3f907fd9b49015e6e36fa3bb7a45ce695855054d50f2fd281fb65d2e5529f92ca3f1e8b60548d72e9561034cde4cd847232122efd7942ed351b268a3483e1a7b9f064450dc9a383e6475ba59dba5f09ac227ab8e36b74e4171b1fd19b309d9abdb041bcd738e98f4e089d16bdd7904de4e4fc7508280a46851462c551cf800fa2c8472a8e4322a4440bc3b9debc931bb8ef3c3b8da2d5990f392cc448279ccc7c4a6e8228a479121fa921da70c7db11bc606e9ada84f92d485814785d7ab394c2ef11fd6198177391fc4a32dcf234ca87e2f2af95fb34ce30f92f1106ff60c97fe2623772bbb11a54441404ca8e3e00347de8b8%23_=_&code=AQBrn7xYB0606KghzhTVGBcFPAmvbYDUyXX0944NoAlvT_etObTGzmhzy0pkhUD-Pyjj-jJAmfzLqP40tXVgx6Zex0SGwtxI5WeMFZ5LR39-5Be1IGqbS_IYMFzOwNQFm9YsykDKTmkoYFYU9DpT_HTJGds2JCr77RjiEP4Mij1SoDJQmOnJnupWwYVvgnRfR-5jXCqYrFgzvoaocTRiT_U272vPXbETYVvReJef49ExhhFes8zP2dqS59Thh72TebGwHsoAOEg0OydFWw5zYCeE8m0sfp7_dl_eGAkh095H7GEFHUB3Fvsp4pPw9ZHea1bmykUgY5DjyI6AuHcak_fL 200 30 - 908.836 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:06:52.157Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:07:31.298Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:07:31.298Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:07:31.299Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:07:31.547Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:07:31.548Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=8871887ecaf9dd2529383c3637686e8d%3Afef6582324f4af97219b0ca06fe2d588863268db35fae9e9022f0f509a03027260507bd912d73f80efe0eebfad2c64ca585922b0d110098972b436d7762dd9f03f2dc8177976a79912f976c65e716dfd7a5914e43a6a7d6132ac1346b24b4a5a2f7fb10d497a862fc335091a738b990aa2a3b8d8e8fee4f08fa4241429922c8c342fc05739ef4a953d99fffd20f75ea2afc3c6ee3df6176ab147b70f7d1089d80d689b3bafd10e16fd26ca6d4ca4e6e4627ff96d821e1d694dc1c445cba975399e5c01a37d67fb32c342a191f34c375bf1c999d081f19b0167d2b5e015de01db84f95dd49c89003929321a75b8bad838a06fe5ff6ae639c4749c587179359bbc412ea4df33ae5444129f3a2eec649b5693060260c86c20d3a459c6b0cbf66daf10428032ee7c2ededebc3c0e89ac4469129f5a3465a853d6fd3e061c02c7780ebb74fc34493052b29d2e48fdde8fc8af58806c18e6ec0ce1958db86ff3ceaba0590ffa834902e39f1b6d267dd64f91a711352d069d3bd9eaea8d3b50e6a8a34fa0ac5ad370cbaf4666ba380de3147dbd7c5bc67b68beea80ccf5bf780286692c2d9912a38f20760e8f5fe2c277d1c31a2ff5cc1de8688f4906c6f65e1e671d9a4df42cbed918f9cc5ac5f6a549fb953ee883eabeef50cc27c30ed11d3d0c93a41ccc7ef150b3621823914d110d877a5ffc6ac8ddbeff6cb5eee721580ffd1400caaa37ad71da39adba984e521cdfdd364556e34ca75b2733783bf7a92733c1eb65bb4d929bad9355b55d81b101d6a198cef3272dba22cc8a4a7807ef7782d3b45e88bfc6034f4e2043ba9e9c3f7f252814f88b480924c55a1108b6268bfa4c4ec9139bf5ad9900a9d904cd22321057b9a432fe77ec5ef08f02542ebb34bd0b94d7b5884a31a6d8eee5622cd3d10c3747ecd3d8d12d37890a49256d84f9290b1d30cf114471af0d86ae3486322976d1722d7fa62fd6c13751332d66937274055f1aa32696e863897e320f34957193340c1948dc3b9f407d6cf639070f568ac9e8459bf8bbda163259da82a712008056f8d82c3919f04638a8d0371f0aaab229ad63091a25ad90d79e037d1beccc8af5c84cf72856d5bac41e446b81b49af82809d309906439b7e1aad733bc4f82362f5ea69849c8d53f403c2552411d76d0f0d09cef9bba0e0c4dcab2ec20b6926a7c617f4066f9328e2ab661353eaa554ac2fb5af4dc92b1745ef3306eeaf589020bb6f8ee861c1a8ecdfc109a3cbf2edc80f58eebadfe5e6f7591ddf4c6e9c9d074018b7e0e434319b2e71e08b88a7ea41afaab90f1dff83c71381cc5c8d66da0e63522f1b6047dd8c9e5b922ac63fa86a3b1af14363e71adf87a729344486ec5d4cf20fe686905049b3f4c179a1346342ffec5c3a265ed696fc2442edd3476c651e3560857d999647077cd03c88e58b0772acb6ca599268d039588a229139b231ceb01e6e86fe90c0d0694112f7e50e89fcf9dd22cb0a5ece553ac47ad333fe8b5afc56f9c728479a65e58810f6b2dbcb30b21402f1818363eedca534040adc764a51ff51b1922ce21504f76f9481e152e780d318049082bf6d6c7ca88b04bf10d4e68ba8243f6f28c3a407362561abead933c49acdbc4fd26fcec6650124f26ea725dce3c304df45d18f974e08b4729f36e182a7d548f20c36110a66c4e8d3c5547f86443daaedfe3e1a8637b376983b87f9ae107750162e81d0f84c065ec33f7ab1352953e952b7506c1931b9a2ca832910554942038dd44ef75958a2b9b1928b7631bc9f15e24592c5fcc59c42654eead691b5b07ecfaa4be848bd0c8710c6a32a2ccc36554603afbbc4aa5881366595a6efd087e9b3afd16d252b19fccf02215a3acd2a3aec3260eb7e805697b70c2478621b7c2e127c5f672727ff946b8735c50a5d915b79169be2345d8288a0da6c4eaf6a0579255ff32d0fcf546c86b51e37d76918dacdfb0138fb0e6c2c35e4e2f6a8c46b4155d7a52c8ed27cf8a9c79e309f68131c9e3d68c27f8e8c78a8c57e4d7615d9dfc6719ec194d6fdd20262e35d7de1418ef14fa8df1b8ed0f46db8c1a07eae4d3a23ecc166204a9aaea83722654b2331b974104385a272b10c0e26db41a023d71907556756d2881c4a48807b2b8289bea09d28e4773a51811297bd188bebf3dbec3d95ef736f738f49dbd48a9374fa3c3e56e78d0db6caf46fa5bd0ecce9ae6a48501ee90cfed0d66ed42b963c1f3bcceea58e5fc70f17b74086b29a5a1887bfaeff3177b34428f20449f777128627ea318d6849f31b712c322f7b407b868447a8238c2330e1ec9099274371ac2d8162ca335c6cf86e5beaa9642c35580601358fd90bbecfa1cb2457f4637b7e110268ff4757b223484f71aac1238dfd08add002d411e23615d85c85e87f95772066981e7cde3aed9e19caef479a3bf3e5bc0f554ecf19a741173381a1eaaf2b9182b6891e854c8f25a83242e5ec33e9b559ba7e561ad6374bbcf32447c5356afd314c6572d7c84acee292886aa372df2c4fffcc08bd1b8ae99f438e959f0a43969d3232f95efacdf93d4e491d285c4e7541a220df8efd00c561f98d2a0abd1cb2c43f5d9b441e726b1241b53944fffd03901a5289117cc9bccf4604a0ead46cc9d3e1bdf8c23ca47826aee32969cb79a0a46452bb46b5165a08691b9afb3cc0405f08ae68694f83e8cfa9f4ac6039122d6c22cac8d484d328caefe2caff92af2dc3e83ee4a57ff12cd50505edcd44b0b3cc2750c3d32efe1d8dcf6a3f907fd9b49015e6e36fa3bb7a45ce695855054d50f2fd281fb65d2e5529f92ca3f1e8b60548d72e9561034cde4cd847232122efd7942ed351b268a3483e1a7b9f064450dc9a383e6475ba59dba5f09ac227ab8e36b74e4171b1fd19b309d9abdb041bcd738e98f4e089d16bdd7904de4e4fc7508280a46851462c551cf800fa2c8472a8e4322a4440bc3b9debc931bb8ef3c3b8da2d5990f392cc448279ccc7c4a6e8228a479121fa921da70c7db11bc606e9ada84f92d485814785d7ab394c2ef11fd6198177391fc4a32dcf234ca87e2f2af95fb34ce30f92f1106ff60c97fe2623772bbb11a54441404ca8e3e00347de8b8%23_=_&code=AQBrn7xYB0606KghzhTVGBcFPAmvbYDUyXX0944NoAlvT_etObTGzmhzy0pkhUD-Pyjj-jJAmfzLqP40tXVgx6Zex0SGwtxI5WeMFZ5LR39-5Be1IGqbS_IYMFzOwNQFm9YsykDKTmkoYFYU9DpT_HTJGds2JCr77RjiEP4Mij1SoDJQmOnJnupWwYVvgnRfR-5jXCqYrFgzvoaocTRiT_U272vPXbETYVvReJef49ExhhFes8zP2dqS59Thh72TebGwHsoAOEg0OydFWw5zYCeE8m0sfp7_dl_eGAkh095H7GEFHUB3Fvsp4pPw9ZHea1bmykUgY5DjyI6AuHcak_fL 200 30 - 822.233 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:07:32.119Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T23:08:57.636Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:08:59.356Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:04.400Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:04.440Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:35.046Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:36.035Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:40.501Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:40.538Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:09:43.422Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:43.428Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:43.429Z'
+}
+{
+  message: 'Available Account Count : 999 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:44.047Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:44.047Z'
+}
+{
+  message: 'userId: 1,userName: Abdul, profile: {"UserName":"3020995838011175","FirstName":"Abdul","LastName":"Qadir","SocialId":"3020995838011175","ProfilePicture":"https://graph.facebook.com/3020995838011175/picture?type=large","ProfileUrl":"https://facebook.com/3020995838011175","AccessToken":"EAAkRQ8kdenUBADMmZBqZBlxmtS5ci6iaPuC2BZACYCPguPK3At0ZAqyH7pMgecbviTCVhUB2rZC0ZAZCUtUSWZBF5cwrksOJFNnXcCtd5UvtBZCqGZC4dFVoJPFCKnLjKYoHNqQSZAyZC8SLPTxhlZAEGzERHu7gZC7Yx9yBNXoSPo4vmS4gZDZD","RefreshToken":"EAAkRQ8kdenUBADMmZBqZBlxmtS5ci6iaPuC2BZACYCPguPK3At0ZAqyH7pMgecbviTCVhUB2rZC0ZAZCUtUSWZBF5cwrksOJFNnXcCtd5UvtBZCqGZC4dFVoJPFCKnLjKYoHNqQSZAyZC8SLPTxhlZAEGzERHu7gZC7Yx9yBNXoSPo4vmS4gZDZD","FriendCount":"0","Info":"","TeamId":"1","Network":12}',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:45.105Z'
+}
+{
+  message: 'profiles, [object Object]',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:45.105Z'
+}
+{
+  message: 'Account is addding!',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:45.815Z'
+}
+{
+  message: 'Started fetching feeds',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:46.234Z'
+}
+{
+  message: 'Scheduled',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:46.235Z'
+}
+{
+  message: 'Notification not sent, Error: connect ECONNREFUSED 127.0.0.1:3003',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:46.336Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=8871887ecaf9dd2529383c3637686e8d%3Afef6582324f4af97219b0ca06fe2d588863268db35fae9e9022f0f509a03027260507bd912d73f80efe0eebfad2c64ca585922b0d110098972b436d7762dd9f03f2dc8177976a79912f976c65e716dfd7a5914e43a6a7d6132ac1346b24b4a5a2f7fb10d497a862fc335091a738b990aa2a3b8d8e8fee4f08fa4241429922c8c342fc05739ef4a953d99fffd20f75ea2afc3c6ee3df6176ab147b70f7d1089d80d689b3bafd10e16fd26ca6d4ca4e6e4627ff96d821e1d694dc1c445cba975399e5c01a37d67fb32c342a191f34c375bf1c999d081f19b0167d2b5e015de01db84f95dd49c89003929321a75b8bad838a06fe5ff6ae639c4749c587179359bbc412ea4df33ae5444129f3a2eec649b5693060260c86c20d3a459c6b0cbf66daf10428032ee7c2ededebc3c0e89ac4469129f5a3465a853d6fd3e061c02c7780ebb74fc34493052b29d2e48fdde8fc8af58806c18e6ec0ce1958db86ff3ceaba0590ffa834902e39f1b6d267dd64f91a711352d069d3bd9eaea8d3b50e6a8a34fa0ac5ad370cbaf4666ba380de3147dbd7c5bc67b68beea80ccf5bf780286692c2d9912a38f20760e8f5fe2c277d1c31a2ff5cc1de8688f4906c6f65e1e671d9a4df42cbed918f9cc5ac5f6a549fb953ee883eabeef50cc27c30ed11d3d0c93a41ccc7ef150b3621823914d110d877a5ffc6ac8ddbeff6cb5eee721580ffd1400caaa37ad71da39adba984e521cdfdd364556e34ca75b2733783bf7a92733c1eb65bb4d929bad9355b55d81b101d6a198cef3272dba22cc8a4a7807ef7782d3b45e88bfc6034f4e2043ba9e9c3f7f252814f88b480924c55a1108b6268bfa4c4ec9139bf5ad9900a9d904cd22321057b9a432fe77ec5ef08f02542ebb34bd0b94d7b5884a31a6d8eee5622cd3d10c3747ecd3d8d12d37890a49256d84f9290b1d30cf114471af0d86ae3486322976d1722d7fa62fd6c13751332d66937274055f1aa32696e863897e320f34957193340c1948dc3b9f407d6cf639070f568ac9e8459bf8bbda163259da82a712008056f8d82c3919f04638a8d0371f0aaab229ad63091a25ad90d79e037d1beccc8af5c84cf72856d5bac41e446b81b49af82809d309906439b7e1aad733bc4f82362f5ea69849c8d53f403c2552411d76d0f0d09cef9bba0e0c4dcab2ec20b6926a7c617f4066f9328e2ab661353eaa554ac2fb5af4dc92b1745ef3306eeaf589020bb6f8ee861c1a8ecdfc109a3cbf2edc80f58eebadfe5e6f7591ddf4c6e9c9d074018b7e0e434319b2e71e08b88a7ea41afaab90f1dff83c71381cc5c8d66da0e63522f1b6047dd8c9e5b922ac63fa86a3b1af14363e71adf87a729344486ec5d4cf20fe686905049b3f4c179a1346342ffec5c3a265ed696fc2442edd3476c651e3560857d999647077cd03c88e58b0772acb6ca599268d039588a229139b231ceb01e6e86fe90c0d0694112f7e50e89fcf9dd22cb0a5ece553ac47ad333fe8b5afc56f9c728479a65e58810f6b2dbcb30b21402f1818363eedca534040adc764a51ff51b1922ce21504f76f9481e152e780d318049082bf6d6c7ca88b04bf10d4e68ba8243f6f28c3a407362561abead933c49acdbc4fd26fcec6650124f26ea725dce3c304df45d18f974e08b4729f36e182a7d548f20c36110a66c4e8d3c5547f86443daaedfe3e1a8637b376983b87f9ae107750162e81d0f84c065ec33f7ab1352953e952b7506c1931b9a2ca832910554942038dd44ef75958a2b9b1928b7631bc9f15e24592c5fcc59c42654eead691b5b07ecfaa4be848bd0c8710c6a32a2ccc36554603afbbc4aa5881366595a6efd087e9b3afd16d252b19fccf02215a3acd2a3aec3260eb7e805697b70c2478621b7c2e127c5f672727ff946b8735c50a5d915b79169be2345d8288a0da6c4eaf6a0579255ff32d0fcf546c86b51e37d76918dacdfb0138fb0e6c2c35e4e2f6a8c46b4155d7a52c8ed27cf8a9c79e309f68131c9e3d68c27f8e8c78a8c57e4d7615d9dfc6719ec194d6fdd20262e35d7de1418ef14fa8df1b8ed0f46db8c1a07eae4d3a23ecc166204a9aaea83722654b2331b974104385a272b10c0e26db41a023d71907556756d2881c4a48807b2b8289bea09d28e4773a51811297bd188bebf3dbec3d95ef736f738f49dbd48a9374fa3c3e56e78d0db6caf46fa5bd0ecce9ae6a48501ee90cfed0d66ed42b963c1f3bcceea58e5fc70f17b74086b29a5a1887bfaeff3177b34428f20449f777128627ea318d6849f31b712c322f7b407b868447a8238c2330e1ec9099274371ac2d8162ca335c6cf86e5beaa9642c35580601358fd90bbecfa1cb2457f4637b7e110268ff4757b223484f71aac1238dfd08add002d411e23615d85c85e87f95772066981e7cde3aed9e19caef479a3bf3e5bc0f554ecf19a741173381a1eaaf2b9182b6891e854c8f25a83242e5ec33e9b559ba7e561ad6374bbcf32447c5356afd314c6572d7c84acee292886aa372df2c4fffcc08bd1b8ae99f438e959f0a43969d3232f95efacdf93d4e491d285c4e7541a220df8efd00c561f98d2a0abd1cb2c43f5d9b441e726b1241b53944fffd03901a5289117cc9bccf4604a0ead46cc9d3e1bdf8c23ca47826aee32969cb79a0a46452bb46b5165a08691b9afb3cc0405f08ae68694f83e8cfa9f4ac6039122d6c22cac8d484d328caefe2caff92af2dc3e83ee4a57ff12cd50505edcd44b0b3cc2750c3d32efe1d8dcf6a3f907fd9b49015e6e36fa3bb7a45ce695855054d50f2fd281fb65d2e5529f92ca3f1e8b60548d72e9561034cde4cd847232122efd7942ed351b268a3483e1a7b9f064450dc9a383e6475ba59dba5f09ac227ab8e36b74e4171b1fd19b309d9abdb041bcd738e98f4e089d16bdd7904de4e4fc7508280a46851462c551cf800fa2c8472a8e4322a4440bc3b9debc931bb8ef3c3b8da2d5990f392cc448279ccc7c4a6e8228a479121fa921da70c7db11bc606e9ada84f92d485814785d7ab394c2ef11fd6198177391fc4a32dcf234ca87e2f2af95fb34ce30f92f1106ff60c97fe2623772bbb11a54441404ca8e3e00347de8b8%23_=_&code=AQBrn7xYB0606KghzhTVGBcFPAmvbYDUyXX0944NoAlvT_etObTGzmhzy0pkhUD-Pyjj-jJAmfzLqP40tXVgx6Zex0SGwtxI5WeMFZ5LR39-5Be1IGqbS_IYMFzOwNQFm9YsykDKTmkoYFYU9DpT_HTJGds2JCr77RjiEP4Mij1SoDJQmOnJnupWwYVvgnRfR-5jXCqYrFgzvoaocTRiT_U272vPXbETYVvReJef49ExhhFes8zP2dqS59Thh72TebGwHsoAOEg0OydFWw5zYCeE8m0sfp7_dl_eGAkh095H7GEFHUB3Fvsp4pPw9ZHea1bmykUgY5DjyI6AuHcak_fL 200 917 - 4133.255 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:47.553Z'
+}
+{
+  message: 'Started network posts fetching for account id: 2',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:49.240Z'
+}
+{
+  message: 'Accounts : {"accountId":2}',
+  level: 'info',
+  timestamp: '2021-02-23T23:09:49.240Z'
+}
+{
+  message: 'Error on fetching post details (#100) Tried accessing nonexisting field (media) on node type (User)',
+  level: 'error',
+  timestamp: '2021-02-23T23:09:49.865Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T23:35:42.790Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:35:44.059Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:35:48.630Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T23:35:48.669Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:36:14.993Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:36:14.999Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:36:15.001Z'
+}
+{
+  message: 'Available Account Count : 998 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:36:15.612Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:36:15.612Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=8871887ecaf9dd2529383c3637686e8d%3Afef6582324f4af97219b0ca06fe2d588863268db35fae9e9022f0f509a03027260507bd912d73f80efe0eebfad2c64ca585922b0d110098972b436d7762dd9f03f2dc8177976a79912f976c65e716dfd7a5914e43a6a7d6132ac1346b24b4a5a2f7fb10d497a862fc335091a738b990aa2a3b8d8e8fee4f08fa4241429922c8c342fc05739ef4a953d99fffd20f75ea2afc3c6ee3df6176ab147b70f7d1089d80d689b3bafd10e16fd26ca6d4ca4e6e4627ff96d821e1d694dc1c445cba975399e5c01a37d67fb32c342a191f34c375bf1c999d081f19b0167d2b5e015de01db84f95dd49c89003929321a75b8bad838a06fe5ff6ae639c4749c587179359bbc412ea4df33ae5444129f3a2eec649b5693060260c86c20d3a459c6b0cbf66daf10428032ee7c2ededebc3c0e89ac4469129f5a3465a853d6fd3e061c02c7780ebb74fc34493052b29d2e48fdde8fc8af58806c18e6ec0ce1958db86ff3ceaba0590ffa834902e39f1b6d267dd64f91a711352d069d3bd9eaea8d3b50e6a8a34fa0ac5ad370cbaf4666ba380de3147dbd7c5bc67b68beea80ccf5bf780286692c2d9912a38f20760e8f5fe2c277d1c31a2ff5cc1de8688f4906c6f65e1e671d9a4df42cbed918f9cc5ac5f6a549fb953ee883eabeef50cc27c30ed11d3d0c93a41ccc7ef150b3621823914d110d877a5ffc6ac8ddbeff6cb5eee721580ffd1400caaa37ad71da39adba984e521cdfdd364556e34ca75b2733783bf7a92733c1eb65bb4d929bad9355b55d81b101d6a198cef3272dba22cc8a4a7807ef7782d3b45e88bfc6034f4e2043ba9e9c3f7f252814f88b480924c55a1108b6268bfa4c4ec9139bf5ad9900a9d904cd22321057b9a432fe77ec5ef08f02542ebb34bd0b94d7b5884a31a6d8eee5622cd3d10c3747ecd3d8d12d37890a49256d84f9290b1d30cf114471af0d86ae3486322976d1722d7fa62fd6c13751332d66937274055f1aa32696e863897e320f34957193340c1948dc3b9f407d6cf639070f568ac9e8459bf8bbda163259da82a712008056f8d82c3919f04638a8d0371f0aaab229ad63091a25ad90d79e037d1beccc8af5c84cf72856d5bac41e446b81b49af82809d309906439b7e1aad733bc4f82362f5ea69849c8d53f403c2552411d76d0f0d09cef9bba0e0c4dcab2ec20b6926a7c617f4066f9328e2ab661353eaa554ac2fb5af4dc92b1745ef3306eeaf589020bb6f8ee861c1a8ecdfc109a3cbf2edc80f58eebadfe5e6f7591ddf4c6e9c9d074018b7e0e434319b2e71e08b88a7ea41afaab90f1dff83c71381cc5c8d66da0e63522f1b6047dd8c9e5b922ac63fa86a3b1af14363e71adf87a729344486ec5d4cf20fe686905049b3f4c179a1346342ffec5c3a265ed696fc2442edd3476c651e3560857d999647077cd03c88e58b0772acb6ca599268d039588a229139b231ceb01e6e86fe90c0d0694112f7e50e89fcf9dd22cb0a5ece553ac47ad333fe8b5afc56f9c728479a65e58810f6b2dbcb30b21402f1818363eedca534040adc764a51ff51b1922ce21504f76f9481e152e780d318049082bf6d6c7ca88b04bf10d4e68ba8243f6f28c3a407362561abead933c49acdbc4fd26fcec6650124f26ea725dce3c304df45d18f974e08b4729f36e182a7d548f20c36110a66c4e8d3c5547f86443daaedfe3e1a8637b376983b87f9ae107750162e81d0f84c065ec33f7ab1352953e952b7506c1931b9a2ca832910554942038dd44ef75958a2b9b1928b7631bc9f15e24592c5fcc59c42654eead691b5b07ecfaa4be848bd0c8710c6a32a2ccc36554603afbbc4aa5881366595a6efd087e9b3afd16d252b19fccf02215a3acd2a3aec3260eb7e805697b70c2478621b7c2e127c5f672727ff946b8735c50a5d915b79169be2345d8288a0da6c4eaf6a0579255ff32d0fcf546c86b51e37d76918dacdfb0138fb0e6c2c35e4e2f6a8c46b4155d7a52c8ed27cf8a9c79e309f68131c9e3d68c27f8e8c78a8c57e4d7615d9dfc6719ec194d6fdd20262e35d7de1418ef14fa8df1b8ed0f46db8c1a07eae4d3a23ecc166204a9aaea83722654b2331b974104385a272b10c0e26db41a023d71907556756d2881c4a48807b2b8289bea09d28e4773a51811297bd188bebf3dbec3d95ef736f738f49dbd48a9374fa3c3e56e78d0db6caf46fa5bd0ecce9ae6a48501ee90cfed0d66ed42b963c1f3bcceea58e5fc70f17b74086b29a5a1887bfaeff3177b34428f20449f777128627ea318d6849f31b712c322f7b407b868447a8238c2330e1ec9099274371ac2d8162ca335c6cf86e5beaa9642c35580601358fd90bbecfa1cb2457f4637b7e110268ff4757b223484f71aac1238dfd08add002d411e23615d85c85e87f95772066981e7cde3aed9e19caef479a3bf3e5bc0f554ecf19a741173381a1eaaf2b9182b6891e854c8f25a83242e5ec33e9b559ba7e561ad6374bbcf32447c5356afd314c6572d7c84acee292886aa372df2c4fffcc08bd1b8ae99f438e959f0a43969d3232f95efacdf93d4e491d285c4e7541a220df8efd00c561f98d2a0abd1cb2c43f5d9b441e726b1241b53944fffd03901a5289117cc9bccf4604a0ead46cc9d3e1bdf8c23ca47826aee32969cb79a0a46452bb46b5165a08691b9afb3cc0405f08ae68694f83e8cfa9f4ac6039122d6c22cac8d484d328caefe2caff92af2dc3e83ee4a57ff12cd50505edcd44b0b3cc2750c3d32efe1d8dcf6a3f907fd9b49015e6e36fa3bb7a45ce695855054d50f2fd281fb65d2e5529f92ca3f1e8b60548d72e9561034cde4cd847232122efd7942ed351b268a3483e1a7b9f064450dc9a383e6475ba59dba5f09ac227ab8e36b74e4171b1fd19b309d9abdb041bcd738e98f4e089d16bdd7904de4e4fc7508280a46851462c551cf800fa2c8472a8e4322a4440bc3b9debc931bb8ef3c3b8da2d5990f392cc448279ccc7c4a6e8228a479121fa921da70c7db11bc606e9ada84f92d485814785d7ab394c2ef11fd6198177391fc4a32dcf234ca87e2f2af95fb34ce30f92f1106ff60c97fe2623772bbb11a54441404ca8e3e00347de8b8%23_=_&code=AQBrn7xYB0606KghzhTVGBcFPAmvbYDUyXX0944NoAlvT_etObTGzmhzy0pkhUD-Pyjj-jJAmfzLqP40tXVgx6Zex0SGwtxI5WeMFZ5LR39-5Be1IGqbS_IYMFzOwNQFm9YsykDKTmkoYFYU9DpT_HTJGds2JCr77RjiEP4Mij1SoDJQmOnJnupWwYVvgnRfR-5jXCqYrFgzvoaocTRiT_U272vPXbETYVvReJef49ExhhFes8zP2dqS59Thh72TebGwHsoAOEg0OydFWw5zYCeE8m0sfp7_dl_eGAkh095H7GEFHUB3Fvsp4pPw9ZHea1bmykUgY5DjyI6AuHcak_fL 200 72 - 627.443 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:36:15.619Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:36:48.552Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=Instagram 200 4702 - 214.718 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:36:48.765Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-23T23:38:15.159Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:38:16.450Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-23T23:38:20.942Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-23T23:38:20.983Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:41:43.369Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=InstagramBusiness 200 4739 - 1028.789 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:41:44.396Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:42:29.931Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-23T23:42:29.934Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:42:29.936Z'
+}
+{
+  message: 'Available Account Count : 998 ',
+  level: 'info',
+  timestamp: '2021-02-23T23:42:30.145Z'
+}
+{
+  message: 'networkId: 12',
+  level: 'info',
+  timestamp: '2021-02-23T23:42:30.145Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=d8e0a5c5f96d39cedcc3db9eec093500%3A864ab32344aeb81d6ba464c151b675963567c548e0e06fe0e2e3fcec5b324da55462e80e7a4646a2eec0ad48f8550f76599a556826cf2d46931a6ddf659fda518e2649381c0f2726f8c1bf5dd6c61e53930436efa582b2b5d9bdf72fd79534fc719b21fed30b5a31c2e25ef5250b0b85df721e66d7acd4188defaea473799d3871edf0be6ed7ee71ffee20bb9429a52fbf898f3d3c0dc4941525a53f2bee1385b563aef316a2ea1df3063604b1a6ebcb81c0f7f0c628fc73e4cd4a67bfcf37bb656974f4f0d492dfb22d7f0c832bcaa06de36c3b0ddde91863a5c51f9c5178420c95c2f91c0dc46c0cd6022d66c965998a76cbd745c7e6603dc13e8060b456476496132be4f071c4e4125f04c685a56a7243769d1016ff02bbed9a225fbae7c64e999767b3580deb1bbf52fbea92e0eca8b3c2b14c3b551f4e7c353060330f15c104df949779249ed27d137385f1350d6cbe1d3dcedb730fa703f492bf9c85185fee6952493fd9711e76cb73bd4e756cd7669999f384269f2aae5c75238c00f469ef1fb5bf3f3df5920203150c9d3bd240eb362f72d875e3161cb8be787349792efa9f962197fc6088de955069820f3544c4644c96c8184e1b9fda33b2c0edda62d6f6b2dabf50e13e3b986e20c00ee2478f0a89ad22bb4a5e0fcba886b77e915c02ff6b89c276132e230f7785f505964464ba647f8752450c432fb63bf4b97eedd35d117f4cb24bf18e2f1cb6286ca9bd4677f49c4f3a1c4dee2d042ba4641b33c60f3083a01052dbb34094fa4401947e215693bd53bd6c6d2292f91595e20c48d77689eb7aad325d0779da119351fff135967320103865d3289a19ea43a990fd2986cd81a1eab10f873a6d4475515cbdc3978a4ecf4db38c4fbd2c698ef6324e9229ef82760486332175451b3641d77dd3ed2bd33c6766a3bd6289e6f8b20d51e20578c0ed88e5a7e27021976acd0e4f7b4f8a857bdd8ed934d343038b1f6932c554a7ec1c454e9ed80da3d8db359ac561a6952ebfc1750e717d7340d63b07fe214844d96aa43835122e093b3a40e37aebb8494d3e7d44a0ba6d78b552ff61d25c29fcf49fb1cae6ca2618aa434502abdf2dde2fcb4aef51006ac26a69c252e480d5f08599a39fd6d4223644144b2eab5c11db7956908fff8743141a4e32532281159fa498883c46e1a82fa50c65ab6a8a9a3b9f9b6d22623cf2c5d832946163b604d9b102559e11025d17c9fc8a8857851faf88a6deb6c2596926fd615613bef3a5d085b0cb21cc9ea0fdca006b71a0bdbe31966c5078c7fd8dd0c4e97805b8d0302cffc3791396b687cf594cfe58850e5a80d0a7dc5c307ba4b006cd5fa14811b7aa0328d5b0548f54da6447937746ca15879dd4c8fbd36f0a65516f2016dd737e02ca528ae8c2d9865bf71a98de339e1069ce2459978cd04ed89b1beee0f4689b401bebf6364c18179247685f3585f6dd095f9ba5f37dbdd2f3464174ff8292b53544ed0321077f255f6adb00c8015b6f473da645e6910897afe542d9227ce2f3a0d38974f1565375e7f95a2932e1960eb345b49cdb7ecb8899f80c5e4ef6d0c1d0e6c73c3d7445558b1db48ef89b884c9039749a163969f6e575d8d40c8e4dac16d64a3a337701316ac2130485b8fc3068de5b426bf50313748a33aa4351ccf656c4d020e586a141c37663b26f84668b634439034dfaa15409371a49c5bdfd3dd1ec36b2158acae0ecd5ad66430abbf12b73e6d016d39d11c9d440fe753b3d831566ec2b06ed3de81f4d2b972bdd686386c8c380aacfd83a643ae162ce250cc262b3e337103f36c2e52c45e4f04c0bcd9a6c8ad72ca858be9c76dccd469ced445a08911ffae591650fe8a66cad41496872bc8a82c70cb3bc54fe39229cf362063942693119f44030848f8e835850048336724546b2b426fdc62b73cc5e621effb169ebfa80a1abf91cc156af8f216be60102d9e81e87c4c408b80994fe312067e8d43153f4ed499c9c9eaf9abd3f63de50bab01a9d9644bdc8689c83be824de518c74ec6be6578814c31a3fad6bef5f11eaf61299c3ab038cdd6a87ca69dcd781232cec826477505fd447d57272bbb3aedcd1bc381f146ffb0a3f951676b533125703a4d809251295ff03d76e101c0609eca1632dc8870cfb0a6dbea30d267c2243a7c525455e549b008dcadd5d52bb62e6cf973b3a2496755c0529bb84f0548a05a29e87f6132ee7d4e912ae55cc785d629e418e72a8ce6fbe58903aa2ae502378c188d1dd4bd048478b37e3c76b2f5d62d7d764b91d3c6f95e74fb1ab136e822c27d2a4ba695c95359dfe7d893af95b441247449c4eb951f84b813e5bbace00a0eda464cf4e329af61a30096149620c04e6ff7c39fc69c1eacc4132ab1538b408d15a381d7dfa01cffe55a9e534f9f39015eea4983ef901b20b432ebd36830e44b12ae45891341f676f73ba231e11b09d06f38c2161b9ca25249d3e9a49a404b486adcfac8ee9c1348f4b6b5bf9567a626b0517f7a62efefe5733527e0209f0d639d11ff88803dd1bc3f5d91520930c82cbfb57e4170d7bb5d382086b10825e69dd09393a547cde6e649e11f60da011e68efb28194bec7fe571a5659f0c4321e0528c4561849d514cecca3fcdadc7ea02d83a2362b0af31cae4752f8e097f03cf18d0a46036465d94e30c2c53cdfddd6ec734551771c164f82a9082017ea3264670e1c10837546d098c14efc10a11a9d2a4c3aaa9cdbf92f96de588ddfc898a276c9d0dd4cc4a92a36709e2916e9876ac507bf722296fb5716e72023b9956bee435de3603d1b2facb3595ce22738c1a554f555e591e370a4db4ed59d753fcc46f4b8471f036bc3269d6c41c6ee6a42dcfc321fce36221243fcc6fa565af9ed94068d15056382d1e9de02b5a552a80f7fb29025f3eeb0e7f83afee7cdd4c87de3549793e9a8b47a656d5e11406f55d14cd97c6f95df4dfdc026eabc89f3f60d9264074d786e27852b43cc52be6bb74ad322d3badb2d8df0ca47156ba8ba7f3d31532be5fc9952701e758b2ff0fd6217cc09894defb55397fbfa6c9254df2b8248263f6f0ad273b9a8406c8f45362bf0a0ca0dab4dbeb4445b10a87631%23_=_&code=AQBV7ZEfhk_d52TVEAh0MzXYohZ2ShVy5ikLblXE5FOWYLZj-ONngvY-c8MwE-cdxvzRMOJo2bV7J8_csOWVEAYAhsTcgRrVCxjnXkqjOvloeC04BLoSopggSdc67mn0pzmMyjlgmU1LZWJ_gJEk1a6RCr-tuSyY1Ytj_Khfdxf5yLTfbp2jvPHden6Z2cHmLP3JfkI7PA0_p01U-75CQVx0fptGPaukXW9xe4pKMVR7mdz-YtOUjSPKZHyMslz_cMCz0xm9ipH-S16gw8SZ-WjQ6oRcpcQFLqU4Vj0Pnx5CEx-Q_LFVu26YR3ciadqDshX7xh66tpxyv1DnyrVakavA 200 72 - 217.340 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:42:30.147Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-23T23:59:30.588Z' }
+{
+  message: 'GET /favicon.ico 304 - - 1.452 ms\n',
+  level: 'info',
+  timestamp: '2021-02-23T23:59:30.589Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:22.383Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:28.757Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:35.025Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with undefined Environment!',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:35.073Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:52.349Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:53.427Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:58.172Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-24T18:21:58.209Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-24T18:25:08.412Z'
+}
+{
+  message: 'Mongo issues : connect ETIMEDOUT 65.0.8.213:27017',
+  level: 'error',
+  timestamp: '2021-02-24T18:25:30.324Z'
+}
+{
+  message: 'Mongo issues : connect ETIMEDOUT 65.0.8.213:27017',
+  level: 'error',
+  timestamp: '2021-02-24T18:25:30.325Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-24T18:34:43.694Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T18:34:45.262Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T18:34:50.524Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-24T18:34:50.562Z'
+}

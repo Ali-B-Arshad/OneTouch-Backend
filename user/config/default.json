@@ -1,0 +1,91 @@
+{
+    "title": "OneTouch Api",
+    "version": "1.0.0",
+    "description": "To describe a RESTful API for OneTouch",
+    "applicationName": "OneTouch",
+    "teamDescription": "OneTouch team has been created automatically by the application.",
+    "perPageLimit": 12,
+    "maximumTrialPeriod": 3,
+    "app_url":"https://127.0.0.1:3000/",
+    "live_url": "https://127.0.0.1:3000/login",
+    "user_OneTouch": {
+        "title": "OneTouch - UserServices",
+        "version": "1.0.0",
+        "description": "To describe a RESTful API of user services such as unauthorized, authorized and team management",
+        "applicationName": "OneTouch"
+    },
+    "authorize": {
+        "secret": "Fshfr97Gz5mCzaGVKsx6IsVZUFG5Sw3f",
+        "token_secret": "Fshfr97Gz5mCzaGVKsx6IsVZUFG5Sw3f",
+        "algorithm": "aes-256-cbc",
+        "encoding_typeOne": "utf8",
+        "encoding_typeTwo": "hex"
+    },
+    "analytics": {
+        "tracking_id": "<<Google Analytics tracking Id>>",
+        "view_id": "<<Google Analytics View Id>>",
+        "ganalytics_service_email": "<<Google Service Email Id, This email should have the permission on above track id.>>",
+        "ganalytics_private_key": "<<Google Service Email's Private Key>>"
+    },
+    "mailTitles": {
+        "activation_link": "OneTouch activation link",
+        "forgot_password_request": "OneTouch reset password",
+        "payment_invoice": "OneTouch payment invoice",
+        "OTP_title": "OneTouch OTP"
+    },
+    "mailService": {
+        "defaultMailOption": "gmail",
+        "sendgrid": {
+            "username": "<<sendgrid username>>",
+            "password": "<<sendgrid password>>",
+            "frommail": "<<sendgrid frommail>>",
+            "ccmail": "<<sendgrid ccmail>>",
+            "apiKey": "<<sendgrid apiKey>>"
+        },
+        "gmailServices": {
+            "email": "abdulqadir41098@gmail.com",
+            "password": "M4QButt786"
+        }
+    },
+    "mobileOtp": {
+        "authkey": "<<auth Key>>",
+        "sender": "<<Sender TITLE >>",
+        "route": 4,
+        "port": 4
+    },
+    "uploadService": {
+        "image_path": "",
+        "video_path": ""
+    },
+    "google_api": {
+        "login_scopes": "https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile",
+        "youtube_scopes": "https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutubepartner+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutubepartner-channel-audit+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly",
+        "ganalytics_scopes": "https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics.edit",
+        "ganalytics_activeuser_metrics": "rt:activeUsers",
+        "ganalytics_activeuser_dimensions": "rt:deviceCategory,rt:operatingSystem,rt:pagePath,rt:country,rt:trafficType,rt:minutesAgo,rt:userType",
+        "ganalytics_page_detail_metrics": "ga:sessions,ga:pageviews",
+        "version": "4.0.0"
+    },
+    "instagram": {
+        "business_account_scopes": "pages_show_list"
+    },
+    "pinterest": {
+        "scopes": "read_public"
+    },
+    "jest": {
+        "access_token": ""
+    },
+    "mail_services_environments": [
+        "production",
+        "development",
+        "apidevelopment",
+        "phpdev"
+    ],
+    "profile_url_assert": "/asserts/profiles.png",
+    "user_base_plan": 1,
+    "payment": {
+        "base_path": "../../media",
+        "payment_path": "../../media/payments",
+        "template_path": "public/template/"
+    }
+}

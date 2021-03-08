@@ -1,0 +1,3576 @@
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:17.782Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:17.884Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:18.124Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with undefined Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:18.162Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:35.423Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:35.501Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:35.606Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:13:35.644Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 72 - 18.030 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:15:18.841Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 4.511 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:15:24.136Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 3.627 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:16:11.176Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:06.212Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:06.292Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:06.400Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:06.439Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 16.198 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:09.702Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:54.578Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:54.658Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:54.773Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:17:54.812Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:07.057Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:07.134Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:07.244Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:07.283Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.008 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:09.254Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:37.166Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:37.250Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:37.359Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:37.398Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 16.118 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:39.136Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:50.117Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:50.198Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:50.306Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:18:50.346Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 16.524 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:19:57.036Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 72 - 4.477 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:00.447Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:22.826Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:22.907Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:23.014Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:23.053Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 72 - 14.230 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:25.832Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 6.432 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:20:29.700Z'
+}
+{
+  error: D:\FYP\OneTouch\user\core\unauthorized\utils\unauthorizedlibs.js:40
+              try {
+                  ^
+  
+  SyntaxError: Unexpected token '{'
+      at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+      at Module._compile (node:internal/modules/cjs/loader:1072:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\controllers\usercontroller.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\routes.js:2:36)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\startup\routes.js:3:22)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '{'\n" +
+    'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:40\n' +
+    '            try {\n' +
+    '                ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '{'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  stack: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:40\n' +
+    '            try {\n' +
+    '                ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '{'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  exception: true,
+  date: 'Mon Feb 22 2021 15:21:23 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 29376,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 95854592,
+      heapTotal: 66666496,
+      heapUsed: 40640960,
+      external: 20034158,
+      arrayBuffers: 18975583
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 756576 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1024,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1072,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch\\user\\startup\\routes.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-02-22T10:21:23.601Z'
+}
+{
+  error: D:\FYP\OneTouch\user\core\unauthorized\utils\unauthorizedlibs.js:40
+          try {
+              ^
+  
+  SyntaxError: Unexpected token '{'
+      at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+      at Module._compile (node:internal/modules/cjs/loader:1072:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\controllers\usercontroller.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\routes.js:2:36)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\startup\routes.js:3:22)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '{'\n" +
+    'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:40\n' +
+    '        try {\n' +
+    '            ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '{'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  stack: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:40\n' +
+    '        try {\n' +
+    '            ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '{'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  exception: true,
+  date: 'Mon Feb 22 2021 15:21:53 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 1444,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 96423936,
+      heapTotal: 66666496,
+      heapUsed: 40260416,
+      external: 19947422,
+      arrayBuffers: 18888847
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 756605 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1024,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1072,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch\\user\\startup\\routes.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-02-22T10:21:53.074Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:21:59.260Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:21:59.345Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:21:59.462Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:21:59.502Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:10.792Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:10.872Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:10.978Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:11.019Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 10.345 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:17.905Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:35.660Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:35.743Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:35.857Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:35.961Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 10.163 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:22:45.946Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:33.300Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:33.379Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:33.488Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:33.526Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 11.575 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:36.094Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 72 - 3.887 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:53.752Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 2.984 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:23:57.451Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:13.572Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:13.651Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:13.761Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:13.800Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 18.391 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:17.638Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:38.381Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:38.461Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:38.570Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:38.611Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.388 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:41.994Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 5.210 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:26:44.130Z'
+}
+{
+  message: 'PUT /user/register 200 67 - 17.882 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:30:27.306Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:36:15.072Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:36:15.149Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:36:15.257Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:36:15.295Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 69 - 14.423 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:36:18.688Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:38:54.540Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:38:54.621Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:38:54.724Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:38:54.764Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:01.850Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:01.927Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:02.034Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:02.072Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.390 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:05.116Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:23.729Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:23.809Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:23.914Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:23.954Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.388 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:25.891Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:51.066Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:51.153Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:51.260Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:51.298Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.205 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:39:54.068Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:41:03.851Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:41:03.927Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:41:04.034Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:41:04.073Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.394 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:41:06.716Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:42:37.396Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:42:37.477Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:42:37.583Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:42:37.622Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 72 - 14.320 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:43:30.006Z'
+}
+{
+  error: D:\FYP\OneTouch\user\core\unauthorized\utils\unauthorizedlibs.js:57
+      async checkEmailAvailability(email) {
+            ^^^^^^^^^^^^^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier
+      at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+      at Module._compile (node:internal/modules/cjs/loader:1072:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\controllers\usercontroller.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\routes.js:2:36)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\startup\routes.js:3:22)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18),
+  level: 'error',
+  message: 'uncaughtException: Unexpected identifier\n' +
+    'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:57\n' +
+    '    async checkEmailAvailability(email) {\n' +
+    '          ^^^^^^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Unexpected identifier\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  stack: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:57\n' +
+    '    async checkEmailAvailability(email) {\n' +
+    '          ^^^^^^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Unexpected identifier\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  exception: true,
+  date: 'Mon Feb 22 2021 15:49:56 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 30256,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 95735808,
+      heapTotal: 66666496,
+      heapUsed: 40194720,
+      external: 19952584,
+      arrayBuffers: 18894009
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 758288 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1024,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1072,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch\\user\\startup\\routes.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-02-22T10:49:56.401Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:09.610Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:09.688Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:09.799Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:09.837Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 12.731 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:12.459Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:38.371Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:38.447Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:38.551Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:38.589Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 12.548 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:40.913Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName= 200 72 - 1.242 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:44.595Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 3.639 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:50:50.664Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:51:12.178Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:51:12.254Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:51:12.357Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:51:12.394Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 13.199 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:51:13.816Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:52:28.815Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:52:28.895Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:52:29.000Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:52:29.041Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 15.679 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:52:32.129Z'
+}
+{
+  error: D:\FYP\OneTouch\user\core\unauthorized\utils\unauthorizedlibs.js:54
+                  return throw new Error("Username already exists");
+                         ^^^^^
+  
+  SyntaxError: Unexpected token 'throw'
+      at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+      at Module._compile (node:internal/modules/cjs/loader:1072:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\controllers\usercontroller.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\routes.js:2:36)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\startup\routes.js:3:22)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'throw'\n" +
+    'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:54\n' +
+    '                return throw new Error("Username already exists");\n' +
+    '                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'throw'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  stack: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:54\n' +
+    '                return throw new Error("Username already exists");\n' +
+    '                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'throw'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  exception: true,
+  date: 'Mon Feb 22 2021 15:54:03 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 3160,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 95801344,
+      heapTotal: 66404352,
+      heapUsed: 40799320,
+      external: 20133805,
+      arrayBuffers: 19075230
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 758536 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1024,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1072,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch\\user\\startup\\routes.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-02-22T10:54:03.864Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:54:14.382Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:54:14.459Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:54:14.566Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:54:14.604Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb - - - - ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:55:18.668Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:55:33.769Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:55:33.846Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:55:33.950Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:55:33.988Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:01.215Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:01.293Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:01.397Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:01.437Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:50.033Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:50.110Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:50.215Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:56:50.253Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 62 - 10.264 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:57:01.958Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:13.877Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:13.954Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:14.059Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:14.098Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:54.063Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:54.141Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:54.245Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:54.282Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 13.679 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T10:58:58.412Z'
+}
+{
+  error: D:\FYP\OneTouch\user\core\unauthorized\utils\unauthorizedlibs.js:59
+      }
+      ^
+  
+  SyntaxError: missing ) after argument list
+      at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+      at Module._compile (node:internal/modules/cjs/loader:1072:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\controllers\usercontroller.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\core\unauthorized\routes.js:2:36)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch\user\startup\routes.js:3:22)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18),
+  level: 'error',
+  message: 'uncaughtException: missing ) after argument list\n' +
+    'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:59\n' +
+    '    }\n' +
+    '    ^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  stack: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\utils\\unauthorizedlibs.js:59\n' +
+    '    }\n' +
+    '    ^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js:2:36)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch\\user\\startup\\routes.js:3:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)',
+  exception: true,
+  date: 'Mon Feb 22 2021 15:59:35 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 17728,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 95674368,
+      heapTotal: 66928640,
+      heapUsed: 40319848,
+      external: 19977100,
+      arrayBuffers: 18918525
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 758867 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1024,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1072,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\controllers\\usercontroller.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: 'D:\\FYP\\OneTouch\\user\\core\\unauthorized\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch\\user\\startup\\routes.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-02-22T10:59:35.482Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:05.148Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:05.227Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:05.334Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:05.371Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:17.875Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:17.954Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:18.059Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:01:18.101Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:02:20.711Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:02:20.794Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:02:20.899Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:02:20.939Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 64 - 14.831 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:02:23.182Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:02.615Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:02.693Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:02.800Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:02.838Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName= 200 55 - 7.992 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:06.868Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 72 - 8.200 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:10.999Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 64 - 4.992 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:15.719Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:40.208Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:40.289Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:40.397Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:03:40.437Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:08.850Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:08.929Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:09.042Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:09.084Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:36.719Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:36.801Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:36.910Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:36.951Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 54 - 13.206 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:04:38.495Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:05:44.407Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:05:44.487Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:05:44.598Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:05:44.638Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 14.373 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:05:45.757Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:02.628Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:02.706Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:02.815Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:02.852Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 72 - 13.470 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:04.829Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:26.458Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:26.540Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:26.649Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:26.689Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 64 - 13.230 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:06:27.669Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:00.586Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:00.666Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:00.777Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:00.817Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:25.608Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:25.687Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:25.793Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:25.832Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:45.594Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:45.673Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:45.780Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:07:45.818Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:05.622Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:05.702Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:05.809Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:05.847Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 64 - 12.371 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:08.712Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 31 - 3.335 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:11.545Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:54.070Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:54.147Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:54.253Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:54.291Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 31 - 11.835 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:08:56.378Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:09:53.499Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:09:53.578Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:09:53.743Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:09:53.847Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:00.089Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:00.170Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:00.283Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:00.324Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 66 - 11.377 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:00.970Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 64 - 4.080 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:13.643Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:54.592Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:54.666Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:54.774Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:54.812Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maqhb 200 64 - 12.431 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:10:57.058Z'
+}
+{
+  message: 'GET /user/checkUserNameAvailability?userName=maq 200 66 - 3.915 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:11:00.052Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:12:36.731Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:12:36.815Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:12:36.924Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:12:36.962Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:13:34.552Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:13:34.633Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:13:34.740Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:13:34.783Z'
+}
+{
+  message: 'GET /user/Sociallogin?network=facebook 200 272 - 4.255 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:16:27.663Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:19:56.404Z' }
+{
+  message: 'GET /auth/facebook/callback?code=AQBs32RrGckSknXQP-6npOjjxoktm9ZK3zIdKBdctxb1KpzIdC7PYodC2ICJ9Q4Ke5BKY9GsJB2nFFWKWUg8si9vbm_aR2eYBu-6T83XjQgIOTIvEWuN5DrB5GSGC2mrMA4uAEz4hEhU0QW93v4pOp94dUSTJwYZOYHcLC-KePGwoxjs3QFeCHUihlkwkYmO3kHPzjIW6N2ehlz1EKjsMLK8qKEupBwaoypvxEw1lY0eapbhyjJN-MU-i8DaLW9wd50So1kGInxA-E1QVQA5s75vG2z_Z2w5QecIP3LkxJkZYp1jFdB5ZLI0O2Tpik-GeNEKPe3wt9z2U0Vv_uYp9KbF%23_=_ 200 77 - 1.405 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:19:56.405Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:20:34.603Z' }
+{
+  message: 'GET /auth/facebook/callback?code=AQBs32RrGckSknXQP-6npOjjxoktm9ZK3zIdKBdctxb1KpzIdC7PYodC2ICJ9Q4Ke5BKY9GsJB2nFFWKWUg8si9vbm_aR2eYBu-6T83XjQgIOTIvEWuN5DrB5GSGC2mrMA4uAEz4hEhU0QW93v4pOp94dUSTJwYZOYHcLC-KePGwoxjs3QFeCHUihlkwkYmO3kHPzjIW6N2ehlz1EKjsMLK8qKEupBwaoypvxEw1lY0eapbhyjJN-MU-i8DaLW9wd50So1kGInxA-E1QVQA5s75vG2z_Z2w5QecIP3LkxJkZYp1jFdB5ZLI0O2Tpik-GeNEKPe3wt9z2U0Vv_uYp9KbF%23_=_ 200 77 - 0.761 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:20:34.603Z'
+}
+{
+  message: 'Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request',
+  type: 'OAuthException',
+  code: 100,
+  error_subcode: 36008,
+  fbtrace_id: 'A_msTgiawVkhCAHwcT4DUCJ',
+  level: 'info',
+  timestamp: '2021-02-22T11:20:42.625Z'
+}
+{
+  message: 'GET /user/auth/facebook/callback?code=AQBs32RrGckSknXQP-6npOjjxoktm9ZK3zIdKBdctxb1KpzIdC7PYodC2ICJ9Q4Ke5BKY9GsJB2nFFWKWUg8si9vbm_aR2eYBu-6T83XjQgIOTIvEWuN5DrB5GSGC2mrMA4uAEz4hEhU0QW93v4pOp94dUSTJwYZOYHcLC-KePGwoxjs3QFeCHUihlkwkYmO3kHPzjIW6N2ehlz1EKjsMLK8qKEupBwaoypvxEw1lY0eapbhyjJN-MU-i8DaLW9wd50So1kGInxA-E1QVQA5s75vG2z_Z2w5QecIP3LkxJkZYp1jFdB5ZLI0O2Tpik-GeNEKPe3wt9z2U0Vv_uYp9KbF%23_=_ 200 174 - 671.535 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:20:42.626Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:22:41.329Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:22:41.407Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:22:41.512Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:22:41.553Z'
+}
+{
+  message: 'GET /user/Sociallogin?network=facebook 200 274 - 3.849 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:23:17.829Z'
+}
+{
+  message: 'GET /user/auth/facebook/callback?code=AQAhdZqTi1X-rXvDs8v2eoRaLs8xLCsEqv2oztF06Gy42ZGONOZI1_qvg_X9ggyxfSj9FxzfLT1lfTWERgMXcdR7G1Hp9FPgbjLQMhS6ZJOI63UKtVyQBPryNS7xfuESlQT6_Alid1xePooESYGZWzysnnNGCg5nqiCD56Md4P2GMl-BtZ4aYk11oZp9Z2ugzbr_ebxX5lOzxeCaOKGd7IEH5nb7DXkiY56PyhrPORr2y6MyFON6nwla2q07vfPDpHJhPcCI5qfUjGjKjznCJnYaT644_xC93G8SCthWKmI_53g8SNir-wFtRNW37UU54waxZmx3Um3yWSIaOrsYFK6_%23_=_ 200 3326 - 4105.482 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:24:04.843Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:43:58.235Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:43:58.316Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:43:58.425Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:43:58.467Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:03.887Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:03.965Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:04.068Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:04.108Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:26.805Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:26.886Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:26.992Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:27.033Z'
+}
+{
+  message: 'GET /user/Sociallogin?network=google 200 445 - 4.303 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:45:39.110Z'
+}
+{
+  message: 'GET /user/Sociallogin?network=google 200 445 - 0.971 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:46:39.580Z'
+}
+{
+  message: 'GET /user/auth/google/callback 200 82 - 3.841 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:46:44.864Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:46:44.926Z' }
+{
+  message: 'GET /favicon.ico 200 77 - 1.249 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:46:44.927Z'
+}
+{
+  message: 'Codes : 4/0AY0e-g4v7Mwao9o5l4kfjgrRaR-vBmZy27-9Vfea6fPENZmMQ7E9rK7nIU5roflu98L_XQ',
+  level: 'info',
+  timestamp: '2021-02-22T11:47:05.795Z'
+}
+{
+  message: 'tokens : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:47:06.247Z'
+}
+{
+  message: 'profileDetails : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:47:06.602Z'
+}
+{
+  message: 'GET /user/auth/google/callback?code=4%2F0AY0e-g4v7Mwao9o5l4kfjgrRaR-vBmZy27-9Vfea6fPENZmMQ7E9rK7nIU5roflu98L_XQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent 200 3702 - 849.062 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:47:06.643Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:47:06.714Z' }
+{
+  message: 'GET /favicon.ico 304 - - 0.916 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:47:06.714Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:48:55.038Z' }
+{
+  message: 'GET /auth/google/callback?code=4%2F0AY0e-g4v7Mwao9o5l4kfjgrRaR-vBmZy27-9Vfea6fPENZmMQ7E9rK7nIU5roflu98L_XQ%26scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid%26authuser=0%26prompt=consent%23 200 77 - 1.106 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:48:55.038Z'
+}
+{
+  message: 'Codes : 4/0AY0e-g4v7Mwao9o5l4kfjgrRaR-vBmZy27-9Vfea6fPENZmMQ7E9rK7nIU5roflu98L_XQ',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:11.273Z'
+}
+{
+  message: 'tokens : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:11.724Z'
+}
+{
+  message: 'profileDetails : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:12.137Z'
+}
+{
+  message: 'GET /user/auth/google/callback?code=4%2F0AY0e-g4v7Mwao9o5l4kfjgrRaR-vBmZy27-9Vfea6fPENZmMQ7E9rK7nIU5roflu98L_XQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent 200 43 - 869.302 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:12.142Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:49:12.210Z' }
+{
+  message: 'GET /favicon.ico 200 77 - 1.109 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:12.210Z'
+}
+{
+  message: 'Codes : 4/0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:34.729Z'
+}
+{
+  message: 'tokens : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:35.133Z'
+}
+{
+  message: 'profileDetails : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:35.531Z'
+}
+{
+  message: 'GET /user/auth/google/callback?code=4%2F0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent 200 3702 - 821.697 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:35.551Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:49:35.643Z' }
+{
+  message: 'GET /favicon.ico 304 - - 1.285 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:35.644Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:49:53.071Z' }
+{
+  message: 'GET /auth/google/callback?code=4%2F0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw%26s 200 77 - 0.693 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:49:53.071Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:50:16.965Z' }
+{
+  message: 'GET /auth/google/callback?code=4/0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw 200 77 - 0.896 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:50:16.965Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:50:36.623Z' }
+{
+  message: 'GET /auth/google/callback?code=4/0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw 200 77 - 0.904 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:50:36.624Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:51:24.989Z' }
+{
+  message: 'GET /auth/google/callback?code=4/0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw 200 77 - 0.726 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:51:24.989Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:51:40.847Z' }
+{
+  message: 'GET /auth/google/callback?code=4/0AY0eg7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw 200 77 - 0.720 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:51:40.847Z'
+}
+{
+  message: 'Codes : 4/0AY0eg7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw',
+  level: 'info',
+  timestamp: '2021-02-22T11:51:47.942Z'
+}
+{
+  message: 'tokens : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:51:48.620Z'
+}
+{
+  message: 'profileDetails : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:51:48.969Z'
+}
+{
+  message: 'GET /user/auth/google/callback?code=4/0AY0eg7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw 200 43 - 1030.556 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:51:48.972Z'
+}
+{
+  message: 'Codes : 4/0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw',
+  level: 'info',
+  timestamp: '2021-02-22T11:52:01.979Z'
+}
+{
+  message: 'tokens : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:52:02.496Z'
+}
+{
+  message: 'profileDetails : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:52:02.864Z'
+}
+{
+  message: 'GET /user/auth/google/callback?code=4/0AY0e-g7iaP1p7q52ZCfs3fW3lvk9El7QY9WyOtc5xvSFRN6qZmunjUV6fyfYlTbUx4XvNw 200 43 - 888.310 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:52:02.867Z'
+}
+{
+  message: 'GET /user/Sociallogin?network=google 200 445 - 0.554 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:55:26.607Z'
+}
+{
+  message: 'Codes : 4/0AY0e-g4RmO2xjhSvAirM64TdzUoC8lj3SdtS6U3WxGW3DCMKyOPATkpUS3ZZMajgmkOe8A',
+  level: 'info',
+  timestamp: '2021-02-22T11:55:40.537Z'
+}
+{
+  message: 'tokens : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:55:40.952Z'
+}
+{
+  message: 'profileDetails : [object Object]',
+  level: 'info',
+  timestamp: '2021-02-22T11:55:41.305Z'
+}
+{
+  message: 'GET /user/auth/google/callback?code=4%2F0AY0e-g4RmO2xjhSvAirM64TdzUoC8lj3SdtS6U3WxGW3DCMKyOPATkpUS3ZZMajgmkOe8A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent 200 3702 - 787.028 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:55:41.324Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T11:55:41.387Z' }
+{
+  message: 'GET /favicon.ico 304 - - 0.802 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T11:55:41.387Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T12:45:36.302Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T12:45:36.392Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T12:45:36.526Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T12:45:36.572Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T14:19:16.919Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:19:17.026Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:19:17.197Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T14:19:17.244Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T14:20:46.034Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:20:46.163Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:20:46.278Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T14:20:46.324Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T14:21:37.904Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:21:38.000Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:21:38.130Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T14:21:38.181Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T14:53:35.785Z' }
+{
+  message: 'GET /team/getDetails 200 77 - 18.581 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:53:35.797Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T14:55:03.080Z' }
+{
+  message: 'GET /team/getDetails 200 77 - 3.452 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:55:03.081Z'
+}
+{
+  message: 'null',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:09.192Z'
+}
+{
+  message: 'Fetching access token',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:09.198Z'
+}
+{
+  message: 'POST /user/login 200 55 - 58.316 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:09.198Z'
+}
+{
+  message: '{"user_id":2,"email":"abdulqadir41098@gmail.com","phone_no":"3420545135","first_name":"Abdul","last_name":"Qadir","profile_picture":"https://media-exp1.licdn.com/dms/image/C4D03AQGyybJ127kYNw/profile-displayphoto-shrink_200_200/0/1597063661919?e=1616025600&v=beta&t=z5MUjvb5MVxYG4qXxfdQ5uqlZSxeSVAodjR6B0ToSmg","is_account_locked":false,"is_admin_user":false,"Activations":{"id":5,"last_login":"2021-02-22 11:55:41","user_plan":0,"payment_type":0,"account_expire_date":"2021-03-16 18:49:39","signup_type":0,"activation_status":1,"activate_2step_verification":2}}',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:15.327Z'
+}
+{
+  message: 'Fetching access token',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:15.328Z'
+}
+{
+  message: 'Fetched User : {"user":{"user_id":2,"email":"abdulqadir41098@gmail.com","phone_no":"3420545135","first_name":"Abdul","last_name":"Qadir","date_of_birth":"1998-10-04","phone_code":"+92","about_me":"A Student","profile_picture":"https://media-exp1.licdn.com/dms/image/C4D03AQGyybJ127kYNw/profile-displayphoto-shrink_200_200/0/1597063661919?e=1616025600&v=beta&t=z5MUjvb5MVxYG4qXxfdQ5uqlZSxeSVAodjR6B0ToSmg","is_account_locked":false,"is_admin_user":false,"Activations":{"id":5,"last_login":"2021-02-22 14:56:15","user_plan":0,"payment_type":0,"account_expire_date":"2021-03-16 18:49:39","signup_type":0,"activation_status":1,"activate_2step_verification":2,"shortenStatus":0,"email_validate_token":"b8ff3140-7087-11eb-a049-312af56fa41e","forgot_password_validate_token":"f7e1ffb0-709a-11eb-9d5f-cd095006bd6a","forgot_password_token_expire":"2021-02-17 21:07:25","otp_token":"785189761986","otp_token_expire":"2021-02-16 20:41:47"},"userPlanDetails":{"id":1,"plan_id":0,"plan_name":"Basic","plan_price":"0.00","is_plan_active":true,"account_count":2,"member_count":1,"available_network":"1-4-5-6-11-12","browser_extension":true,"scheduling_posting":true,"mobile_apps":false,"support_24_7":false,"crm":false,"calendar":false,"rss_feeds":false,"social_report":false,"discovery":false,"twitter_engagement":false,"link_shortening":false,"shareathon":false,"content_studio":false,"team_report":false,"board_me":false,"share_library":false,"custom_report":false,"maximum_schedule":5,"maximum_referal_count":3}},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImFiZHVscWFkaXI0MTA5OEBnbWFpbC5jb20iLCJwaG9uZV9ubyI6IjM0MjA1NDUxMzUiLCJmaXJzdF9uYW1lIjoiQWJkdWwiLCJsYXN0X25hbWUiOiJRYWRpciIsImRhdGVfb2ZfYmlydGgiOiIxOTk4LTEwLTA0IiwicGhvbmVfY29kZSI6Iis5MiIsImFib3V0X21lIjoiQSBTdHVkZW50IiwicHJvZmlsZV9waWN0dXJlIjoiaHR0cHM6Ly9tZWRpYS1leHAxLmxpY2RuLmNvbS9kbXMvaW1hZ2UvQzREMDNBUUd5eWJKMTI3a1lOdy9wcm9maWxlLWRpc3BsYXlwaG90by1zaHJpbmtfMjAwXzIwMC8wLzE1OTcwNjM2NjE5MTk_ZT0xNjE2MDI1NjAwJnY9YmV0YSZ0PXo1TVVqdmI1TVZ4WUc0cVh4ZmRRNXVxbFpTeGVTVkFvZGpSNkIwVG9TbWciLCJpc19hY2NvdW50X2xvY2tlZCI6ZmFsc2UsImlzX2FkbWluX3VzZXIiOmZhbHNlLCJBY3RpdmF0aW9ucyI6eyJpZCI6NSwibGFzdF9sb2dpbiI6IjIwMjEtMDItMjIgMTQ6NTY6MTUiLCJ1c2VyX3BsYW4iOjAsInBheW1lbnRfdHlwZSI6MCwiYWNjb3VudF9leHBpcmVfZGF0ZSI6IjIwMjEtMDMtMTYgMTg6NDk6MzkiLCJzaWdudXBfdHlwZSI6MCwiYWN0aXZhdGlvbl9zdGF0dXMiOjEsImFjdGl2YXRlXzJzdGVwX3ZlcmlmaWNhdGlvbiI6Miwic2hvcnRlblN0YXR1cyI6MCwiZW1haWxfdmFsaWRhdGVfdG9rZW4iOiJiOGZmMzE0MC03MDg3LTExZWItYTA0OS0zMTJhZjU2ZmE0MWUiLCJmb3Jnb3RfcGFzc3dvcmRfdmFsaWRhdGVfdG9rZW4iOiJmN2UxZmZiMC03MDlhLTExZWItOWQ1Zi1jZDA5NTAwNmJkNmEiLCJmb3Jnb3RfcGFzc3dvcmRfdG9rZW5fZXhwaXJlIjoiMjAyMS0wMi0xNyAyMTowNzoyNSIsIm90cF90b2tlbiI6Ijc4NTE4OTc2MTk4NiIsIm90cF90b2tlbl9leHBpcmUiOiIyMDIxLTAyLTE2IDIwOjQxOjQ3In0sInVzZXJQbGFuRGV0YWlscyI6eyJpZCI6MSwicGxhbl9pZCI6MCwicGxhbl9uYW1lIjoiQmFzaWMiLCJwbGFuX3ByaWNlIjoiMC4wMCIsImlzX3BsYW5fYWN0aXZlIjp0cnVlLCJhY2NvdW50X2NvdW50IjoyLCJtZW1iZXJfY291bnQiOjEsImF2YWlsYWJsZV9uZXR3b3JrIjoiMS00LTUtNi0xMS0xMiIsImJyb3dzZXJfZXh0ZW5zaW9uIjp0cnVlLCJzY2hlZHVsaW5nX3Bvc3RpbmciOnRydWUsIm1vYmlsZV9hcHBzIjpmYWxzZSwic3VwcG9ydF8yNF83IjpmYWxzZSwiY3JtIjpmYWxzZSwiY2FsZW5kYXIiOmZhbHNlLCJyc3NfZmVlZHMiOmZhbHNlLCJzb2NpYWxfcmVwb3J0IjpmYWxzZSwiZGlzY292ZXJ5IjpmYWxzZSwidHdpdHRlcl9lbmdhZ2VtZW50IjpmYWxzZSwibGlua19zaG9ydGVuaW5nIjpmYWxzZSwic2hhcmVhdGhvbiI6ZmFsc2UsImNvbnRlbnRfc3R1ZGlvIjpmYWxzZSwidGVhbV9yZXBvcnQiOmZhbHNlLCJib2FyZF9tZSI6ZmFsc2UsInNoYXJlX2xpYnJhcnkiOmZhbHNlLCJjdXN0b21fcmVwb3J0IjpmYWxzZSwibWF4aW11bV9zY2hlZHVsZSI6NSwibWF4aW11bV9yZWZlcmFsX2NvdW50IjozfX0sImhlYWRlciI6eyJ0eXAiOiJKV1QiLCJhbGciOiJhZXMtMjU2LWNiYyJ9LCJpYXQiOjE2MTQwMDU3NzUsImV4cCI6MTYxNDA5MjE3NX0.2WpsvSfBmWuSxOkGEqn71ESY7_QxaNWT2H3eFPuAERA"}',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:15.361Z'
+}
+{
+  message: '2 step',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:15.388Z'
+}
+{
+  message: 'POST /user/login 200 453 - 70.241 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:15.389Z'
+}
+{
+  message: 'OTP mail status: {"accepted":["abdulqadir41098@gmail.com"],"rejected":[],"envelopeTime":651,"messageTime":530,"messageSize":2746,"response":"250 2.0.0 OK  1614005778 u10sm25988795wmj.40 - gsmtp","envelope":{"from":"abdulqadir41098@gmail.com","to":["abdulqadir41098@gmail.com"]},"messageId":"<82eea52d-fec1-5997-4335-01a13ccae48a@gmail.com>"}',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:18.045Z'
+}
+{
+  message: 'POST /user/twoStepLoginValidate?email=abdulqadir41098@gmail.com&emailtoken=278392 200 3702 - 21.779 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:56:39.707Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T14:57:01.710Z' }
+{
+  message: 'GET /team/getDetails 200 681 - 21.555 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:57:01.731Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T14:58:00.800Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:58:00.898Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T14:58:01.019Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T14:58:01.063Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T14:58:20.926Z' }
+{
+  message: 'GET /team/getTeamDetails 200 55 - 11.490 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:58:20.936Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T14:58:54.457Z' }
+{
+  message: 'GET /team/getTeamDetails?TeamID=5 200 55 - 2.401 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:58:54.458Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T14:59:30.551Z' }
+{
+  message: 'Length: 0',
+  level: 'info',
+  timestamp: '2021-02-22T14:59:30.576Z'
+}
+{ message: '[]', level: 'info', timestamp: '2021-02-22T14:59:30.576Z' }
+{
+  message: 'GET /team/getTeamDetails?TeamId=5 200 462 - 26.139 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T14:59:30.577Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-22T15:04:33.301Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T15:04:33.391Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-22T15:04:33.501Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-22T15:04:33.541Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T15:07:41.776Z' }
+{
+  message: 'GET /team/addSocialProfile?state=1&code=AQAhdZqTi1X-rXvDs8v2eoRaLs8xLCsEqv2oztF06Gy42ZGONOZI1_qvg_X9ggyxfSj9FxzfLT1lfTWERgMXcdR7G1Hp9FPgbjLQMhS6ZJOI63UKtVyQBPryNS7xfuESlQT6_Alid1xePooESYGZWzysnnNGCg5nqiCD56Md4P2GMl-BtZ4aYk11oZp9Z2ugzbr_ebxX5lOzxeCaOKGd7IEH5nb7DXkiY56PyhrPORr2y6MyFON6nwla2q07vfPDpHJhPcCI5qfUjGjKjznCJnYaT644_xC93G8SCthWKmI_53g8SNir-wFtRNW37UU54waxZmx3Um3yWSIaOrsYFK6_%23_=_ 500 3460 - 7.542 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T15:07:41.782Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-22T15:13:56.892Z' }
+{
+  message: 'GET /team/addSocialProfile?state=Facebook&code=AQAhdZqTi1X-rXvDs8v2eoRaLs8xLCsEqv2oztF06Gy42ZGONOZI1_qvg_X9ggyxfSj9FxzfLT1lfTWERgMXcdR7G1Hp9FPgbjLQMhS6ZJOI63UKtVyQBPryNS7xfuESlQT6_Alid1xePooESYGZWzysnnNGCg5nqiCD56Md4P2GMl-BtZ4aYk11oZp9Z2ugzbr_ebxX5lOzxeCaOKGd7IEH5nb7DXkiY56PyhrPORr2y6MyFON6nwla2q07vfPDpHJhPcCI5qfUjGjKjznCJnYaT644_xC93G8SCthWKmI_53g8SNir-wFtRNW37UU54waxZmx3Um3yWSIaOrsYFK6_%23_=_ 500 3460 - 1.777 ms\n',
+  level: 'info',
+  timestamp: '2021-02-22T15:13:56.893Z'
+}

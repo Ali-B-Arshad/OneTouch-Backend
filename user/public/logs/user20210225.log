@@ -1,0 +1,152 @@
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:12:19.460Z' }
+{
+  message: 'GET /profile/getOwnFacebookpages?code=EAAkRQ8kdenUBADMmZBqZBlxmtS5ci6iaPuC2BZACYCPguPK3At0ZAqyH7pMgecbviTCVhUB2rZC0ZAZCUtUSWZBF5cwrksOJFNnXcCtd5UvtBZCqGZC4dFVoJPFCKnLjKYoHNqQSZAyZC8SLPTxhlZAEGzERHu7gZC7Yx9yBNXoSPo4vmS4gZDZD 200 230 - 1006.674 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:12:20.464Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:12:56.722Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=Facebook 200 4713 - 2784.883 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:12:59.506Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:14:29.491Z' }
+{
+  message: 'GET /profile/getOwnFacebookpages?code=AQC8jnSOltLllMEWPO48Wx8PxJrPAfcSNGSOHqeSkiFe1L2H7eG-W8Ttd_bYbLgktf8LKcFVaSHs63sSpbOvhTGx6Ti5ixwGX6Gh9Mp043jnP0Oo_RbnVKG5cTpy6KjA6tEwiP5l7R1FIc2Qke4VN5dzX3oi2l9OUghEmPCXyPtGSbYGJTqMjrCWlAdDfSk_6NbvmP9y0S4Y3NthiAnL0XwYQWsi-1aM5y7XoSVskBcHFRJXtSHGECf_UyfakaY0jbAjYwf7Kfx5O44HLAiFqHLq-RQldfPFOSkq8RMQylqyTV5jr1uUgbLEIRsGADIBeEQe6WX42rB-C-5xoPCn4RqS%26state=dbf2bcb77a2fa40f7771c6cef5750c75%3A0bbea153b365cfe7a1c1515fd7a03541ca89bc29a9fec8f632c4cf1dcb2605469542f42c489b030d116b061fbd8d5281b93e61282c271f8fbaed7001b363ee618e97d66ce1511e90bcd2535e4a0bfc7e4005b484d06780b9301612c545092b66fdfa61ac9e4de9ca735d11f429edd7422a1e4a7acb2cd621cb5f5516c5b5a4da19f6a3a376f60cfd39f810a5c43f0330b77d4d7f876aaf4778b5c0bb2d0370588e8c2a1869e2cb80e76afe0dfb03461d68b93877180390df0e97465a7c176e5c2107aa06bb6f90b4e76ce8d4981803ffdef54e05f9243b0fb75422c01c1507281d5ece1ac467c76e4e04ebe94e27e730742e94622ef2a48ffff7a56560fb40fe2bf6004f574dab7fa321d52f90219f960550d6455f73ef2c58cb72a78e34904b26646d6c8013d0181f1e9d9e26d30b84caa08eb303710ccde8b617089efa22bfb2f1edd8029247b3baeccaaa39b7af56a16bf10fa01d2d2f10700afb1a7e3cf3bc55f1ae196939d7bcb9069b410b657bcd70c46bd090723212a1b4570fa65dc1282e2645547d9861842239cde95e9dcfa5d6d807813ff8f847fb72eb6f782a71e50c0c1ee81bd51fa44b6668063371b81682bfef65bfaff05ed40eb8d52674199d9f1b3001b5633fb314a41ad18e0fae24ba434f1623c5229bf92f48e0a96ef68174138277e18b4df5c7c05ac065c120aee9e39ba7816d06323ee6c7ed4a026878df94862c8dc83e299cd42ae352d525dc11a9e3f9dcded46b1ee5b11fbc426072c7bbb3a9d343571c2a38290877ebb8be18eecae511e2d28e7b55b3afe4f0a308a38da4ab41e11297e77a53534de52727e0f1a1410455748addf7923ce4ff037536652660f475ba0ad2b8bf07e71b8ef40050c62bed65b5fca53e515ed5909cbd8a68ccee3c22d0fcd457dac39879c17238348d3e9b1e2fe1915a7fe24b0c5faa3ca835d935f1717e00846f46b2102ee56316afbac14d642fd2af6ca77692bc4a21c07a1f04ee543e6af7306838df7fe3029b808048ba3b8d0044ae152b61c3bf68da3980e49ec61f51fa78222be6104acd05ca248262b54bbbba718a46bd42986eb15bce3720d6f12d7dec9de991d615144d92cf4bb4f36cb0ea87017b53f3c5000f16b8909d8a89ca4a6a2e79bbaa11cbc7a134d21df5a1b0bf5bb183021e73cdb0ef8675061d1aea0b4abd38c589db52e80cfcf57e480b4907ff4d82838f19017126fed3c80aece5790903b45d61da3eae728e7cc7f8a17e8d67e4db01f5045ff00b7bab58714ab7207a17047f95cbe5e8daa37180df1f45cfa11833bfc3dc43574a1915873633cc714dddb7cfc5fb2978f33f3bcb71214d6e43c24ba4e2a68a7c294f8c7d4622ccee5cd8cceff4e67249a0dd2553216cde8688bb511dcfbe86bf513e6f39f12d97023a2834689ae66a629b3173e57317cb2c69a6f7831bc4bc8b4d18aad15166fe2b98ba5633b18bdec7cd749a117c46ac8d480cc74e5124a1310d7cad1dda25a91a4d6e1cfa4856a09b4e6b275d495c762044713d1731111e23fbf30ea0146c49e2dc4bb2fcea7f601476b6a8c4eea0b597d34de631b2043c291abcb37d8114d88e2f787b8e193f101978d6159ea04b9819041b4162a223e03d3f3ce9a9e69275eb95e27fe9bcad7b5319e2f643a7ad19633beb6c5c60d00e9bf4f468825d2caf2737b036e366c815e9fc79432f1d82aab0d8e1cfaf495d04f87bfd1eceee928dea9fc0c7b5c110656e6d9aee89092e95eedf522bd319a87f738867154fb678d4d6da992fb538dc7871c2a77e5608d557ba98b31dea0a932915a7d15acc96946efaf388f825e66d5c0e733a195c8102fb5de392a36b1f9d0a6346aaa93dbf39dfd0a7cdec196d1e76eba37a5d2e3c1617402805aaedd8640f83989df7fb34c95c48259a735a91b8cba33e0cde50750dc0e6fb4374b18074cb78cad9506fb536a3f330c01eb0c1abcae2d3321f9fbe50176d87f1bb5245f3a87b1aea9567c36d10d9f2400bd7aa384e0c66c474c80e2452ed9979b654d408e482b292c965782bfc57ac275c33c59ecf5fcf42e46bbb8411c736532e741614c4e32e547327f13eb4945da5f8174262d3b35b080b18234c679f3d879daeacfd9590b302e79cfc34e52ae7055191fd4339b6333b3f744c7aab353958d29c1599fcef537c3032ddaded84f266ab2f56268ee929edeab13cf034977160f5575556eb10e878003956b07cd2db0dc626ee2e27f9b69cc62f98426111a16cf9668b3ce6d97518678b45eeab0c025ebb9056c1491466978671c7199ad3ab16ad14cade189b277dee6d6f6613d3f09488cee2bc921ce237f8d035217a7294dc2e87d8336f2af8c5ac5169daca865da8f1a7c9678900cbee272dde6b8c3423dd52feb24e8d8ea70ebea3d33dcddab11cbab1d5028c82cac0b6c2f4f737d5ecea7fdcb68ae1703bbdde06ced6c26b3bcdc3d26bb7d6951c9ea8dbd3b7dc0e7a432e01b63a19de216b98f3fea3c15658cb8aee1e08246e8104e1023741bf6dfc9c5a18a9c39ffc4a8a3c7838b8efc2a3eadffe45e249685f955d551f64235fe81ddf30a0c7547d9712e9ca1504814d72b079e52dcf0f7907ed210f0efb93cff44c93f64104284c98e61bf893eb94d22fe9ae5ae092a39773da7c49bd2b4d369d3e3931ff3915aef9956241b8732d34ec78c7ba769d4232149097f2e9ed6e606f0c37d90a606203b1394c21c87f75507c5cf7b5543b61a041402751d0b7ecf7ff57f8b71b34816dc5922b0fbd5176e34e3e86647ca23d2ae14ab6b9e62404fc6ae2a72e901b2720746c23a15aeb06dcfab8f7a3f5a04f688365e737ee00ba23b52ca28a75e79eb41f95caa8c5797e34a9be68a4bcb043316971d22106861ec6f9ac2c4d22a3781dddb28c3cb82428d48ad01eeb9a0ad825c5de0117113bd471a98b8c31dea0840ca359ad886339af7591b162f0d3722cbe1c0879679f66cb5e7a28ed292afbd2a9d152f2a84b849927e4924e1756c6a1534f3ba565c031d4c189da54fa835d1f55d751530f2c5cee4876d5cf1ddac2e6a27e7ca6426ae1d4968db4745df4b9b0845b77700afaf31e5dd815703a4d%23_=_ 200 230 - 1017.050 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:14:30.506Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:15:01.628Z' }
+{
+  message: 'Response: [object Object]',
+  level: 'info',
+  timestamp: '2021-02-24T19:15:03.514Z'
+}
+{
+  message: '[{"access_token":"EAAkRQ8kdenUBAHviAwLgZCZAKDzxrZAtbRczQ7fO0eZCJJPasdJRDCnHglr7N0uk95xetGmCcRzyb7C753wc5cxWOsuIKe9Td84piGfYJ7sZAIH9k9W4HCZCaZBHAlESTTrRmwkdmwBqjN56TZAEu06ZBS7oNJzOpuiZBgcvZC5dNHM3QZDZD","name":"Onetouchapplication","id":"107529054416005","picture":{"data":{"url":"https://scontent.fisb7-1.fna.fbcdn.net/v/t1.0-1/p200x200/118430536_107529174415993_3750587127157893683_o.png?_nc_cat=105&ccb=3&_nc_sid=dbb9e7&_nc_eui2=AeEpylAFH9Axfo43Zp4zIvXFBM4bYHbk310EzhtgduTfXdQcsYWsYCAmqm8aIgFMAdCbw8olcfxF35QVo_MOA7m_&_nc_ohc=M-iaZH0_WV0AX-M2GMV&_nc_ht=scontent.fisb7-1.fna&_nc_tp=30&oh=17fdef8129b4afde5c23cfa02b0ae72e&oe=605D1DFB"}},"fan_count":0}]',
+  level: 'info',
+  timestamp: '2021-02-24T19:15:03.514Z'
+}
+{
+  message: 'GET /profile/getOwnFacebookpages?code=AQC8jnSOltLllMEWPO48Wx8PxJrPAfcSNGSOHqeSkiFe1L2H7eG-W8Ttd_bYbLgktf8LKcFVaSHs63sSpbOvhTGx6Ti5ixwGX6Gh9Mp043jnP0Oo_RbnVKG5cTpy6KjA6tEwiP5l7R1FIc2Qke4VN5dzX3oi2l9OUghEmPCXyPtGSbYGJTqMjrCWlAdDfSk_6NbvmP9y0S4Y3NthiAnL0XwYQWsi-1aM5y7XoSVskBcHFRJXtSHGECf_UyfakaY0jbAjYwf7Kfx5O44HLAiFqHLq-RQldfPFOSkq8RMQylqyTV5jr1uUgbLEIRsGADIBeEQe6WX42rB-C-5xoPCn4RqS 200 731 - 1997.699 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:15:03.625Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-02-24T19:28:49.921Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T19:28:51.165Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-02-24T19:28:57.679Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-02-24T19:28:57.733Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:29:18.866Z' }
+{
+  message: 'GET /user/getInstaBusinessAccount?code=EAAkRQ8kdenUBAHviAwLgZCZAKDzxrZAtbRczQ7fO0eZCJJPasdJRDCnHglr7N0uk95xetGmCcRzyb7C753wc5cxWOsuIKe9Td84piGfYJ7sZAIH9k9W4HCZCaZBHAlESTTrRmwkdmwBqjN56TZAEu06ZBS7oNJzOpuiZBgcvZC5dNHM3QZDZD 200 74 - 10.778 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:29:18.873Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:30:26.558Z' }
+{
+  message: 'GET /profiles/getInstaBusinessAccount?code=EAAkRQ8kdenUBAHviAwLgZCZAKDzxrZAtbRczQ7fO0eZCJJPasdJRDCnHglr7N0uk95xetGmCcRzyb7C753wc5cxWOsuIKe9Td84piGfYJ7sZAIH9k9W4HCZCaZBHAlESTTrRmwkdmwBqjN56TZAEu06ZBS7oNJzOpuiZBgcvZC5dNHM3QZDZD 200 74 - 2.994 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:30:26.559Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:30:46.379Z' }
+{
+  message: 'GET /profile/getInstaBusinessAccount?code=EAAkRQ8kdenUBAHviAwLgZCZAKDzxrZAtbRczQ7fO0eZCJJPasdJRDCnHglr7N0uk95xetGmCcRzyb7C753wc5cxWOsuIKe9Td84piGfYJ7sZAIH9k9W4HCZCaZBHAlESTTrRmwkdmwBqjN56TZAEu06ZBS7oNJzOpuiZBgcvZC5dNHM3QZDZD 200 230 - 1007.439 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:30:47.385Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:33:17.545Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=InstagramBusiness 200 4739 - 1564.803 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:33:19.109Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:33:54.229Z' }
+{
+  message: 'Page Details: {"data":[{"connected_instagram_account":{"id":"17841432742683795"},"access_token":"EAAkRQ8kdenUBAJ6EgZAkwwnXaq9aZAsZBcrnbHTc3H31L9LpuHaZA4Kpjv006hVm6gSKPnoMvCXk4RJbWJlICxZCXty9Fp6TLpzdPZCCuUt54qB5pwYHg3RZCD6OI8LUwfmoLfoESd97hiOsD8oqAZAMQuzu6qaedo8lpEHoMUaBnEZAsPjFuPAcX","id":"107529054416005"}],"paging":{"cursors":{"before":"MTA3NTI5MDU0NDE2MDA1","after":"MTA3NTI5MDU0NDE2MDA1"}}}',
+  level: 'info',
+  timestamp: '2021-02-24T19:33:56.094Z'
+}
+{
+  message: 'Added Instagram Pages : [{"pageId":"107529054416005","social_id":"17841432742683795","accessToken":"EAAkRQ8kdenUBAJ6EgZAkwwnXaq9aZAsZBcrnbHTc3H31L9LpuHaZA4Kpjv006hVm6gSKPnoMvCXk4RJbWJlICxZCXty9Fp6TLpzdPZCCuUt54qB5pwYHg3RZCD6OI8LUwfmoLfoESd97hiOsD8oqAZAMQuzu6qaedo8lpEHoMUaBnEZAsPjFuPAcX"}]',
+  level: 'info',
+  timestamp: '2021-02-24T19:33:56.095Z'
+}
+{
+  message: 'Response Instagram Info : {"access_token":"EAAkRQ8kdenUBAKWhEsgI5iBUMloDF13VFAp8NGzwxPOsJFau0wktZAGNPpvskBm6FuDj3kZArax7NrD4BknPIAA0VmrptNZCfZAMwkcdnroRejXTcTZAvjSE2MSrXxVbpFZAkoWja9WZCKKo6ZCTlZArA4b60RtieEtNp5EooVTGXbwZDZD","connected_instagram_account":{"id":"17841432742683795"},"instagram_accounts":{"data":[{"id":"3696008243774550","follow_count":1,"followed_by_count":1,"has_profile_picture":true,"username":"onetouchapplication","profile_pic":"https://scontent.fisb7-1.fna.fbcdn.net/v/t51.2885-15/120973705_786980308766962_1001195973198935717_n.jpg?_nc_cat=101&ccb=3&_nc_sid=86c713&_nc_eui2=AeGGJ6as5pPhNsVI0abAbE-iEd5A8h4V5UcR3kDyHhXlR3EWOVvEp1AAzKqSE8xf1BIC_n97F7zmiRksVBKv5111&_nc_ohc=V_HHHCEa16YAX8vYXuf&_nc_ht=scontent.fisb7-1.fna&oh=ab1258d04581815b64e827978f28d542&oe=605C5377","media_count":25,"is_private":false,"is_published":true}]},"id":"107529054416005"}',
+  level: 'info',
+  timestamp: '2021-02-24T19:33:57.192Z'
+}
+{
+  message: 'Insta Account-- [object Object] ',
+  level: 'info',
+  timestamp: '2021-02-24T19:33:57.192Z'
+}
+{
+  message: 'GET /profile/getInstaBusinessAccount?code=AQBzHSgPf9xaVidFF7ra95YE-fDkuWaQ8veskFxqap4bcgP73SyeOETZu55e8fkABighth9TBO3rYz2ZfT7AWpkVaHpt4X8Hf_IQhZ0_6fij5THy4sQ2yubLv3Bw2RoD-4QUVHDrPukxJiTo2Xf8mt7URnjDGg9K3-1gZ9zogPZst_VyjnKdpRE5ISYpXnM3m-CkBlpThcSDKHuOwH0jChRJTZH3gzY2BO9nCQqoLTnrJArKSDwqAgELqV78oj2WNxDIUG3-LYwJuKn8RzwNTRef3pLIvgDFgUjQb0vXNITE3OwMYt5MlTjYWJHO02Ku0AHjPQ1sFaAkpxL6bnr6LjFu 200 928 - 3197.126 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:33:57.426Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:46:58.826Z' }
+{
+  message: 'GET /team/getProfileRedirectUrl?teamId=1&network=FacebookPage 200 4714 - 1203.024 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:47:00.029Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:47:43.051Z' }
+{
+  message: 'User body : {"userScopeId":1,"userScopeEmail":"abdulqadir41098@gmail.com","userScopeName":"Abdul","userScopeMaxAccountCount":1000,"userScopeMaxMemberCount":100,"userScopeAvailableNetworks":"1-4-5-6-9-10-11-12","userScopeMaxScheduleCount":500,"userScopeIsAdmin":false}',
+  level: 'info',
+  timestamp: '2021-02-24T19:47:43.052Z'
+}
+{
+  message: 'userId : 1, queryInputs: [object Object],userScopeMaxAccountCount:1000, userScopeAvailableNetworks:1-4-5-6-9-10-11-12 ',
+  level: 'info',
+  timestamp: '2021-02-24T19:47:43.055Z'
+}
+{
+  message: 'Available Account Count : 998 ',
+  level: 'info',
+  timestamp: '2021-02-24T19:47:43.692Z'
+}
+{
+  message: 'networkId: 2',
+  level: 'info',
+  timestamp: '2021-02-24T19:47:43.693Z'
+}
+{
+  message: 'GET /team/addSocialProfile?state=2ceb489d0e527b6bba8142130b25b19b%3A4a9b4d2fc0b1a62c0c5522719d26c07e3bc77c68c84e026dc0923b5444edeba32e14a9f5d6772fffbe862d908b9867fc656a5a78c1769426005656778faa6750c92700acb837c29ca2d47d51b6d975cdc48aae18d6c6a21df7a86179c969bee55346c655a094c86e7d5b53c0b268189a6b0a72ccd6c7441bd38ad0e0c3c3a5fd781c81cf594ac09ae72757652e9ef7c38e1b1c24369502024f17e3513fb11e8a85af2cb680ea85756430c4c3daa5341fcf1f7ae6a05f256597df70a77c2e881ee6a6d795d609262be22e8736e0c92d365c0689484598cd216eeb2e08f44d683680769aa2b9974ad4e54faa1a8343ccad7f1c9de29382c42a66ea23e4c3d46471824517a834b7ec23b565d24332d38129a4008cecaadb2a18e79da198733b9cb4c2a6fb424dcb5df570d93f0c066b0a9d76d4f03dae704a2e92b8c0965c3772327ac6d50f882e99d37511bed51085aa5276a34673fb76fcf852b17f07fc8aeb94d1a2417bc9e5e2844887717b06ae3e05c1612fa4a65188de7d67bbb5e73c6209a8a65f80f50ddade5526653a8f50aeb67c1bc8c1358710e1ba715fc4a09bbd6cc734acc2887127b664b4fcef3f468e3e8b5e547e737438afd27658c200f83f02e362ca73ad9dc866068e00697f07beac7000b1641adad740186799167b1991e2c012dda6dd65873caafb093fc91c3362883d5bd9728bbeb28a326d4a29b10721b383eea9820bab2c5ceb00d78066b8fb74ac06d5b44e9334419f6dd5ad708d7803bae6e09f71a423de02a954d04193020ff64b557858d50578af8a49fde908652a1bdfc8a06e7021fee6b9e29d5ed8b97b3c62064d32b50559e956268c31b17c26da11c21e3b408a9b6855d40ac48a8e6ad00288a139c0237368eff5bc33bbcbdbdeff6bce410b208ab58f1635731a5efe5c27592445e4e588a45ba55504038cf0a4d32beac4217fd74004d8543c86d46e56e569c5f1b6bc417f90ccce374fb34a848f6da59b05a1a4cbdc09c320aefbae5f97afa0fe6ec052f89e10ab472b5c5c20778196cd7e5c88f1ce5e5c163edec6613936c413fcaab1789edf420d65a686e087badf7bc21be6a51e6c3255568fa2cd9c5d2ec2d08a0e1e8975da400460d0371780a84f108d3f101bd25056b1cb21f280d246d8baa25b7f769506db3c655944ae609dce98e5ec24e8a0bb466f616c5bfd462cfe327b66273689f8337920b546fdc0f564fdce89d5ccc08d9052f659aecf62b1b5288ce57b2b6caa6ecec64b6bf770c816b47244a30f365bd5d95cb162fa643c15d095680f221c9397fb27a9a0a3fe587a4b3f7576b6bba9fd2574069c27413541265e489cff1aef127e1ba927b7ce82e00c94e4eeead865db05aa9e5d5db1ba1ad2efa18923a048c1f627753b039b96808715061afa587275b833d773ff41831f5166211570af3a8c0252c8db47a55729a4f5120a321f47c494739da2a233de6ad0c4e7bd5cabd83fbb1a01e7409782fa12d93e45b696b1ffb685e541c16d05927d47a899050b8e370bdb23eea7c45996135ef6fec95f4962c58926d9d8faf98264517a060f0f16170f0bc5e8b35df4f0b50a0dd8f5ac17e2ccb13f81dbe97243806d59049043cd2b950fd0cffb49c653af897c79c95ef1f8dcbf95b27121511cf57f600f122b0b25d69ba07e6fc1cb8efdd3550f340114e27479bdfcd6913c9c6641b48cfb16fe9356823035788e1fa2782665ddc031356ebf77a0b8b59c421da5cdafc809477f9f11c1975df94c16bc8819f310fbf0042b8b1cf72699ae1ad5abe1984144b66a0f1a04ca3baec5234f8a6be8d65cbffffdf5c51d6519e167667d4c0dd653ff8701ab0ef010f194e9d897a98247fa4c8fb983aeed097d5adc9dfc3b835c4e8cd4e1f186f7067387206a00f420bb1a665ae452b83ae351bb8f3c2fef6a00c4851cc4183f0cf58e0222b82bdfac7cc5fa5309824cf95e604433b0c068b8de1724a1f588d481aa7ef9ffb145647e0a2f6443290794082894cedcec5834f245db85b00d6c819bfc1f2dada6c81e2c87105d64edc1a06709c9be9e529a54e9be5c78466668e7fef526ea92dfdc0ecf3bdf94367f0f4bbb11d5d55655a5e3fdc3827f5a6661d720096d508039d3e5111161db5730d1b08266398bcab90c1d1da05c4c11dc9e5dffcbdac0926ea97d085bd09c4d215415e932bdd4f4aa678c1ae580db44f3eed81f178241d5dfd902f166c87c4119a5dd9b5d45a66961ce84edc61c7101778d5d002b451565f73ecea4f88c0f6dd0ae6e9f2e7b2b2a459133d80ac314a3f70433a64f09d710e5fa7871cdfe18d379662b19a17d66f876c3c7f9a7ed97d49085b1e9251949c8e5e9c7595e14ddd24ac2c8e47d3f1ea9ba55f283902d9b26b9719d8cc077a684d90c77ebd3b546b5cc343b7c3528c4e32d07d6c2bc1359d26e2f9a126e7df5754977d7b77a40f586ce91c43a1736a3162c6e45d03f7fe622bb0cba3ee8b7cefa5a2e94a8179ff19d8c92a18a301d75404868c900a3f4fa64e76a3952526d11f3e021090666e94c789d50105525218202dde66d8ebee0a2d87c3969f236c0a4bf6dad5a0eb00109970b5db8c176157e093711bdde18504c7d27e38e0ea4d9003a5c0f8db0878f290ed3e6c63807be5f23eb538de632b266a9061d8b93858539f4aadf59195d7d04512bddfde30ac6c0ce929a8619fbc6ae4dab9b023a328c07ada95baf208ce8ac95d1a936637969434f01403def086cfedf83242f39ccc2e6ff4e8f1deac889d5a1cd8fb06b2066669f675f73db3448f78eb7b7bd9db960b785cfe8d4ce4d5f48d991aecd95b9a3d7eaadd1167cb2e1c05daf348d9012bcd8020d5760fce050dc6194aa657b59cf3212c29a4b658de5c2b1804125c39513ef8be6f030dcbda8a02e18dd1aebca45c4288b5706667aa9cd8d34d88370e80b26d19f9d8f1177292cdf674c09f017fcc0e35c3716e3d5a6267aba0b6653684b4d2507202e5ae5bcce5afea585c042349000a417f57bfa41663aaa666815caf7a964d3eee40894b426b795fdc91fa68eaadd5e8a441978baaf2d4dff8b88bfc807e076b74b8836030e629263ab1fc5519e3ffc1869c7b1efd3909cc975%23_=_&code=AQCkyVL252zwzIVqz-V3yV5PbPX0ywzShtAfU_S4LdFjjqgFcWuf1WEmx7ceDYzidcZ1Brxn3WyJWZuZDr2ZHpl-mURJWKcoWZM-sgMAJ7YYNAmmLYXKmH_p40FsLYLgy-54Pp6WYepdL3e7v2d8oc5i2jeXLvjs3fWstMwcWdDi-MUVD7ldFqLu2ce_pjVnfptpnOv-6ojhSUahz1NIv_qcNnh83pEv8RSDaJUgadYiX43TlfamB0syqjn_aW5SVFB6S_xg9tUrxRwKVKDwi6OGR_rr_vKzSqKxE1a0UGUKDAtHDs2Q994Cwyv7M80ucGlzTtHYhlqfmPmGQ4mRYo4O 200 393 - 648.150 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:47:43.696Z'
+}
+{ message: {}, level: 'info', timestamp: '2021-02-24T19:50:00.734Z' }
+{
+  message: 'Response: [object Object]',
+  level: 'info',
+  timestamp: '2021-02-24T19:50:04.017Z'
+}
+{
+  message: '[{"access_token":"EAAkRQ8kdenUBAFGR7xkDs9L1fO9Nvc5EOH9UGQmSmUczZCysIkfOCbBBFY6vseIvKTtBvHg2RHvMZC3YPZBEpM7h9pHZBlaPQZBtziUtnvvtOiiR48ZBZC7aK2zagAt00wzlAZCAMXpB42ZB0CR6ufzteN0MqkJBInEoOLqX0FrmGyQZDZD","name":"Onetouchapplication","id":"107529054416005","picture":{"data":{"url":"https://scontent.fisb7-1.fna.fbcdn.net/v/t1.0-1/p200x200/118430536_107529174415993_3750587127157893683_o.png?_nc_cat=105&ccb=3&_nc_sid=dbb9e7&_nc_eui2=AeEpylAFH9Axfo43Zp4zIvXFBM4bYHbk310EzhtgduTfXdQcsYWsYCAmqm8aIgFMAdCbw8olcfxF35QVo_MOA7m_&_nc_ohc=M-iaZH0_WV0AX-M2GMV&_nc_ht=scontent.fisb7-1.fna&_nc_tp=30&oh=17fdef8129b4afde5c23cfa02b0ae72e&oe=605D1DFB"}},"fan_count":0}]',
+  level: 'info',
+  timestamp: '2021-02-24T19:50:04.018Z'
+}
+{
+  message: 'GET /profile/getOwnFacebookpages?code=AQCkyVL252zwzIVqz-V3yV5PbPX0ywzShtAfU_S4LdFjjqgFcWuf1WEmx7ceDYzidcZ1Brxn3WyJWZuZDr2ZHpl-mURJWKcoWZM-sgMAJ7YYNAmmLYXKmH_p40FsLYLgy-54Pp6WYepdL3e7v2d8oc5i2jeXLvjs3fWstMwcWdDi-MUVD7ldFqLu2ce_pjVnfptpnOv-6ojhSUahz1NIv_qcNnh83pEv8RSDaJUgadYiX43TlfamB0syqjn_aW5SVFB6S_xg9tUrxRwKVKDwi6OGR_rr_vKzSqKxE1a0UGUKDAtHDs2Q994Cwyv7M80ucGlzTtHYhlqfmPmGQ4mRYo4O 200 729 - 3557.251 ms\n',
+  level: 'info',
+  timestamp: '2021-02-24T19:50:04.291Z'
+}

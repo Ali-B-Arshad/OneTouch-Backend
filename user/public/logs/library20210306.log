@@ -1,0 +1,308 @@
+{
+  error: TypeError: Cannot read property 'image' of undefined
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:412:68
+      at Array.forEach (<anonymous>)
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:402:55
+      at Array.forEach (<anonymous>)
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:385:33
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:324:17
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:615:21
+      at D:\FYP\OneTouch-FYP\library\node_modules\async\dist\async.js:473:16
+      at replenish (D:\FYP\OneTouch-FYP\library\node_modules\async\dist\async.js:1006:25)
+      at D:\FYP\OneTouch-FYP\library\node_modules\async\dist\async.js:1016:9
+      at eachLimit$1 (D:\FYP\OneTouch-FYP\library\node_modules\async\dist\async.js:3196:24)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\async\dist\async.js:1046:16)
+      at Request._callback (D:\FYP\OneTouch-FYP\library\network\facebook.js:607:19)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'image' of undefined\n" +
+    "TypeError: Cannot read property 'image' of undefined\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:412:68\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:402:55\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:385:33\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:324:17\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:615:21\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:473:16\n' +
+    '    at replenish (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:1006:25)\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:1016:9\n' +
+    '    at eachLimit$1 (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:3196:24)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:1046:16)\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:607:19)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'image' of undefined\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:412:68\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:402:55\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:385:33\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:324:17\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:615:21\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:473:16\n' +
+    '    at replenish (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:1006:25)\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:1016:9\n' +
+    '    at eachLimit$1 (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:3196:24)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js:1046:16)\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:607:19)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Sat Mar 06 2021 04:46:07 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6368,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 100274176,
+      heapTotal: 91267072,
+      heapUsed: 84896312,
+      external: 19844345,
+      arrayBuffers: 18615144
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 23809 },
+  trace: [
+    {
+      column: 68,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 412,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 55,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 402,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 33,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 385,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 324,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 615,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js',
+      function: null,
+      line: 473,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js',
+      function: 'replenish',
+      line: 1006,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js',
+      function: null,
+      line: 1016,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js',
+      function: 'eachLimit$1',
+      line: 3196,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\async\\dist\\async.js',
+      function: null,
+      line: 1046,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: 'Request._callback',
+      line: 607,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-03-05T23:46:07.520Z'
+}
+{
+  message: 'Facebook Subscription started..',
+  level: 'info',
+  timestamp: '2021-03-06T00:30:28.008Z'
+}
+{
+  message: {
+    error: {
+      message: 'Invalid OAuth access token.',
+      type: 'OAuthException',
+      code: 190,
+      fbtrace_id: 'AUP0pNYrjDD0Cz__6CNmRG0'
+    }
+  },
+  level: 'info',
+  timestamp: '2021-03-06T00:30:28.557Z'
+}
+{
+  message: 'Facebook Subscription started..',
+  level: 'info',
+  timestamp: '2021-03-06T00:32:35.586Z'
+}
+{
+  message: {
+    error: {
+      message: 'Invalid OAuth access token.',
+      type: 'OAuthException',
+      code: 190,
+      fbtrace_id: 'ADslQh2sygjPu9wCp-1nRr1'
+    }
+  },
+  level: 'info',
+  timestamp: '2021-03-06T00:32:36.124Z'
+}
