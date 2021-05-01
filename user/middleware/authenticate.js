@@ -6,7 +6,7 @@ const logger = require('../utils/logger');
 
 module.exports = (req, res, next) => {
 
-    console.log(req.body);
+    // logger.info(req.body);
 
     const authorizeService = new AuthorizeServices(config.get('authorize'));
     var state = req.query.state;
@@ -16,18 +16,15 @@ module.exports = (req, res, next) => {
         token = req.headers['x-access-token'];
     }
 
-
-
     if (token) {
 
         var decodedToken = authorizeService.verifyToken(token);
 
         if (decodedToken.auth === false)
-            return res.status(401).send('Access token is missing or invalid');
+            return res.status(401).send('Accesstoken is missing or invalid');
 
         if (decodedToken) {
             var parsedToken = JSON.parse(decodedToken);
-            console.log(parsedToken)
             var expireDate = parsedToken.Activations.account_expire_date;
             var remindingDays = moment(expireDate).diff(moment(), 'days');
             req.body.userScopeId = parsedToken.user_id;
@@ -78,10 +75,12 @@ module.exports = (req, res, next) => {
 
         var decryptedMessage = authorizeService.decrypt(state);
         decryptedMessage = JSON.parse(decryptedMessage);
+        console.log("decrypted Message",decryptedMessage);
         req.query.teamId = decryptedMessage.teamId;
         req.query.network = decryptedMessage.network;
+
         try {
-            // Only for Twitter 
+            // Only for Twitter
             if (decryptedMessage.requestToken) {
                 req.query.requestToken = decryptedMessage.requestToken;
             }
@@ -92,9 +91,17 @@ module.exports = (req, res, next) => {
             logger.info("Twitter state has an issues.");
         }
 
-        var decodedToken = authorizeService.verifyToken(decryptedMessage.accessToken);
-        if (decodedToken.auth === false)
-            return res.status(401).send('Accesstoken is missing or invalid');
+        // var decodedToken = authorizeService.verifyToken(decryptedMessage.accessToken);
+        if(!decodedToken){
+            token = req.headers['x-access-token'];
+
+            decodedToken = authorizeService.verifyToken(token);
+        }
+        console.log("dc",decodedToken)
+        if (decodedToken.auth === false){
+
+            return res.status(401).send('Access Token Decryption Error . Token may be invalid');
+        }
 
         if (decodedToken) {
             var parsedToken = JSON.parse(decodedToken);
@@ -141,6 +148,6 @@ module.exports = (req, res, next) => {
             res.status(200).json({ code: 400, status: "failed", message: "Bad request!" });
     }
     else
-        res.status(200).json({ code: 401, status: "failed", message: "Access token is missing or invalid!" });
+        res.status(200).json({ code: 401, status: "failed", message: "Accesstoken is missing or invalid!" });
 
 };

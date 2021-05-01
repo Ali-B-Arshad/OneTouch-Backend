@@ -345,8 +345,6 @@ class TeamController {
     }
 
     addSocialProfile(req, res) {
-        logger.info(`User body : ${JSON.stringify(req.body)}`);
-        console.log(`User body : ${JSON.stringify(req.query)}`)
         return teamLibs.addSocialProfile(req.body.userScopeId, req.body.userScopeName, req.query, req.body.userScopeMaxAccountCount, req.body.userScopeAvailableNetworks)
             .then((result) => {
                 analyticsServices.registerEvents({
@@ -354,6 +352,12 @@ class TeamController {
                     action: configruation.user_service_events.event_action.Teams,
                     label: configruation.user_service_events.team_event_label.add_social_profile.replace("{{profileId}}", req.body.userScopeId).replace('{{user}}', req.body.userScopeName).replace('{{id}}', req.body.userScopeId),
                 });
+                // if(req.query.network!="FacebookPage"){
+                // res.redirect("https://localhost:3000/PR")
+                // }
+                // else{
+                //     res.redirect("https://localhost:3000/PR/"+result.responseCode);
+                // }
                 res.status(200).json(result);
             })
             .catch((error) => {
@@ -553,7 +557,6 @@ class TeamController {
     getTeamInsights(req, res) {
         return teamLibs.getTeamInsights(req.query.TeamId, req.body.userScopeId, req.body.userScopeName)
             .then((response) => {
-                console.log(response)
                 analyticsServices.registerEvents({
                     category: req.body.userScopeEmail,
                     action: configruation.user_service_events.event_action.Teams,

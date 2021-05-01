@@ -1,0 +1,40 @@
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-04-28T22:58:10.636Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-04-28T22:58:11.635Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-04-28T22:58:16.580Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-04-28T22:58:16.582Z'
+}
+{
+  message: 'Cron setup intialized for monthly user stats...',
+  level: 'info',
+  timestamp: '2021-04-28T22:59:58.820Z'
+}
+{
+  message: 'Mongo Database has been connected.',
+  level: 'info',
+  timestamp: '2021-04-28T22:59:59.833Z'
+}
+{
+  message: 'Sequelize Database has been connected.',
+  level: 'info',
+  timestamp: '2021-04-28T23:00:05.075Z'
+}
+{
+  message: 'service listening on http://localhost:5000 with development Environment!',
+  level: 'info',
+  timestamp: '2021-04-28T23:00:05.077Z'
+}

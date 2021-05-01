@@ -17,6 +17,7 @@ routes.post('/acceptInvitation', teamManagementController.acceptTeamInvitation);
 routes.delete('/withdrawInvitation', teamManagementController.withdrawInvitation);
 routes.delete('/removeTeamMember', teamManagementController.removeTeamMember);
 routes.get('/getTeamMembers', teamManagementController.getTeamMembers);
+
 routes.get('/getProfileRedirectUrl', teamManagementController.getProfileRedirectUrl);
 routes.get('/addSocialProfile', teamManagementController.addSocialProfile);
 routes.post('/addBulkSocialProfiles', teamManagementController.addBulkSocialProfiles);

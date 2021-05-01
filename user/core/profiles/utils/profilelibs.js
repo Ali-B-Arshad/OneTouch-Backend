@@ -32,11 +32,9 @@ class ProfileLibs {
             } else {
                 return this.facebookHelper.getOwnFacebookPages(code)
                     .then((pageDetails) => {
-                        logger.info(`Response: ${pageDetails}`);
                         if (!pageDetails) {
-                            throw new Error('Cant able to fetch page details');
+                            throw new Error('Unable to fetch page details');
                         } else {
-                            logger.info(JSON.stringify(pageDetails));
                             pageDetails.forEach(function (page) {
                                 var pageObject = {
                                     pageId: page.id,
@@ -166,13 +164,11 @@ class ProfileLibs {
                         if (socialAccount == null)
                             throw new Error("No profile found or account isn't facebook profile.");
                         else {
-                            logger.info(`access_token: ${JSON.stringify(socialAccount)}`);
                             return this.facebookHelper.userGroupDetails(socialAccount.access_token);
                         }
 
                     })
                     .then((groupDetails) => {
-                        logger.info(`Group Details: ${JSON.stringify(groupDetails)}`);
                         var groups = [];
                         groupDetails.forEach(function (group) {
                             var groupObject = {
@@ -203,7 +199,6 @@ class ProfileLibs {
                 // Fetching linkedin company profile details using auth code 
                 return this.linkedInHelper.getCompanyProfileDetails(code)
                     .then((response) => {
-                        logger.info(`Response : ${JSON.stringify(response)}`);
                         if (response.company_details && response.company_details.values) {
                             response.company_details.values.forEach(function (company) {
                                 var companyObject = {
@@ -251,7 +246,6 @@ class ProfileLibs {
                 // Fetching youtube channels with auth code
                 return this.googleHelper.getYoutubeChannels(code)
                     .then((response) => {
-                        console.log(response)
                         var channelDetails = response.parsedBody;
                         var tokens = response.tokens;
 
@@ -561,7 +555,6 @@ class ProfileLibs {
                 // Fetching instagram business accounts (linked with Facebook)
                 this.facebookHelper.getPagesConnectWithInsta(code)
                     .then((pageDetails) => {
-                        logger.info(`Page Details: ${JSON.stringify(pageDetails)}`);
                         if (pageDetails.data) {
                             return Promise.all(pageDetails.data.map((page) => {
                                 if (page.connected_instagram_account && page.connected_instagram_account.id) {
@@ -576,13 +569,11 @@ class ProfileLibs {
                         }
                     })
                     .then(() => {
-                        logger.info(`Added Instagram Pages : ${JSON.stringify(instagramAddedPages)}`);
 
                         return Promise.all(instagramAddedPages.map(businessAccount => {
                             // Getting instagram business profile details
                             return this.facebookHelper.getInstaBusinessAccount(businessAccount.accessToken)
                                 .then((instaAccounts) => {
-                                    logger.info(`Response Instagram Info : ${JSON.stringify(instaAccounts)}`);
 
                                     var business_accountId = "";
 
@@ -610,7 +601,7 @@ class ProfileLibs {
                                             isAlreadyAdded: false
                                         };
 
-                                        logger.info(`Insta Account-- ${instaAcc} `);
+
 
                                         instagramAccounts.push(instaAcc);
                                         instagramIds.push(instaAcc.social_id);

@@ -1,0 +1,418 @@
+{
+  error: D:\FYP\OneTouch-FYP\user\core\team\utils\teamlibs.js:1765
+                                                  console.log("Line 1765 teamlibs)
+                                                              ^^^^^^^^^^^^^^^^^^^^
+  
+  SyntaxError: Invalid or unexpected token
+      at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+      at Module._compile (node:internal/modules/cjs/loader:1072:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\user\core\team\controllers\teammanagement.js:3:18)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\user\core\team\routes.js:3:34)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\user\startup\routes.js:5:24)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\user\app.js:9:16)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12),
+  level: 'error',
+  message: 'uncaughtException: Invalid or unexpected token\n' +
+    'D:\\FYP\\OneTouch-FYP\\user\\core\\team\\utils\\teamlibs.js:1765\n' +
+    '                                                console.log("Line 1765 teamlibs)\n' +
+    '                                                            ^^^^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Invalid or unexpected token\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\core\\team\\controllers\\teammanagement.js:3:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\core\\team\\routes.js:3:34)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\startup\\routes.js:5:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\app.js:9:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)',
+  stack: 'D:\\FYP\\OneTouch-FYP\\user\\core\\team\\utils\\teamlibs.js:1765\n' +
+    '                                                console.log("Line 1765 teamlibs)\n' +
+    '                                                            ^^^^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Invalid or unexpected token\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1024:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1072:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\core\\team\\controllers\\teammanagement.js:3:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\core\\team\\routes.js:3:34)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\startup\\routes.js:5:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\user\\app.js:9:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)',
+  exception: true,
+  date: 'Thu Apr 29 2021 03:02:43 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 2372,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\user',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\user\\app.js'
+    ],
+    memoryUsage: {
+      rss: 128483328,
+      heapTotal: 93859840,
+      heapUsed: 68170896,
+      external: 20031317,
+      arrayBuffers: 18818879
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 168712 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1024,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1072,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'D:\\FYP\\OneTouch-FYP\\user\\core\\team\\controllers\\teammanagement.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 34,
+      file: 'D:\\FYP\\OneTouch-FYP\\user\\core\\team\\routes.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\FYP\\OneTouch-FYP\\user\\startup\\routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\FYP\\OneTouch-FYP\\user\\app.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  timestamp: '2021-04-28T22:02:43.105Z'
+}

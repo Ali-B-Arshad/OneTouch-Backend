@@ -57,7 +57,6 @@ class TeamLibs {
         var teamDetails = null;
         var teamMemberDetails = null;
         var memberProfileDetails = null;
-        console.log("Here");
         return new Promise((resolve, reject) => {
             if (!userId) {
                 reject(new Error("Invalid Inputs"));
@@ -529,7 +528,6 @@ class TeamLibs {
                             return UserTeamAccount.createOrUpdateTeamReport(teamDetails.dataValues.team_id, '');
                         })
                         .then(() => {
-                            logger.info(teamDetails);
                             resolve(teamDetails.toJSON());
                         })
                         .catch(function (error) {
@@ -1243,11 +1241,16 @@ class TeamLibs {
                 }, { transaction: t })
 
                     .then((team) => {
-                        var state = {
-                            teamId: teamId,
-                            network: network,
-                            accessToken: accessToken
-                        };
+                        // var state = {
+                        //     teamId: teamId,
+                        //     network: network,
+                        //     accessToken: accessToken
+                        // };
+
+                        var state={
+                                teamId: teamId,
+                                network: network
+                            };
                         var encryptedState = this.authorizeServices.encrypt(JSON.stringify(state));
                         var redirectUrl = '';
 
@@ -1733,7 +1736,7 @@ class TeamLibs {
                                                 return this.createOrUpdateFriendsList(result.profileDetails.account_id, updateDetails);
                                             })
                                             .then(() => {
-                                                resolve({ code: 200, status: 'success', teamDetails: result.teamDetails, profileDetails: result.profileDetails });
+                                                resolve({ code: 200, status: 'success', teamDetails: result.teamDetails, profileDetails: result.profileDetails, network: queryInputs.network });
                                             })
                                             .catch((error) => {
                                                 reject(error);
@@ -1866,6 +1869,7 @@ class TeamLibs {
                                 case "FacebookPage":
                                 case "Youtube":
                                 case "GoogleAnalytics":
+                                    console.log("Facebook Page Called");
                                     resolve({ code: 200, status: "success", responseCode: queryInputs.code });
                                     break;
                                 default:
@@ -2053,7 +2057,7 @@ class TeamLibs {
                                 isErrorOnNetwork = false;
 
                                 profiles.forEach(profile => {
-                                    console.log(profile)
+                                    console.log("profile",profile)
                                     if (!isErrorOnNetwork) {
                                         if (this.coreServices.webhooksSupportedAccountType.includes(String(profile.account_type))) {
                                             var accountSubscribeDetails = {

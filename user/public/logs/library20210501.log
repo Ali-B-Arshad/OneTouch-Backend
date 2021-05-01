@@ -1,0 +1,10 @@
+{
+  message: 'Facebook Subscription started..',
+  level: 'info',
+  timestamp: '2021-05-01T18:50:21.176Z'
+}
+{
+  message: 'Facebook/Instagram Subscription done {"success":true}!',
+  level: 'info',
+  timestamp: '2021-05-01T18:50:22.446Z'
+}

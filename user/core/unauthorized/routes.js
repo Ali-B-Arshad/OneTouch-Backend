@@ -5,7 +5,7 @@ const unauthorizedUserController = require('./controllers/usercontroller');
 routes.get("/checkUserNameAvailability", unauthorizedUserController.checkUserNameAvailability);
 routes.get("/checkEmailAvailability", unauthorizedUserController.checkEmailAvailability);
 
-//Auth
+//Auth.
 routes.put("/register", unauthorizedUserController.register);
 routes.post("/login", unauthorizedUserController.login);
 routes.get("/Sociallogin", unauthorizedUserController.socialLogin);

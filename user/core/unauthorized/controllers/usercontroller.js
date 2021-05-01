@@ -62,7 +62,6 @@ class UserControllers {
     }
 
     register(req, res) {
-        console.log(req.body);
         var requestBody = req.body;
         return unauthorizedLibs.isUserRegister(requestBody.user.userName, requestBody.user.email)
             .then((result) => {
@@ -72,7 +71,6 @@ class UserControllers {
                     if (!requestBody.user.profilePicture || requestBody.user.profilePicture == '') {
                         requestBody.user.profilePicture = `${config.get("user_OneTouch.host_url")}${config.get('profile_url_assert')}`;
                         requestBody.user.profilePicture = requestBody.user.profilePicture.replace("http", "https");
-                        logger.info(requestBody.user.profilePicture);
                     }
                     requestBody.user.isAdminUser = false;
                     requestBody.rewards = {
@@ -162,7 +160,8 @@ class UserControllers {
                         action: configruation.user_service_events.event_action.Open,
                         label: configruation.user_service_events.unauthorized_event_label.facebook_login
                     });
-                    res.status(200).json({ code: 200, status: "success", user: result.user, accessToken: result.accessToken });
+                    // res.status(200).json({ code: 200, status: "success", user: result.user, accessToken: result.accessToken });
+                    res.redirect("https://localhost:3000/LoginSuccess/"+result.accessToken);
                 })
                 .catch((error) => {
                     analyticsServices.registerEvents({
@@ -170,7 +169,6 @@ class UserControllers {
                         action: configruation.user_service_events.event_action.Open,
                         label: configruation.user_service_events.unauthorized_event_label.facebook_login_failed
                     });
-                    logger.info(error);
                     res.status(200).json({ code: 400, status: "failed", message: error.message });
                 });
         }
@@ -215,7 +213,6 @@ class UserControllers {
         var twostepValue = null;
         return unauthorizedLibs.appLogin(req.body.user, req.body.password)
             .then((user) => {
-                logger.info(JSON.stringify(user));
                 if (user) {
                     fetchedUserId = user.user_id ? user.user_id : null;
                     fetchedEmail = user.email ? user.email : null;
@@ -250,7 +247,6 @@ class UserControllers {
                 }
                 var remindingDays = moment(user.Activations.account_expire_date).diff(moment(), 'days');
                 if (remindingDays < 0) {
-                    logger.info('Plan Expired');
                     analyticsServices.registerEvents({
                         category: fetchedEmail,
                         action: configruation.user_service_events.event_action.Open,
@@ -263,19 +259,16 @@ class UserControllers {
                             return result;
                         })
                         .catch((error) => {
-                            logger.info(error.message);
                             throw error;
                         });
                 }
             })
             .then(() => {
-                logger.info('Fetching access token');
                 if (result.status == 'failed') {
                     res.status(200).json(result);
                 } else {
                     return unauthorizedLibs.getUserAccessToken(fetchedUserId)
                         .then((userInfo) => {
-                            logger.info(`Fetched User : ${JSON.stringify(userInfo)}`);
                             if (result.isTwoStepEnabled) {
                                 // create OTPtoken
                                 // send mail
@@ -283,7 +276,6 @@ class UserControllers {
                                     .then((OTPtoken) => {
                                         return unauthorizedLibs.sendOTP({ email: fetchedEmail, userId: fetchedUserId })
                                             .then((message) => {
-                                                logger.info('2 step');
                                                 analyticsServices.registerEvents({
                                                     category: fetchedEmail,
                                                     action: configruation.user_service_events.event_action.Open,
@@ -299,7 +291,6 @@ class UserControllers {
                                         throw error;
                                     });
                             } else {
-                                logger.info('success');
                                 analyticsServices.registerEvents({
                                     category: fetchedEmail,
                                     action: configruation.user_service_events.event_action.Open,
@@ -314,7 +305,6 @@ class UserControllers {
                 }
             })
             .catch((error) => {
-                logger.error(error);
                 analyticsServices.registerEvents({
                     category: configruation.user_service_events.anonymous,
                     action: configruation.user_service_events.event_action.Open,
@@ -390,7 +380,6 @@ class UserControllers {
     }
 
     forgotPassword(req, res) {
-        console.log(req.query.email);
         return unauthorizedLibs.forgotPassword(req.query.email)
             .then(function (message) {
                 analyticsServices.registerEvents({
@@ -551,7 +540,6 @@ class UserControllers {
     }
 
     twoStepLoginValidate(req, res) {
-        console.log(req.query.email, req.query.emailtoken)
         return unauthorizedLibs.twoStepLoginValidate(req.query.email, req.query.emailtoken)
             .then((userInfo) => {
                 analyticsServices.registerEvents({
