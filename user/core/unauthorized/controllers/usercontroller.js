@@ -4,14 +4,11 @@ const requestHttp = require('request');
 const querystring = require('querystring');
 const url = require('url');
 const UnauthorizedLibs = require('../utils/unauthorizedlibs');
-const configruation = require('../../../config/configuration');
-const AnalyticsServices = require('../../../../library/utility/analyticsServices');
 const AuthorizeServices = require('../../../../library/utility/authorizeServices');
 
 const Google = require('../../../../library/network/google');
 const logger = require('../../../utils/logger');
 
-const analyticsServices = new AnalyticsServices(config.get('analytics'));
 const authorizeServices = new AuthorizeServices(config.get('authorize'));
 const googleConnect = new Google(config.get('google_api'));
 const unauthorizedLibs = new UnauthorizedLibs();
@@ -21,18 +18,8 @@ class UserControllers {
     checkUserNameAvailability(req, res) {
         return unauthorizedLibs.checkUserNameAvailability(req.query.userName)
             .then((result) => {
-                analyticsServices.registerEvents({
-                    category: configruation.user_service_events.anonymous,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.user_name_avialable
-                });
                 res.status(200).json({ code: 200, status: "success", message: "Username is available!" });
             }).catch((error) => {
-                analyticsServices.registerEvents({
-                    category: configruation.user_service_events.anonymous,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.user_name_avialable_failed
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -44,18 +31,8 @@ class UserControllers {
 
             return unauthorizedLibs.checkEmailAvailability(req.query.email)
                 .then((result) => {
-                    analyticsServices.registerEvents({
-                        category: configruation.user_service_events.anonymous,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.user_email_avialable
-                    });
                     res.status(200).json({ code: 200, status: "success", message: "Email not yet registered!" });
                 }).catch((error) => {
-                    analyticsServices.registerEvents({
-                        category: configruation.user_service_events.anonymous,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.user_email_avialable_failed
-                    });
                     res.status(200).json({ code: 400, status: "failed", error: error.message });
                 });
         }
@@ -111,19 +88,9 @@ class UserControllers {
                     throw new Error("Unable to create a user!");
             })
             .then((message) => {
-                analyticsServices.registerEvents({
-                    category: requestBody.user.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.register
-                });
                 res.status(200).json({ code: 200, status: "success", message: message });
             })
             .catch((error) => {
-                analyticsServices.registerEvents({
-                    category: requestBody.user.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.register_failed
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -145,30 +112,15 @@ class UserControllers {
 
     facebookCallback(req, res) {
         if (!req.query.code) {
-            analyticsServices.registerEvents({
-                category: configruation.user_service_events.anonymous,
-                action: configruation.user_service_events.event_action.Open,
-                label: configruation.user_service_events.unauthorized_event_label.facebook_login_failed
-            });
             res.status(200).json({ code: 403, status: "failed", message: "Unable to get facebook response code!" });
         }
         else {
             return unauthorizedLibs.facebookSocialLogin(req.query.code)
                 .then((result) => {
-                    analyticsServices.registerEvents({
-                        category: result.user.email,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.facebook_login
-                    });
                     // res.status(200).json({ code: 200, status: "success", user: result.user, accessToken: result.accessToken });
                     res.redirect("https://localhost:3000/LoginSuccess/"+result.accessToken);
                 })
                 .catch((error) => {
-                    analyticsServices.registerEvents({
-                        category: configruation.user_service_events.anonymous,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.facebook_login_failed
-                    });
                     res.status(200).json({ code: 400, status: "failed", message: error.message });
                 });
         }
@@ -176,30 +128,15 @@ class UserControllers {
 
     googleCallback(req, res) {
         if (!req.query.code) {
-            analyticsServices.registerEvents({
-                category: configruation.user_service_events.anonymous,
-                action: configruation.user_service_events.event_action.Open,
-                label: configruation.user_service_events.unauthorized_event_label.google_login_failed
-            });
             res.status(200).json({ code: 403, status: "failed", message: "Can't able to get google response code!" });
         }
         else {
 
             return unauthorizedLibs.googleSocialLogin(req.query.code)
                 .then((result) => {
-                    analyticsServices.registerEvents({
-                        category: result.user.email,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.google_login
-                    });
                     res.status(200).json({ code: 200, status: "success", user: result.user, accessToken: result.accessToken });
                 })
                 .catch((error) => {
-                    analyticsServices.registerEvents({
-                        category: configruation.user_service_events.anonymous,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.google_login_failed
-                    });
                     res.status(200).json({ code: 400, status: "failed", message: error });
                 });
         }
@@ -218,12 +155,6 @@ class UserControllers {
                     fetchedEmail = user.email ? user.email : null;
                 }
                 if (!user) {
-                    analyticsServices.registerEvents({
-                        category: configruation.user_service_events.anonymous,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.wrong_creds,
-                        value: req.body.user
-                    });
                     result = { code: 400, status: 'failed', message: 'Wrong creds!' };
                     return result;
                 }
@@ -232,11 +163,6 @@ class UserControllers {
                     return result;
                 }
                 if (!user.Activations.activation_status) {
-                    analyticsServices.registerEvents({
-                        category: fetchedEmail,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.email_not_activated
-                    });
                     result = { code: 400, status: 'failed', message: 'Email not yet validated.' };
                     return result;
                 }
@@ -247,12 +173,6 @@ class UserControllers {
                 }
                 var remindingDays = moment(user.Activations.account_expire_date).diff(moment(), 'days');
                 if (remindingDays < 0) {
-                    analyticsServices.registerEvents({
-                        category: fetchedEmail,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.plan_expired
-                    });
-
                     return unauthorizedLibs.changeUserPlanAsBasic(fetchedUserId)
                         .then(() => {
                             result = { code: 200, status: 'success', message: 'Plan expired', isPlanExpired: true };
@@ -276,11 +196,6 @@ class UserControllers {
                                     .then((OTPtoken) => {
                                         return unauthorizedLibs.sendOTP({ email: fetchedEmail, userId: fetchedUserId })
                                             .then((message) => {
-                                                analyticsServices.registerEvents({
-                                                    category: fetchedEmail,
-                                                    action: configruation.user_service_events.event_action.Open,
-                                                    label: configruation.user_service_events.unauthorized_event_label.login_twostep_request
-                                                });
                                                 res.status(200).json({ code: 200, status: "success", isTwoStepEnabled: twostepValue, message: message, user: { user_id: fetchedUserId, email: fetchedEmail }, OTPToken: OTPtoken });
                                             })
                                             .catch((error) => {
@@ -291,11 +206,6 @@ class UserControllers {
                                         throw error;
                                     });
                             } else {
-                                analyticsServices.registerEvents({
-                                    category: fetchedEmail,
-                                    action: configruation.user_service_events.event_action.Open,
-                                    label: configruation.user_service_events.unauthorized_event_label.login_success
-                                });
                                 res.status(200).json({ code: 200, status: "success", user: userInfo.user, accessToken: userInfo.accessToken });
                             }
                         })
@@ -305,12 +215,6 @@ class UserControllers {
                 }
             })
             .catch((error) => {
-                analyticsServices.registerEvents({
-                    category: configruation.user_service_events.anonymous,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.login_failed,
-                    value: req.body.user
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -318,11 +222,6 @@ class UserControllers {
     verifyEmail(req, res) {
         return unauthorizedLibs.verifyEmail(req.query.email, req.query.activationToken)
             .then((message) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.email_verified
-                });
                 if (process.env.NODE_ENV == "production")
                     res.redirect(config.get('live_url'));
                 else if (process.env.NODE_ENV == "phpdev")
@@ -330,11 +229,6 @@ class UserControllers {
                 else
                     res.status(200).json({ code: 200, status: "success", message: "Email Successfully verified" })
             }).catch((error) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.email_not_verified
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -343,18 +237,8 @@ class UserControllers {
 
         return unauthorizedLibs.resetPassword(req.query.email, req.query.newPassword)
             .then(function (messsage) {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.reset_password_success
-                });
                 res.status(200).json({ code: 200, status: "success", message: messsage });
             }).catch(function (error) {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.reset_password_failed
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -363,18 +247,8 @@ class UserControllers {
 
         return unauthorizedLibs.changePassword(req.query.email, req.query.currentPassword, req.query.newPassword)
             .then((result) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.change_password_success
-                });
                 res.status(200).json({ code: 200, status: "success", message: result });
             }).catch((error) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.change_password_failed
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -382,18 +256,8 @@ class UserControllers {
     forgotPassword(req, res) {
         return unauthorizedLibs.forgotPassword(req.query.email)
             .then(function (message) {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.forgot_password_request
-                });
                 res.status(200).json({ code: 200, status: "success", message: message });
             }).catch(function (error) {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.forgot_password_token_failed
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -402,20 +266,10 @@ class UserControllers {
 
         return unauthorizedLibs.verifyPasswordToken(req.query.email, req.query.activationToken)
             .then((message) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.forgot_password_token_verified
-                });
                 res.redirect("https://localhost:3000/Reset/"+req.query.email);
                 res.status(200).json({ code: 200, status: "success", message: message });
 
             }).catch((error) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.forgot_password_token_failed
-                });
                 res.status(200).json({ code: 404, status: "failed", error: error.message });
             });
     }
@@ -435,19 +289,9 @@ class UserControllers {
                 }
             })
             .then((message) => {
-                analyticsServices.registerEvents({
-                    category: req.query.userEmail,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.mail_activationLink_success
-                });
                 res.status(200).json({ code: 200, status: "success", message: message });
             })
             .catch((error) => {
-                analyticsServices.registerEvents({
-                    category: req.query.userEmail,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.mail_activationLink_failed
-                });
                 res.status(200).json({ code: 400, status: "failed", error: error.message });
             });
     }
@@ -516,22 +360,14 @@ class UserControllers {
                 }
 
                 if (isMatched) {
-                    analyticsServices.registerEvents({
-                        category: csrfValue.email,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.two_step_login_success
-                    });
+                    ;
                     res.status(200).json({ code: 400, status: "failed", error: error });
 
                     var accessToken = authorizeServices.createToken(csrfValue);
                     response.status(200).json({ code: 200, status: "success", accessToken: accessToken, userDetails: csrfValue });
                 }
                 else {
-                    analyticsServices.registerEvents({
-                        category: csrfValue.email,
-                        action: configruation.user_service_events.event_action.Open,
-                        label: configruation.user_service_events.unauthorized_event_label.two_step_login_failed
-                    });
+                    ;
                     res.status(200).json({ code: 400, status: "failed", error: error.message });
                     response.status(200).json({ code: 403, status: "failed", message: "Verified Accounts are not matched!" });
                 }
@@ -542,18 +378,8 @@ class UserControllers {
     twoStepLoginValidate(req, res) {
         return unauthorizedLibs.twoStepLoginValidate(req.query.email, req.query.emailtoken)
             .then((userInfo) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.two_way_auth
-                });
                 res.status(200).json({ code: 200, status: "success", user: userInfo.user, accessToken: userInfo.accessToken });
             }).catch((error) => {
-                analyticsServices.registerEvents({
-                    category: req.query.email,
-                    action: configruation.user_service_events.event_action.Open,
-                    label: configruation.user_service_events.unauthorized_event_label.two_way_auth_failed
-                });
                 res.status(200).json({ code: 404, status: "failed", error: error.message });
             });
     }

@@ -2,7 +2,6 @@ const moment = require('moment');
 const config = require('config');
 
 const db = require('../../../../library/sequelize-cli/models/index');
-const AnalyticsServices = require('../../../../library/utility/analyticsServices');
 const AuthorizeServices = require('../../../../library/utility/authorizeServices');
 const SendEmailServices = require('../../../../library/utility/mailServices');
 const CoreServices = require('../../../../library/utility/coreServices');
@@ -26,7 +25,6 @@ class UnAuthorizedUtils extends UserLibs {
     constructor() {
         super();
         Object.assign(this, UserTeamAccount);
-        this.analyticsServices = new AnalyticsServices(config.get('analytics'));
         this.authorizeServices = new AuthorizeServices(config.get('authorize'));
         this.sendEmailServices = new SendEmailServices(config.get('mailService'));
         this.coreServices = new CoreServices(config.get('authorize'));

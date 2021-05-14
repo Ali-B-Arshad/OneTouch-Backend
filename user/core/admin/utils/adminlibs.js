@@ -10,12 +10,10 @@ const applicationInformations = db.application_informations;
 const Operator = db.Sequelize.Op;
 
 const AppUserStatsModel = require('../../../../library/mongoose/models/appuserstats');
-const analyticsServices = require('../../../../library/utility/analyticsServices');
 
 class AdminUtils {
 
     constructor() {
-        this.AnalyticsServices = new analyticsServices(config.get('analytics'));
     }
 
     findUserStats() {

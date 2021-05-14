@@ -20,7 +20,7 @@ class Routes {
         app.use("/payment/", payment);
 
         app.use(adminAuthenticate);
-        app.use('/v1/admin/', admin);    
+        app.use('/admin/', admin);
         app.use('/v1/appinsights/', appInsights);
 
         app.use("/", function (req, res) {
