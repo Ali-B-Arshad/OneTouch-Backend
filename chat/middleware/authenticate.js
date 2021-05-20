@@ -1,5 +1,5 @@
 const config = require('config');
-const Helper = require('../../../library/utility/authorizeServices');
+const Helper = require('../../library/utility/authorizeServices');
 const helper = new Helper(config.get('authorize'));
 const moment = require('moment');
 

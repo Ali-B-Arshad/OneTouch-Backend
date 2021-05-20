@@ -1,7 +1,7 @@
 const config = require('config');
-const authenticate = require('../../middleware/authenticate');
+const authenticate = require('../middleware/authenticate');
 const groups = require('../routes');
-const logger = require('../../../utils/logger');
+const logger = require('../utils/logger');
 
 class Routes {
 

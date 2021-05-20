@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const db = require('../../../../library/sequelize-cli/models/index');
+const db = require('../../library/sequelize-cli/models');
 
 
 const Groups = db.groups;

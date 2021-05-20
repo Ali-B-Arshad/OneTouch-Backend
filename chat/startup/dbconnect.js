@@ -1,5 +1,5 @@
-const db = require('../../../../library/sequelize-cli/models');
-const logger = require('../../../utils/logger');
+const db = require('../../library/sequelize-cli/models');
+const logger = require('../utils/logger');
 
 class DbConnect {
     initialize() {

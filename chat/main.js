@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const session = require('express-session');
 const config = require('config');
 const app = express();
 const DbConnect = require('./startup/dbconnect');
@@ -15,19 +14,19 @@ const socketio = require('socket.io');
 const http = require('http');
 const server = http.createServer();
 server.on('request', app);
-const io = socketio(server,
-        {
-            cors: {
-                origin: "https://localhost:3000",
-                methods: ["GET", "POST"],
-                credentials: true
-            }
-        }
-    );
+
 app.use(cors())
 app.options('*', cors());
+const io = socketio(server,
+    {
+        cors: {
+            origin: "https://localhost:3000",
+            methods: ["GET", "POST"],
+            credentials: true
+        }
+    }
+);
 const socketEvents = require('./sockets');
-socketEvents(io);
 
 // Logging Middleware
 if (port === 1337) { app.use(morgan('dev')); }
@@ -43,9 +42,8 @@ app.use(bodyParser.json());
 
 var dbConnect = new DbConnect();
 return dbConnect.initialize()
-    .then(() => {
-        var routes = new Routes(app);
-        return routes;
+    .then(()=>{
+        socketEvents(io);
     })
     .then(()=>{
       // Sync database then start listening if we are running the file directly
