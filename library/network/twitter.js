@@ -675,7 +675,8 @@ Twitter.prototype.publishTweets = function (postDetails, accessToken, accessToke
                 var erroredImages = [];
                 var mediaIds = '';
                 return Promise.all(postDetails.mediaPath.map(media => {
-                    var filePath = `${basePath}/media/${media}`;
+                    console.log(media);
+                    var filePath = `${basePath}/media${media}`;
                     var extenstion = require('path').extname(filePath).substr(1);
 
                     return uploadMediaPromise(twitterClient, filePath, `image/${extenstion}`)

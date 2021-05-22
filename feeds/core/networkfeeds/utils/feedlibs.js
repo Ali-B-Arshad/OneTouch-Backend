@@ -21,6 +21,10 @@ const Operator = db.Sequelize.Op;
 const pinterestBoards = db.pinterest_boards;
 const accountUpdateTable = db.social_account_feeds_updates;
 
+
+//Test
+const Youtube = require("youtube-api")
+
 class FeedsLibs {
 
     constructor() {
@@ -653,6 +657,23 @@ class FeedsLibs {
                 // Checking whether user is having that youtube account or not
                 return this.getSocialAccount(9, accountId, userId, teamId)
                     .then((socialAccount) => {
+                        console.log(socialAccount)
+                        return Youtube.search.list({
+                            "part": [
+                                "snippet"
+                            ],
+                            "channelId": socialAccount.social_id,
+                            "key":"AIzaSyDXM7Yhuv1PdoTXOsG3k4d9xJQ5JqWFS0I"
+                        })
+                            .then(
+                                function (res){
+                                    console.log(res)
+                                    return res.data
+                                },
+                                function (err){
+                                    console.log(err);
+                                }
+                            )
                         var offset = (pageId - 1) * config.get('perPageLimit');
                         var youtubeMongoPostModelObject = new YoutubeMongoPostModel();
                         return youtubeMongoPostModelObject.getSocialAccountPosts(socialAccount.social_id, offset, config.get('perPageLimit'));

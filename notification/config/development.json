@@ -1,0 +1,73 @@
+{
+    "notification_OneTouch": {
+        "host_url": "http://localhost:6000",
+        "port": "6000",
+        "host": "localhost:6000"
+    },
+    "user_OneTouch": {
+        "host_url": "http://localhost:5000"
+    },
+  "mysql": {
+    "username": "sql6405517",
+    "password": "Qadir786@",
+    "database": "sql6405517",
+    "host": "sql6.freesqldatabase.com"
+  },
+  "mongo": {
+    "username": "onetouch",
+    "password": "Qadir786",
+    "host": "cluster0.lkod2.mongodb.net",
+    "db_name": "OneTouchNode"
+  },
+    "profile_add_redirect_url": "https://localhost:3000/v1/team/addSocialProfile",
+    "facebook_api": {
+      "app_id": "2552257625029237",
+      "secret_key": "63adad0811096a84e408d9e99f4383b0",
+        "account_kit_version": "v1.1",
+        "account_kit_app_secret": "<<specify the account tool kit secret>>",
+        "redirect_url": "https://localhost:3000/v1/auth/facebook/callback",
+        "fbprofile_add_redirect_url": "https://localhost:3000/v1/team/addSocialProfile",
+        "scopes": "email,user_posts,user_birthday,publish_pages,manage_pages,publish_to_groups,user_friends",
+        "user_subscription_fields": "feed",
+        "page_subscription_fields": "feed",
+        "version": "4.0.0"
+    },
+    "google_api": {
+        "client_id": "<<specify the google client id>>",
+        "client_secrets": "<<specify the google client secret>>",
+        "redirect_url": "http://localhost:3000/v1/auth/google/callback",
+        "google_profile_add_redirect_url": "http://localhost:3000/v1/team/addSocialProfile",
+        "api_key": "<<specify the google api key>>",
+        "dynamic_link": "<<Specify the dynamic url to make shorten url>>",
+        "youtube_webhook_url": "http://localhost:3002/v1/webhooks/youtube"
+    },
+    "twitter_api": {
+        "api_key": "<<specify the twitter api key>>",
+        "secret_key": "<<specify the twitter secret key>>",
+        "redirect_url": "http://localhost:3000/v1/twitter/callback",
+        "app_name": "",
+        "webhook_url": "https://localhost:3002/v1/webhooks/twitter",
+        "webhook_environment": "development",
+        "version": "4.0.0"
+    },
+    "linkedIn_api": {
+        "client_id": "<<specify the linkedin client id>>",
+        "client_secret": "<<specify the twitter client secret>>",
+        "redirect_url": "http://localhost:3000/v1/linkedin/callback"
+    },
+    "instagram": {
+        "client_id": "<<specify the instagram client id>>",
+        "client_secret": "<<specify the instagram client secret>>",
+        "redirect_url": "https://localhost:3000/v1/team/addSocialProfile"
+    },
+    "pinterest": {
+        "client_id": "<<specify the pinterest client id>>",
+        "client_secret": "<<specify the pinterest client secret>>",
+        "redirect_url": "https://localhost:3000/v1/team/addSocialProfile"
+    },
+    "tumblr": {
+        "api_key": "",
+        "secret_key": "",
+        "redirect_url": "http://localhost:3000/v1/auth/tumblr/callback"
+    }
+}

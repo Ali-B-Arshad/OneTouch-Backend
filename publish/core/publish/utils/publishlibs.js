@@ -252,7 +252,7 @@ class PublishLibs {
                                         targetUserId.push(requestBody.userScopeId);
 
                                         // Sending notification to Team Admin saying, Need approval to publish the post
-                                        var notification = new NotificationServices(config.get('notification_socioboard.host_url'));
+                                        var notification = new NotificationServices(config.get('notification_OneTouch.host_url'));
                                         notification.notificationMessage = `${requestBody.userScopeName} asking approval to post on Social Account`;
                                         notification.teamName = teamId;
                                         notification.notifyType = 'publish_publishPosts';
@@ -857,7 +857,7 @@ class PublishLibs {
             targetTeamsId.push(teamId);
 
             // Sending notification to Team, saying a Post is publishing
-            var notification = new NotificationServices(config.get('notification_socioboard.host_url'));
+            var notification = new NotificationServices(config.get('notification_OneTouch.host_url'));
             notification.notificationMessage = ` Published post on ${network},Published by ${postDetails.ownerName}, Published url is: "${PublishedUrl}"`;
             notification.teamName = teamId;
             notification.notifyType = 'publish_publishPosts';

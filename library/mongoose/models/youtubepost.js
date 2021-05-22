@@ -97,6 +97,7 @@ youtubePost.methods.getPreviousPost = function (keyword, sort, skip, limit) {
 
 youtubePost.methods.getSocialAccountPosts = function (channelId, skip, limit) {
     // Fetching posts of a particular account/channel
+
     var query = { channelId: new RegExp(channelId, 'i') };
     return this.model('YoutubePosts')
         .find(query)

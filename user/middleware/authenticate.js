@@ -37,7 +37,6 @@ module.exports = (req, res, next) => {
             req.body.userScopeMaxScheduleCount = parsedToken.userPlanDetails.maximum_schedule;
             req.body.userScopeIsAdmin = parsedToken.is_admin_user;
 
-
             if (remindingDays < 0) {
                 var redirectValueFromRequest = req.query.redirectToken;
                 if (redirectValueFromRequest) {

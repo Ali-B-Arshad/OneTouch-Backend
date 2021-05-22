@@ -16,13 +16,14 @@ const schedulePosts = new Schema({
     moduleValues: [{ type: String }],
     shareLink: { type: String },
     // To specify the targeting social profiles
-    postingSocialIds: {
-        type: [{
-            accountType: { type: Number },
-            accountId: { type: Number }
-        }]
-    },
+    postingSocialIds:  [{ type: Number, index: true, }],
     // To specify the pin board Details
+    //{
+    //         type: [{
+    //             accountType: { type: Number },
+    //             accountId: { type: Number }
+    //         }]
+    //     } Changed by AQ
     pinBoards: {
         type: [{
             accountId: { type: Number },

@@ -6,19 +6,19 @@
     "auditLog": "public\\logs\\.c75aa780cd8d8b330042baf8d283a29f985176c0-audit.json",
     "files": [
         {
-            "date": 1619639063286,
-            "name": "public\\logs\\library20210429.log",
-            "hash": "31e5cc684c68fb1a3f4623c2b74e38f3"
+            "date": 1620160364270,
+            "name": "public\\logs\\library20210505.log",
+            "hash": "1e6f23a8569e1adc69aec12f1aaa0767"
         },
         {
-            "date": 1619770378011,
-            "name": "public\\logs\\library20210430.log",
-            "hash": "37667bacfca7a3533587d7eb66729b8b"
+            "date": 1620285822705,
+            "name": "public\\logs\\library20210506.log",
+            "hash": "3322156007b08f65a878fefdc83eb1b8"
         },
         {
-            "date": 1619893644964,
-            "name": "public\\logs\\library20210501.log",
-            "hash": "163bfb670bb9d9dce15a14b66023ae00"
+            "date": 1620343976178,
+            "name": "public\\logs\\library20210507.log",
+            "hash": "91f22bb215aba6cb17b1698108c21738"
         }
     ]
 }

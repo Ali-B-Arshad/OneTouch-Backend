@@ -31,9 +31,9 @@ Authorize.prototype.createToken = function (payload) {
         "alg": this.authorize.algorithm
     };
     var token = jwt.sign({ token: payload, header: header }, this.authorize.token_secret, { expiresIn: 86400 });
-    
+
     return token;
- // return this.encrypt(token);
+    // return this.encrypt(token);
 };
 
 Authorize.prototype.verifyToken = function (token) {

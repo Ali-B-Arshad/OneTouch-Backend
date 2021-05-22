@@ -94,8 +94,10 @@ teamInsights.methods.getInsights = function (teamId, since, untill) {
     return this.model('TeamInsights')
         .find(query)
         .then(function (result) {
+            console.log(result);
             if (result && result[0] && result[0].insights.length > 0) {
                 var filteredInsights = result[0].insights.filter(element => {
+
                     return element.date >= since && element.date <= untill;
                 });
                 return filteredInsights;

@@ -26,6 +26,9 @@ module.exports = (sequelize, DataTypes) => {
     content: DataTypes.STRING,
     group_id: DataTypes.INTEGER,
     user_id: DataTypes.INTEGER,
+    name: DataTypes.STRING,
+    createdAt: DataTypes.DATE,
+    updatedAt: DataTypes.DATE,
   }, {
     sequelize,
     modelName: 'messages',

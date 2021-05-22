@@ -3,11 +3,10 @@ const feedController = require('./controllers/feedControllers');
 
 routes.get("/getFacebookFeeds", feedController.getFacebookFeeds);
 routes.get("/getRecentFbFeeds", feedController.getRecentFbFeeds);
-routes.get("/getTweets", feedController.getTweets);
 
+routes.get("/getTweets", feedController.getTweets);
 routes.get("/getRecentTweets", feedController.getRecentTweets);
 routes.get("/getHomeTimeLineTweets", feedController.getHomeTimeLineTweets);
-
 routes.get("/getMentionTimeLineTweets", feedController.getMentionTimeLineTweets);
 routes.get("/getTweetsByKeyword", feedController.getTweetsByKeyword);
 

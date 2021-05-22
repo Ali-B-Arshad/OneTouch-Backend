@@ -4,7 +4,7 @@ const adminAuthenticate = require('../middleware/adminauthenicate');
 const trends = require('../core/trends/routes');
 const feeds = require('../core/networkfeeds/routes');
 const webhooks = require('../core/webhooks/routes');
-const likecomments = require('../core/likecomments/routes');
+const interaction = require('../core/likecomments/routes');
 const adminRoutes = require('../core/admin/routes');
 const friendsRoutes = require('../core/friends/routes');
 const networkInsights = require('../core/networkInsights/routes');
@@ -23,7 +23,7 @@ class Routes {
         app.use(authenticate);
         app.use("/trends/", trends);
         app.use("/feeds/", feeds);
-        app.use("/likecomments/", likecomments);
+        app.use("/interaction/", interaction);
         app.use("/friends/", friendsRoutes);
         app.use("/friendshipstats/", friendshipStats);
         app.use("/insights/", networkInsights);

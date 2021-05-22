@@ -1,0 +1,432 @@
+{
+  message: 'Cron setup intialized for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-05-14T09:05:31.937Z'
+}
+{
+  message: 'Cron setup completed for twitter insights services...',
+  level: 'info',
+  timestamp: '2021-05-14T09:05:31.942Z'
+}
+{
+  message: 'Cron setup intialized for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-05-14T09:05:31.942Z'
+}
+{
+  message: 'Cron setup completed for teams report insights services...',
+  level: 'info',
+  timestamp: '2021-05-14T09:05:31.943Z'
+}
+{
+  error: Error: Cannot find module '../../../../library/utility/analyticsServices'
+  Require stack:
+  - D:\FYP\OneTouch-FYP\notification\core\mail\controllers\mailController.js
+  - D:\FYP\OneTouch-FYP\notification\core\mail\routes.js
+  - D:\FYP\OneTouch-FYP\notification\startup\routes.js
+  - D:\FYP\OneTouch-FYP\notification\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\notification\core\mail\controllers\mailController.js:8:27)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\notification\core\mail\routes.js:1:21)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\notification\startup\routes.js:5:15)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\FYP\OneTouch-FYP\notification\app.js:9:16)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47 {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js',
+      'D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js',
+      'D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js',
+      'D:\\FYP\\OneTouch-FYP\\notification\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../../library/utility/analyticsServices'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\app.js\n' +
+    "Error: Cannot find module '../../../../library/utility/analyticsServices'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js:8:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js:1:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js:5:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\app.js:9:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "Error: Cannot find module '../../../../library/utility/analyticsServices'\n" +
+    'Require stack:\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js\n' +
+    '- D:\\FYP\\OneTouch-FYP\\notification\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js:8:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js:1:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js:5:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\FYP\\OneTouch-FYP\\notification\\app.js:9:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Fri May 14 2021 14:05:32 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 31356,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\notification',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\notification\\app.js'
+    ],
+    memoryUsage: {
+      rss: 108756992,
+      heapTotal: 73220096,
+      heapUsed: 53472256,
+      external: 20477851,
+      arrayBuffers: 19419276
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 456497 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 925,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\controllers\\mailController.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'D:\\FYP\\OneTouch-FYP\\notification\\core\\mail\\routes.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'D:\\FYP\\OneTouch-FYP\\notification\\startup\\routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\FYP\\OneTouch-FYP\\notification\\app.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-14T09:05:32.014Z'
+}

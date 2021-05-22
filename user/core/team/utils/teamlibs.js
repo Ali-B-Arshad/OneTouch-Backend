@@ -82,7 +82,7 @@ class TeamLibs {
                 })
                     .then((teamInformation) => {
                         if (!teamInformation) {
-                            throw new Error("Cant able to fetch the team for respective user!");
+                            throw new Error("Unable to fetch the team for respective user!");
                         } else {
                             filteredTeams = teamInformation;
                             // Fetching social accounts belongs to Team/s
@@ -138,6 +138,7 @@ class TeamLibs {
                         resolve({ teamSocialAccountDetails: teamDetails, teamMembers: teamMemberDetails, memberProfileDetails: memberProfileDetails, socialAccounts: response });
                     })
                     .catch(function (error) {
+                        console.log(error);
                         reject(error);
                     });
             }

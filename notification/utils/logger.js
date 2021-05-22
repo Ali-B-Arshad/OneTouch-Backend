@@ -9,16 +9,14 @@ if (!fs.existsSync('public/logs')) {
 var transportsLogger = [];
 
 transportsLogger.push(
-    new transports.DailyRotateFile({
-        level: process.env.ENV === 'apidevelopment' ? 'debug' : 'info',
-        datePattern: 'YYYYMMDD',
-        filename: 'public/logs/services%DATE%.log',
-        handleExceptions: true,
-        json: true,
-        maxSize: '1g',
-        maxFiles: '3d'
+    new transports.Console({
+        level: 'info',
+        format: format.combine(
+            format.colorize(),
+            format.simple()
+        )
     })
-);
+)
 
 // transportsLogger.push(
 //     new transports.DailyRotateFile({

@@ -10,9 +10,5 @@ routes.put('/changeScheduleStatus', schedulerController.changeScheduleStatus);
 routes.put('/cancel', schedulerController.cancel);
 routes.delete('/delete', schedulerController.delete);
 routes.put('/edit', schedulerController.edit);
-routes.post('/createAutomatedRss', schedulerController.createRssSchedule);
-routes.get('/getAutomatedRss', schedulerController.getAutomatedRss);
-routes.put('/updateAutomatedRss', schedulerController.updateAutomatedRss);
-routes.delete('/deleteAutomatedRss', schedulerController.deleteAutomatedRss);
 
 module.exports = routes;

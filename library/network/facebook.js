@@ -4,7 +4,7 @@ const request = require('request');
 const fs = require('fs');
 const moment = require('moment');
 const requestPromise = require('request-promise');
-const fbversion = "v3.3";
+const fbversion = "v9.0";
 const path = require('path');
 const logger = require('../utils/logger');
 
@@ -206,7 +206,7 @@ Facebook.prototype.getOwnFacebookPages = function (code) {
                 .then((accessToken) => {
                     // Validating whether we got access token in response or not(any error)
                     if (!accessToken) {
-                        reject("Cant able to get the facebok access token!");
+                        reject("Unable to get the facebok access token!");
                     } else {
                         // Fetching user pages from that user access token
                         return this.userPageDetails(accessToken);
@@ -988,7 +988,7 @@ Facebook.prototype.getFbPageStats = function (accessToken) {
 
 Facebook.prototype.getFbProfileStats = function (accessToken) {
     //friends.summary(true),likes.summary(true),accounts.summary(true),
-    var url = `https://graph.facebook.com/${fbversion}/me/?fields=id,groups,posts&access_token=${accessToken}`;
+    var url = `https://graph.facebook.com/${fbversion}/me/?fields=id,groups,posts,friends.summary(true),likes.summary(true),accounts.summary(true)&access_token=${accessToken}`;
     return new Promise((resolve, reject) => {
         // Checking the input data, that "accessToken" is having data or not
         if (!accessToken) {
@@ -1278,5 +1278,74 @@ Facebook.prototype.unsubscribeWebhooks = function (accessToken, socialId) {
         });
     });
 };
+
+
+
+//Marketing API
+
+Facebook.prototype.getAllAdAccounts = function (accessToken, socialId, type, facebookAppId, version) {
+    return new Promise((resolve, reject) => {
+        // Checking the input data, that every field is having data or not
+        //since,
+        //|| !since
+        if (!accessToken || !socialId || !facebookAppId || !version) {
+            reject(new Error('Invalid Inputs'));
+        } else {
+            console.log("Get Ad Accounts")
+            //since,
+            var url = `https://graph.facebook.com/${fbversion}/${socialId}?fields=adaccounts{name}&access_token=${accessToken}`;
+
+                return request.get(url, (error, response, body) => {
+                    if (error) {
+                        // Checking the request is having any error or not
+                        reject(error);
+                    } else {
+                        var parsedBody = JSON.parse(body);
+                        var accs = [];
+                        console.log(parsedBody)
+                        parsedBody.adaccounts.data.map((item, index) => {
+                            console.log(item)
+                            var accountsInfo = {
+                                act_id: item.id,
+                                name: item.name,
+                            };
+                            accs.push(accountsInfo);
+                        })
+                        resolve(accs)
+                    }
+                });
+
+
+        }
+    })
+}
+
+
+Facebook.prototype.adAccountQuery = function (accessToken, accountId,endpoint) {
+    return new Promise((resolve, reject) => {
+        // Checking the input data, that every field is having data or not
+        //since,
+        //|| !since
+        if (!accessToken || !accountId || !endpoint ) {
+            reject(new Error('Invalid Inputs'));
+        } else {
+            //since,
+            var url = `https://graph.facebook.com/${fbversion}/${accountId}/${endpoint}?access_token=${accessToken}`;
+            return request.get(url, (error, response, body) => {
+                if (error) {
+                    // Checking the request is having any error or not
+                    reject(error);
+                } else {
+                    console.log(body);
+                    resolve(JSON.parse(body));
+                }
+            });
+
+
+        }
+    })
+}
+
+
 
 module.exports = Facebook;

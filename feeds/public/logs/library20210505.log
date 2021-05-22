@@ -1,0 +1,1312 @@
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:45:06 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 134897664,
+      heapTotal: 101969920,
+      heapUsed: 95672176,
+      external: 19914088,
+      arrayBuffers: 18623794
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29473 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:45:06.823Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:45:09 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 135917568,
+      heapTotal: 104067072,
+      heapUsed: 96670984,
+      external: 19921275,
+      arrayBuffers: 18630941
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29476 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:45:09.576Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:45:11 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 136880128,
+      heapTotal: 104067072,
+      heapUsed: 96518160,
+      external: 19925086,
+      arrayBuffers: 18634752
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29478 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:45:11.770Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:45:13 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 134721536,
+      heapTotal: 101183488,
+      heapUsed: 95797888,
+      external: 19939424,
+      arrayBuffers: 18649090
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29480 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:45:13.856Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:45:32 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 135004160,
+      heapTotal: 101445632,
+      heapUsed: 96105656,
+      external: 19954292,
+      arrayBuffers: 18663958
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29498 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:45:32.377Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:48:56 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 122204160,
+      heapTotal: 101707776,
+      heapUsed: 96182992,
+      external: 19969742,
+      arrayBuffers: 18679408
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29702 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:48:56.096Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:55:05 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 117010432,
+      heapTotal: 101707776,
+      heapUsed: 96656712,
+      external: 19998940,
+      arrayBuffers: 18708606
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 30072 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:55:05.810Z'
+}
+{
+  error: TypeError: Cannot read property 'forEach' of null
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:484:29
+      at D:\FYP\OneTouch-FYP\library\network\facebook.js:346:13
+      at Request._callback (D:\FYP\OneTouch-FYP\library\node_modules\fb\lib\fb.js:501:5)
+      at Request.self.callback (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1154:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (D:\FYP\OneTouch-FYP\library\node_modules\request\request.js:1076:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'forEach' of null\n" +
+    "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  stack: "TypeError: Cannot read property 'forEach' of null\n" +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:484:29\n' +
+    '    at D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js:346:13\n' +
+    '    at Request._callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js:501:5)\n' +
+    '    at Request.self.callback (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:185:22)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at Request.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1154:10)\n' +
+    '    at Request.emit (node:events:376:20)\n' +
+    '    at IncomingMessage.<anonymous> (D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js:1076:12)\n' +
+    '    at Object.onceWrapper (node:events:482:28)\n' +
+    '    at IncomingMessage.emit (node:events:388:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1305:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:80:21)',
+  exception: true,
+  date: 'Wed May 05 2021 08:55:21 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6112,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\FYP\\OneTouch-FYP\\feeds',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.5.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\FYP\\OneTouch-FYP\\feeds\\app.js'
+    ],
+    memoryUsage: {
+      rss: 117092352,
+      heapTotal: 101707776,
+      heapUsed: 96944560,
+      external: 20016934,
+      arrayBuffers: 18726600
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 30088 },
+  trace: [
+    {
+      column: 29,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 484,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\network\\facebook.js',
+      function: null,
+      line: 346,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\fb\\lib\\fb.js',
+      function: 'Request._callback',
+      line: 501,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: 'Request.self.callback',
+      line: 185,
+      method: 'callback',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1154,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:events',
+      function: 'Request.emit',
+      line: 376,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\FYP\\OneTouch-FYP\\library\\node_modules\\request\\request.js',
+      function: null,
+      line: 1076,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 482,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:events',
+      function: 'IncomingMessage.emit',
+      line: 388,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'endReadableNT',
+      line: 1305,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 80,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-05-05T03:55:21.935Z'
+}

@@ -1,0 +1,94 @@
+{
+    "feed_OneTouch": {
+        "host_url": "http://localhost:5050",
+        "port": "5050",
+        "host": "localhost:5050"
+    },
+    "user_OneTouch": {
+        "host_url": "http://localhost:5000"
+    },
+    "notification_OneTouch": {
+        "host_url": "http://localhost:5060"
+    },
+  "mysql": {
+    "username": "sql6405517",
+    "password": "Qadir786@",
+    "database": "sql6405517",
+    "host": "sql6.freesqldatabase.com"
+  },
+    "mongo": {
+        "username": "onetouch",
+        "password": "Qadir786",
+        "host": "cluster0.lkod2.mongodb.net",
+        "db_name": "OneTouchNode"
+    },
+  "profile_add_redirect_url": "https://localhost:5000/team/addSocialProfile",
+    "facebook_api": {
+      "app_id": "2552257625029237",
+      "secret_key": "63adad0811096a84e408d9e99f4383b0",
+        "scopes": "email,user_posts,user_birthday,publish_pages,manage_pages,publish_to_groups,user_friends,instagram_manage_insights",
+        "account_kit_version": "v1.1",
+        "account_kit_app_secret": "<<specify the account tool kit secret>>",
+        "user_subscription_fields": "feed",
+        "page_subscription_fields": "feed",
+        "version": "8.0",
+      "redirect_url": "https://localhost:5000/user/auth/facebook/callback",
+      "fbprofile_add_redirect_url": "https://localhost:5000/team/addSocialProfile",
+        "webhook_token": "Fshfr97Gz5mCzaGVKsx6IsVZUFG5Sw3f",
+        "update_time_frequency_value": 1,
+        "update_time_frequency_factor": "minutes"
+    },
+    "google_api": {
+        "client_id": "709034384818-vukulhbqkdteoehtj9rqkgg0d4tdl4kq.apps.googleusercontent.com",
+        "client_secrets": "okHF5GiXEWyhdpRIZ7Zmy3Q",
+        "redirect_url": "http://localhost:3000/v1/auth/google/callback",
+        "google_profile_add_redirect_url": "http://localhost:3000/v1/team/addSocialProfile",
+        "login_scopes": "https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile",
+        "youtube_scopes": "https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutubepartner+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutubepartner-channel-audit+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly",
+        "ganalytics_scopes": "https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fanalytics.edit",
+        "ganalytics_activeuser_metrics": "rt:activeUsers",
+        "ganalytics_activeuser_dimensions": "rt:deviceCategory,rt:operatingSystem,rt:pagePath,rt:country,rt:trafficType,rt:minutesAgo,rt:userType",
+        "ganalytics_page_detail_metrics": "ga:sessions,ga:pageviews",
+        "youtube_webhook_url": "http://localhost:3002/v1/webhooks/youtube",
+        "youtube_insights_metrics": "averageViewDuration,likes,dislikes,comments,shares,subscribersGained,subscribersLost",
+        "version": "4.0.0"
+    },
+    "twitter_api": {
+        "api_key": "1bf4KXhZoiYu5Lcr433EyEx30",
+        "secret_key": "rgYa1BJjYl3lrCAj83FVHIjTXRVmGl3ApM1BKqjBAQaUa3yrTE",
+        "access_token": "<<specify the access token>>",
+        "access_token_secret": "<<specify the access secret>>",
+        "redirect_url": "https://localhost:3000/PR",
+        "app_name": "OneTouchApp",
+        "webhook_url": "https://localhost:3002/v1/webhooks/twitter",
+        "webhook_environment": "development",
+        "version": "4.0.0",
+        "update_time_frequency_value": 20,
+        "update_time_frequency_factor": "minutes"
+    },
+    "linkedIn_api": {
+        "client_id": "<<specify the linkedin client id>>",
+        "client_secret": "<<specify the twitter client secret>>",
+        "redirect_url": "http://localhost:3000/v1/linkedin/callback",
+        "app_name": "<<specify the app name>>",
+        "update_time_frequency_value": 20,
+        "update_time_frequency_factor": "minutes"
+    },
+    "instagram": {
+      "client_id": "1425289957645624",
+      "client_secret": "500e4fcabb6da24823328a86415994e0",
+        "redirect_url": "http://localhost:5000/user/auth/instagram/callback",
+        "webhook_token": "<<specify the webhook tokens>>",
+        "business_subscription_fields": "story_insights",
+        "update_time_frequency_value":1 ,
+        "update_time_frequency_factor": "minutes"
+    },
+    "pinterest": {
+        "client_id": "<<specify the pinterest client id>>",
+        "client_secret": "<<specify the pinterest client secret>>",
+        "redirect_url": "https://localhost:3000/v1/team/addSocialProfile",
+        "scopes": "read_relationships+write_relationships+read_public+write_public",
+        "update_time_frequency_value": 20,
+        "update_time_frequency_factor": "minutes"
+    }
+}

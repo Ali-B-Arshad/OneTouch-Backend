@@ -18,7 +18,7 @@ class NetworkInsightLibs {
         this.linkedInHelper = new LinkedInHelper(config.get('linkedIn_api'));
     }
 
-    facebookPageInsights(userId, accountId, teamId, filterPeriod, since, untill) {
+    facebookPageInsights(userId, accountId, teamId, filterPeriod, since, until) {
         return new Promise((resolve, reject) => {
             if (!accountId || !filterPeriod) {
                 reject(new Error("Invalid Inputs"));
@@ -48,11 +48,11 @@ class NetworkInsightLibs {
                                 break;
                             case 7:
                                 if (filterPeriod == 7) {
-                                    if (!since || !untill) throw new Error('Invalid Inputs');
+                                    if (!since || !until) throw new Error('Invalid Inputs');
                                     else {
-                                        if (since <= untill) {
+                                        if (since <= until) {
                                             since = moment(since).subtract(1, "day").format('YYYY-MM-DD');
-                                            untill = moment(untill).add(1, "day").format('YYYY-MM-DD');
+                                            until = moment(until).add(1, "day").format('YYYY-MM-DD');
                                             break;
                                         }
                                         else throw new Error('Check range values. since should be lesserthan or equals to until');
@@ -64,7 +64,7 @@ class NetworkInsightLibs {
                                 throw new Error("please choose valid filter type");
                         }
                         // Fetching insights from Facebook 
-                        return this.facebookHelper.fbPageInsights(socialAccount.access_token, socialAccount.social_id, since, untill, dataPreset)
+                        return this.facebookHelper.fbPageInsights(socialAccount.access_token, socialAccount.social_id, since, until, dataPreset)
                             .then((response) => {
                                 if (response && response.data && response.data.length < 1)
                                     resolve("Sorry, Account isn't active for specified time span");
@@ -84,7 +84,7 @@ class NetworkInsightLibs {
         });
     }
 
-    getYoutubeInsights(userId, accountId, teamId, filterPeriod, since, untill) {
+    getYoutubeInsights(userId, accountId, teamId, filterPeriod, since, until) {
 
         return new Promise((resolve, reject) => {
             var breakFunctioanlity = false;
@@ -101,34 +101,34 @@ class NetworkInsightLibs {
                                 break;
                             case 3:
                                 since = moment().subtract(1, 'weeks').startOf('weeks').format('YYYY-MM-DD');
-                                untill = moment().subtract(1, 'weeks').endOf('weeks').format('YYYY-MM-DD');
+                                until = moment().subtract(1, 'weeks').endOf('weeks').format('YYYY-MM-DD');
                                 break;
                             case 4:
                                 since = moment().subtract(30, 'days').startOf('day').format('YYYY-MM-DD');
-                                untill = moment().format('YYYY-MM-DD');
+                                until = moment().format('YYYY-MM-DD');
                                 break;
                             case 5:
                                 since = moment().startOf('month').format('YYYY-MM-DD');
-                                untill = moment().format('YYYY-MM-DD');
+                                until = moment().format('YYYY-MM-DD');
                                 break;
                             case 6:
                                 since = moment().startOf('month').subtract(1, 'days').startOf('month').format('YYYY-MM-DD');
-                                untill = moment().startOf('month').subtract(1, 'days').endOf('month').format('YYYY-MM-DD');
+                                until = moment().startOf('month').subtract(1, 'days').endOf('month').format('YYYY-MM-DD');
                                 break;
                             case 7:
                                 if (filterPeriod == 7) {
-                                    if (!since || !untill) throw new Error('Invalid Inputs');
+                                    if (!since || !until) throw new Error('Invalid Inputs');
                                 }
                                 break;
                             default:
                                 throw new Error("please choose valid filter type");
                         }
-                        if (breakFunctioanlity || (since == '' && untill == '')) {
+                        if (breakFunctioanlity || (since == '' && until == '')) {
                             throw new Error("Currently youtube didnt support today's and yesterday's insights, please choose some other");
                         }
-                        else if (since <= untill) {
+                        else if (since <= until) {
                             // Fetching insights from youtube/google
-                            return this.googleHelper.youtubeInsights(socialAccount.refresh_token, encodeURIComponent(socialAccount.social_id), since, untill)
+                            return this.googleHelper.youtubeInsights(socialAccount.access_token,socialAccount.refresh_token, encodeURIComponent(socialAccount.social_id), since, until)
                                 .then((response) => {
                                     resolve(response);
                                 })
@@ -145,7 +145,7 @@ class NetworkInsightLibs {
         });
     }
 
-    getLinkedInCompanyInsights(userId, accountId, teamId, filterPeriod, since, untill) {
+    getLinkedInCompanyInsights(userId, accountId, teamId, filterPeriod, since, until) {
 
         return new Promise((resolve, reject) => {
             if (!accountId || !filterPeriod) {
@@ -157,43 +157,43 @@ class NetworkInsightLibs {
                         switch (Number(filterPeriod)) {
                             case 1:
                                 since = moment().startOf('day').format('x');
-                                untill = moment().endOf('day').format('x');
+                                until = moment().endOf('day').format('x');
                                 break;
                             case 2:
                                 since = moment().subtract(1, 'days').startOf('day').format('x');
-                                untill = moment().subtract(1, 'days').endOf('day').format('x');
+                                until = moment().subtract(1, 'days').endOf('day').format('x');
                                 break;
                             case 3:
                                 since = moment().subtract(1, 'weeks').startOf('weeks').format('X');
-                                untill = moment().subtract(1, 'weeks').endOf('weeks').format('X');
+                                until = moment().subtract(1, 'weeks').endOf('weeks').format('X');
                                 break;
                             case 4:
                                 since = moment().subtract(30, 'days').startOf('day').format('x');
-                                untill = moment().format('x');
+                                until = moment().format('x');
                                 break;
                             case 5:
                                 since = moment().startOf('month').format('x');
-                                untill = moment().endOf('month').format('x');
+                                until = moment().endOf('month').format('x');
                                 break;
                             case 6:
                                 since = moment().startOf('month').subtract(1, 'days').startOf('month').format('x');
-                                untill = moment().startOf('month').subtract(1, 'days').endOf('month').format('x');
+                                until = moment().startOf('month').subtract(1, 'days').endOf('month').format('x');
                                 break;
                             case 7:
                                 if (filterPeriod == 7) {
-                                    if (!since || !untill) throw new Error('Invalid Inputs');
+                                    if (!since || !until) throw new Error('Invalid Inputs');
                                     else {
                                         since = moment(since, 'YYYY-MM-DD').format('x');
-                                        untill = moment(untill, 'YYYY-MM-DD').add(1, 'days').format('x');
+                                        until = moment(until, 'YYYY-MM-DD').add(1, 'days').format('x');
                                     }
                                 }
                                 break;
                             default:
                                 throw new Error("please choose valid filter type");
                         }
-                        if (since <= untill) {
+                        if (since <= until) {
                             // Fetching insights from linkedin
-                            return this.linkedInHelper.getCompanyInsights(socialAccount.access_token, socialAccount.social_id, since, untill)
+                            return this.linkedInHelper.getCompanyInsights(socialAccount.access_token, socialAccount.social_id, since, until)
                                 .then((response) => {
                                     resolve(response);
                                 })
@@ -210,7 +210,7 @@ class NetworkInsightLibs {
         });
     }
 
-    getInstagramBusinessInsights(userId, accountId, teamId, filterPeriod, since, untill) {
+    getInstagramBusinessInsights(userId, accountId, teamId, filterPeriod, since, until) {
 
         return new Promise((resolve, reject) => {
             if (!accountId || !filterPeriod) {
@@ -222,35 +222,35 @@ class NetworkInsightLibs {
                         switch (Number(filterPeriod)) {
                             case 1:
                                 since = moment().startOf('day').format('X');
-                                untill = moment().endOf('day').format('X');
+                                until = moment().endOf('day').format('X');
                                 break;
                             case 2:
                                 since = moment().subtract(1, 'days').startOf('day').format('X');
-                                untill = moment().subtract(1, 'days').endOf('day').format('X');
+                                until = moment().subtract(1, 'days').endOf('day').format('X');
                                 break;
                             case 3:
                                 since = moment().subtract(1, 'weeks').startOf('weeks').format('X');
-                                untill = moment().subtract(1, 'weeks').endOf('weeks').format('X');
+                                until = moment().subtract(1, 'weeks').endOf('weeks').format('X');
                                 break;
                             case 4:
                                 since = moment().subtract(30, 'days').startOf('day').format('X');
-                                untill = moment().format('X');
+                                until = moment().format('X');
                                 break;
                             case 5:
                                 since = moment().startOf('month').format('X');
-                                untill = moment().format('X');
+                                until = moment().format('X');
                                 break;
                             case 6:
                                 since = moment().subtract(1, 'months').startOf('months').format('X');
-                                untill = moment().subtract(1, 'months').endOf('months').format('X');
+                                until = moment().subtract(1, 'months').endOf('months').format('X');
                                 break;
                             case 7:
                                 if (filterPeriod == 7) {
-                                    if (!since || !untill) throw new Error('Invalid Inputs');
-                                    else if (moment(since).add(1, "month") < moment(untill)) since = '', untill = ''
+                                    if (!since || !until) throw new Error('Invalid Inputs');
+                                    else if (moment(since).add(1, "month") < moment(until)) since = '', until = ''
                                     else {
                                         since = moment(since, 'YYYY-MM-DD').format('X');
-                                        untill = moment(untill, 'YYYY-MM-DD').add(1, 'days').format('X');
+                                        until = moment(until, 'YYYY-MM-DD').add(1, 'days').format('X');
                                     }
                                 }
                                 break;
@@ -258,22 +258,24 @@ class NetworkInsightLibs {
                                 throw new Error("please choose valid filter type");
                         }
 
-                        if (!since && !untill) {
+                        if (!since && !until) {
                             throw new Error("There cannot be more than 30 days between since and until. Rather use custom range options with maximum 30 days difference.");
-                        } else if (since <= untill) {
+                        } else if (since <= until) {
                             since = Math.floor(Number(since));
-                            untill = Math.floor(Number(untill));
+                            until = Math.floor(Number(until));
 
-                            // if difference between untill and since goes more than 30 days then instagram return error.
+                            // if difference between until and since goes more than 30 days then instagram return error.
                             // so we need to make a request for max 30 days
                             // In this case, some month we will get 31 days then subtract 1 day from that.
-                            if (untill - since > (24 * 60 * 60 * 30))
-                                untill -= (24 * 60 * 60);
+                            if (until - since > (24 * 60 * 60 * 30))
+                                until -= (24 * 60 * 60);
                             // Fetching insights from Facebook/Instagram
-                            return this.facebookHelper.instagramBusinessInsights(socialAccount.access_token, socialAccount.social_id, since, untill)
+                            return this.facebookHelper.instagramBusinessInsights(socialAccount.access_token, socialAccount.social_id, since, until)
                                 .then((response) => {
-                                    if (response && response.data && response.data.length < 1)
+                                    if (response && response.data && response.data.length < 1) {
+                                        console.log(response)
                                         resolve("Sorry, Account isn't active for specified time span");
+                                    }
                                     else if (response.error)
                                         reject(response.error);
                                     else
@@ -292,7 +294,7 @@ class NetworkInsightLibs {
         });
     }
 
-    getTwitterInsights(userId, accountId, teamId, filterPeriod, since, untill) {
+    getTwitterInsights(userId, accountId, teamId, filterPeriod, since, until) {
 
         return new Promise((resolve, reject) => {
             if (!accountId || !filterPeriod) {
@@ -301,11 +303,11 @@ class NetworkInsightLibs {
                 // Validating whether that account is belongs to Twitter or not
                 return this.getSocialAccount(4, accountId, userId, teamId)
                     .then(() => {
-                        return this.getFilteredPeriod(filterPeriod, since, untill)
+                        return this.getFilteredPeriod(filterPeriod, since, until)
                             .then((dates) => {
                                 var twitterInsightMongoModelObject = new TwitterInsightMongoModel();
                                 // Fetching insights from Twitter insight model of mongo DB
-                                return twitterInsightMongoModelObject.getInsights(accountId, dates.since, dates.untill)
+                                return twitterInsightMongoModelObject.getInsights(accountId, dates.since, dates.until)
                                     .then((response) => {
                                         resolve(response);
                                     })
@@ -324,7 +326,7 @@ class NetworkInsightLibs {
         });
     }
 
-    getTeamInsights(userId, teamId, filterPeriod, since, untill) {
+    getTeamInsights(userId, teamId, filterPeriod, since, until) {
         return new Promise((resolve, reject) => {
             if (!teamId || !userId || !filterPeriod) {
                 reject(new Error('Invalid Inputs'));
@@ -342,12 +344,12 @@ class NetworkInsightLibs {
                 var InstagramBusiness = [];
                 var Youtube = [];
 
-                return this.getFilteredPeriod(filterPeriod, since, untill)
+                return this.getFilteredPeriod(filterPeriod, since, until)
                     .then((dates) => {
                         return this.isTeamValidForUser(userId, teamId)
                             .then(() => {
                                 var teamInsightsMongoModelObject = new TeamInsightsMongoModel();
-                                return teamInsightsMongoModelObject.getInsights(teamId, dates.since, dates.untill)
+                                return teamInsightsMongoModelObject.getInsights(teamId, dates.since, dates.until)
                                     .then((result) => {
                                         InsightResult = result;
                                         if (InsightResult.length > 0) {
@@ -438,7 +440,7 @@ class NetworkInsightLibs {
         });
     }
 
-    getFilteredPeriod(filterPeriod, since, untill) {
+    getFilteredPeriod(filterPeriod, since, until) {
         return new Promise((resolve, reject) => {
             if (!filterPeriod) {
                 reject(new Error("Invalid filterPeriod"));
@@ -446,42 +448,42 @@ class NetworkInsightLibs {
                 switch (Number(filterPeriod)) {
                     case 1:
                         since = moment().startOf('day');
-                        untill = moment().endOf('day');
+                        until = moment().endOf('day');
                         break;
                     case 2:
                         since = moment().subtract(1, 'days').startOf('day');
-                        untill = moment().subtract(1, 'days').endOf('day');
+                        until = moment().subtract(1, 'days').endOf('day');
                         break;
                     case 3:
                         since = moment().subtract(1, 'weeks').startOf('weeks');
-                        untill = moment().subtract(1, 'weeks').endOf('weeks');
+                        until = moment().subtract(1, 'weeks').endOf('weeks');
                         break;
                     case 4:
                         since = moment().subtract(30, 'days').startOf('day');
-                        untill = moment();
+                        until = moment();
                         break;
                     case 5:
                         since = moment().startOf('month');
-                        untill = moment();
+                        until = moment();
                         break;
                     case 6:
                         since = moment().startOf('month').subtract(1, 'days').startOf('month');
-                        untill = moment().startOf('month').subtract(1, 'days').endOf('month');
+                        until = moment().startOf('month').subtract(1, 'days').endOf('month');
                         break;
                     case 7:
                         if (filterPeriod == 7) {
-                            if (!since || !untill) throw new Error('Invalid Inputs');
+                            if (!since || !until) throw new Error('Invalid Inputs');
                             else {
                                 since = moment(since).startOf('day');
-                                untill = moment(untill).endOf('day');
+                                until = moment(until).endOf('day');
                             }
                         }
                         break;
                     default:
                         throw new Error("please choose valid filter type");
                 }
-                if (since <= untill) {
-                    resolve({ since, untill });
+                if (since <= until) {
+                    resolve({ since, until });
                 }
                 else {
                     reject('Check range values.since should be lesser than or equals to until')

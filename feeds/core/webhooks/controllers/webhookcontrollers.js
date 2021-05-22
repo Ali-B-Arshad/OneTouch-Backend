@@ -8,9 +8,6 @@ const moment = require('moment');
 const crypto = require('crypto');
 const requestPromise = require('request-promise');
 
-const configruation = require('../../../config/configuration');
-const AnalyticsServices = require('../../../../library/utility/analyticsServices');
-const analyticsServices = new AnalyticsServices(config.get('analytics'));
 const logger = require('../../../utils/logger');
 
 var helper = {};
@@ -105,19 +102,11 @@ helper.startTwitterWebhook = function (req, res) {
     // POST request to create webhook config
     requestPromise.post(request_options)
         .then(function (body) {
-            analyticsServices.registerEvents({
-                category: req.body.userScopeEmail,
-                action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_webhooks_start.replace('{{admin}}', req.body.userScopeName)
-            });
+            
             res.status(200).json({ code: 200, message: body });
         })
         .catch(function (error) {
-            analyticsServices.registerEvents({
-                category: req.body.userScopeEmail,
-                action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_webhooks_start_failed.replace('{{admin}}', req.body.userScopeName)
-            });
+            
             res.status(200).json({ code: 200, message: error.message });
         });
 };
@@ -147,27 +136,15 @@ helper.stopTwitterWebhook = function (req, res) {
         })
         .then(function (response) {
             if (response.statusCode == 204) {
-                analyticsServices.registerEvents({
-                    category: req.body.userScopeEmail,
-                    action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                    label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_webhooks_stop.replace('{{admin}}', req.body.userScopeName)
-                });
+                
                 res.status(200).json({ code: 200, message: 'Twitter Webhook config deleted.' });
                 return;
             }
-            analyticsServices.registerEvents({
-                category: req.body.userScopeEmail,
-                action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_webhooks_stop_failed.replace('{{admin}}', req.body.userScopeName)
-            });
+            
             res.status(200).json({ code: response.statusCode, message: 'Twitter Webhook config deleted unsuccessfull.' });
         })
         .catch(function (error) {
-            analyticsServices.registerEvents({
-                category: req.body.userScopeEmail,
-                action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_webhooks_stop_failed.replace('{{admin}}', req.body.userScopeName)
-            });
+            
             res.status(200).json({ code: 400, message: error.message });
         });
 };
@@ -175,19 +152,11 @@ helper.stopTwitterWebhook = function (req, res) {
 helper.getTwitterSubscriptionList = function (req, res) {
     twitterWebhooks.getSubscriptionList()
         .then((response) => {
-            analyticsServices.registerEvents({
-                category: req.body.userScopeEmail,
-                action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_subscription_list.replace('{{admin}}', req.body.userScopeName)
-            });
+            
             res.status(200).json({ code: 200, subscription_count: response });
         })
         .catch((error) => {
-            analyticsServices.registerEvents({
-                category: req.body.userScopeEmail,
-                action: configruation.feeds_service_events.event_action.AdminWebhooks,
-                label: configruation.feeds_service_events.admin_webhooks_event_label.twitter_subscription_list_failed.replace('{{admin}}', req.body.userScopeName)
-            });
+            
             res.status(200).json({ code: 400, message: error.message });
         });
 };

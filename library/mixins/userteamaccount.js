@@ -51,10 +51,9 @@ const UserTeamAccount = {
             })
                 .then((result) => {
                     if (result) {
-                        console.log("Valid")
                         resolve();
                     }
-                    else throw new Error("Account isnt belongs to team or account is locked for the team!");
+                    else throw new Error("Account does not belongs to team or account is locked for the team!");
                 })
                 .catch((error) => {
                     reject(error);
@@ -67,7 +66,6 @@ const UserTeamAccount = {
             // Checking whether that user is belongs to that Team or not
             return this.isTeamValidForUser(userId, teamId)
                 .then(() => {
-                    console.log("Is valid")
                     // Checking whether that account is belongs to that Team or not
                     return this.isAccountValidForTeam(teamId, accountId);
                 })

@@ -1,0 +1,29 @@
+{
+  "name": "marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --maxWorkers=100 --detectOpenHandles --forceExit --verbose --coverage",
+    "startdev": "pm2 start ecosystem.config.js --env=apidevelopment -i 4",
+    "startphpdev": "pm2 start ecosystem.config.js --env=phpdev",
+    "start": "pm2 start ecosystem.config.js --env=production",
+    "app": "set node_env=development nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}

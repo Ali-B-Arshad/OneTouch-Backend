@@ -111,6 +111,7 @@ Google.prototype.getGoogleProfileInformation = function (tokens) {
 Google.prototype.reconnectGoogle = function (refreshtoken, callback) {
     try {
         var requestBody = `client_secret=${this.google_api.client_secrets}&grant_type=refresh_token&refresh_token=${refreshtoken}&client_id=${this.google_api.client_id}`;
+        console.log("requestBody: ",requestBody);
         // Hitting google to reconnect (extend the accessToken validity)
         request.post({
             headers: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -122,6 +123,7 @@ Google.prototype.reconnectGoogle = function (refreshtoken, callback) {
                 callback(error, null);
             } else {
                 var parsedBody = JSON.parse(body);
+                console.log(parsedBody)
                 callback(null, parsedBody);
             }
         });
@@ -593,13 +595,14 @@ Google.prototype.updateSubscriptions = function (channelId, isSubscribe) {
     });
 };
 
-Google.prototype.youtubeInsights = function (refreshToken, socialId, since, untill) {
+Google.prototype.youtubeInsights = function (access_token,refreshToken, socialId, since, until) {
     return new Promise((resolve, reject) => {
-        this.reconnectGoogle(refreshToken, (error, tokens) => {
-            if (error) {
+        this.reconnectGoogle(refreshToken, (tokens,error) => {
+            if (error) { //changed from error to !error just to test
                 callback({ code: 400, status: "failed", error: error });
             } else {
-                var url = `https://youtubeanalytics.googleapis.com/v2/reports?dimensions=day&endDate=${untill}&ids=channel%3D%3D${socialId}&metrics=${this.google_api.youtube_insights_metrics}&sort=-day&startDate=${since}&access_token=${tokens.access_token}`;
+                console.log("youtube access token: ",tokens.access_token);
+                var url = `https://youtubeanalytics.googleapis.com/v2/reports?dimensions=day&endDate=${until}&ids=channel%3D%3D${socialId}&metrics=${this.google_api.youtube_insights_metrics}&sort=-day&startDate=${since}&access_token=${access_token}`; //tokens.access_token
                 // Hitting google to get data of youtube insights
                 return request.get(url, (error, response, body) => {
                     if (error) {
