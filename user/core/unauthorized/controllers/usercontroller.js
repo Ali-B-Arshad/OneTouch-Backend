@@ -47,7 +47,7 @@ class UserControllers {
                 else {
                     if (!requestBody.user.profilePicture || requestBody.user.profilePicture == '') {
                         requestBody.user.profilePicture = `${config.get("user_OneTouch.host_url")}${config.get('profile_url_assert')}`;
-                        requestBody.user.profilePicture = requestBody.user.profilePicture.replace("http", "https");
+                        // requestBody.user.profilePicture = requestBody.user.profilePicture.replace("http", "https");
                     }
                     requestBody.user.isAdminUser = false;
                     requestBody.rewards = {
@@ -59,10 +59,10 @@ class UserControllers {
                     requestBody.activations = {
                         activationStatus: 0,
                         paymentStatus: 0,
-                        IsTwoStepVerify: false,
+                        IsTwoStepVerify: true,
                         signupType: 0,
                         userPlan: config.get('user_base_plan'),
-                        expireDate: moment.utc().add(1, 'months')
+                        expireDate: moment.utc().add(2, 'months')
                     };
                     return unauthorizedLibs.createUser(requestBody);
                 }

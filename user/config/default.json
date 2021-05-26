@@ -81,8 +81,8 @@
         "apidevelopment",
         "phpdev"
     ],
-    "profile_url_assert": "/asserts/profiles.png",
-    "user_base_plan": 1,
+    "profile_url_assert": "/public/asserts/profiles.png",
+    "user_base_plan": 7,
     "payment": {
         "base_path": "../../media",
         "payment_path": "../../media/payments",

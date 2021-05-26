@@ -11,9 +11,9 @@
         "host_url": "http://localhost:5060"
     },
   "mysql": {
-    "username": "sql6405517",
     "password": "Qadir786@",
-    "database": "sql6405517",
+    "username": "sql6414866",
+    "database": "sql6414866",
     "host": "sql6.freesqldatabase.com"
   },
     "mongo": {

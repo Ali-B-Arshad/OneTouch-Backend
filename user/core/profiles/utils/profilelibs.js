@@ -246,6 +246,7 @@ class ProfileLibs {
                 // Fetching youtube channels with auth code
                 return this.googleHelper.getYoutubeChannels(code)
                     .then((response) => {
+                        console.log(response)
                         var channelDetails = response.parsedBody;
                         var tokens = response.tokens;
 

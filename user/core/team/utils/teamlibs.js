@@ -288,8 +288,6 @@ class TeamLibs {
                             }
                         }))
                             .then(() => {
-                                logger.info(`Length: ${SocialAccountStats.length}`);
-                                logger.info(JSON.stringify(SocialAccountStats));
                                 return pinterestIds;
                             })
                             .catch((error) => {
@@ -479,8 +477,6 @@ class TeamLibs {
     }
 
     createTeam(userId, teamDescription) {
-        console.log(userId)
-        console.log(teamDescription)
         if(teamDescription.logoUrl==null || teamDescription.logoUrl==""){
             teamDescription.logoUrl="https://freepngimg.com/thumb/shield/23090-4-blank-shield-logo-vector.png";
         }
@@ -1682,7 +1678,6 @@ class TeamLibs {
     }
 
     addSocialProfile(userId, userName, queryInputs, userScopeMaxAccountCount, userScopeAvailableNetworks) {
-        logger.info(`userId : ${userId}, queryInputs: ${queryInputs},userScopeMaxAccountCount:${userScopeMaxAccountCount}, userScopeAvailableNetworks:${userScopeAvailableNetworks} `);
         var ProfileCount = null;
         return new Promise((resolve, reject) => {
 
@@ -1792,6 +1787,8 @@ class TeamLibs {
                                     if (userScopeAvailableNetworks.includes('6')) {
                                         return this.linkedInConnect.addLinkedInProfile(networkId, queryInputs.teamId, queryInputs.code)
                                             .then((profile) => {
+                                                console.log("LINKEDIN")
+                                                console.log(profile)
                                                 return this.addProfiles(userId, userName, profile);
                                             })
                                             .then((response) => {
